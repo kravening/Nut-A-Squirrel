@@ -14,54 +14,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Shooting.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+            <state relative-caret-position="-159">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
-                <marker date="1556283563108" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556283563108" expanded="true" signature="117:893" ph="{...}" />
-                <marker date="1556283563108" expanded="true" signature="251:313" ph="{...}" />
-                <marker date="1556283563108" expanded="true" signature="340:369" ph="{...}" />
-                <marker date="1556283563108" expanded="true" signature="400:698" ph="{...}" />
-                <marker date="1556283563108" expanded="true" signature="462:692" ph="{...}" />
-                <marker date="1556283563108" expanded="true" signature="745:886" ph="{...}" />
-                <marker date="1556283563108" expanded="true" signature="779:880" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Projectile.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding>
-                <marker date="1556192800131" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556192800131" expanded="true" signature="157:967" ph="{...}" />
-                <marker date="1556192800131" expanded="true" signature="281:395" ph="{...}" />
-                <marker date="1556192800131" expanded="true" signature="421:503" ph="{...}" />
-                <marker date="1556192800131" expanded="true" signature="530:568" ph="{...}" />
-                <marker date="1556192800131" expanded="true" signature="603:668" ph="{...}" />
-                <marker date="1556192800131" expanded="true" signature="706:752" ph="{...}" />
-                <marker date="1556192800131" expanded="true" signature="820:965" ph="{...}" />
-                <marker date="1556192800131" expanded="true" signature="847:951" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/ProjectileManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <marker date="1556283928266" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556283928266" expanded="true" signature="126:691" ph="{...}" />
-                <marker date="1556283928266" expanded="true" signature="361:403" ph="{...}" />
-                <marker date="1556283928266" expanded="true" signature="447:689" ph="{...}" />
+                <marker date="1557388912301" expanded="true" signature="21:104" ph="/// this class handles the in game score and highscore ... " />
+                <marker date="1557388912301" expanded="true" signature="144:1649" ph="{...}" />
+                <marker date="1557388912301" expanded="true" signature="203:263" ph="{...}" />
+                <marker date="1557388912301" expanded="true" signature="352:634" ph="{...}" />
+                <marker date="1557388912301" expanded="true" signature="404:472" ph="{...}" />
+                <marker date="1557388912301" expanded="true" signature="515:591" ph="{...}" />
+                <marker date="1557388912301" expanded="true" signature="715:801" ph="{...}" />
+                <marker date="1557388912301" expanded="true" signature="895:1064" ph="{...}" />
+                <marker date="1557388912301" expanded="true" signature="958:1058" ph="{...}" />
+                <marker date="1557388912301" expanded="true" signature="1150:1312" ph="{...}" />
+                <marker date="1557388912301" expanded="true" signature="1197:1306" ph="{...}" />
+                <marker date="1557388912301" expanded="true" signature="1385:1468" ph="{...}" />
+                <marker date="1557388912301" expanded="true" signature="1550:1645" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -73,8 +43,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/ProjectileManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Shooting.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -83,6 +52,7 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Shooting.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/ProjectileManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs" />
       </list>
     </option>
   </component>
@@ -97,43 +67,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="_Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="_Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Milo Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -152,12 +105,14 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -174,12 +129,15 @@
       <workItem from="1556189892801" duration="10696000" />
       <workItem from="1556201383147" duration="576000" />
       <workItem from="1556282360631" duration="30000" />
-      <workItem from="1556283202070" duration="936000" />
+      <workItem from="1556283202070" duration="1934000" />
+      <workItem from="1556286426438" duration="4203000" />
+      <workItem from="1557224042874" duration="3817000" />
+      <workItem from="1557388849469" duration="72000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12238000" />
+    <option name="totallyTimeSpent" value="21328000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -192,9 +150,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.25973153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -228,7 +185,7 @@
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -240,50 +197,55 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/ProjectileManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Projectile.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <marker date="1556283928266" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556283928266" expanded="true" signature="126:691" ph="{...}" />
-            <marker date="1556283928266" expanded="true" signature="361:403" ph="{...}" />
-            <marker date="1556283928266" expanded="true" signature="447:689" ph="{...}" />
-          </folding>
+        <state relative-caret-position="248">
+          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Projectile.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/ProjectileManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <marker date="1556192800131" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556192800131" expanded="true" signature="157:967" ph="{...}" />
-            <marker date="1556192800131" expanded="true" signature="281:395" ph="{...}" />
-            <marker date="1556192800131" expanded="true" signature="421:503" ph="{...}" />
-            <marker date="1556192800131" expanded="true" signature="530:568" ph="{...}" />
-            <marker date="1556192800131" expanded="true" signature="603:668" ph="{...}" />
-            <marker date="1556192800131" expanded="true" signature="706:752" ph="{...}" />
-            <marker date="1556192800131" expanded="true" signature="820:965" ph="{...}" />
-            <marker date="1556192800131" expanded="true" signature="847:951" ph="{...}" />
-          </folding>
+        <state relative-caret-position="192">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Shooting.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="416">
           <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
           <folding>
-            <marker date="1556283563108" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556283563108" expanded="true" signature="117:893" ph="{...}" />
-            <marker date="1556283563108" expanded="true" signature="251:313" ph="{...}" />
-            <marker date="1556283563108" expanded="true" signature="340:369" ph="{...}" />
-            <marker date="1556283563108" expanded="true" signature="400:698" ph="{...}" />
-            <marker date="1556283563108" expanded="true" signature="462:692" ph="{...}" />
-            <marker date="1556283563108" expanded="true" signature="745:886" ph="{...}" />
-            <marker date="1556283563108" expanded="true" signature="779:880" ph="{...}" />
+            <marker date="1557006819154" expanded="false" signature="6:78" ph="..." />
+            <marker date="1557006819154" expanded="true" signature="117:893" ph="{...}" />
+            <marker date="1557006819154" expanded="true" signature="251:313" ph="{...}" />
+            <marker date="1557006819154" expanded="true" signature="340:369" ph="{...}" />
+            <marker date="1557006819154" expanded="true" signature="400:698" ph="{...}" />
+            <marker date="1557006819154" expanded="true" signature="462:692" ph="{...}" />
+            <marker date="1557006819154" expanded="true" signature="745:886" ph="{...}" />
+            <marker date="1557006819154" expanded="true" signature="779:880" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <marker date="1557388912301" expanded="true" signature="21:104" ph="/// this class handles the in game score and highscore ... " />
+            <marker date="1557388912301" expanded="true" signature="144:1649" ph="{...}" />
+            <marker date="1557388912301" expanded="true" signature="203:263" ph="{...}" />
+            <marker date="1557388912301" expanded="true" signature="352:634" ph="{...}" />
+            <marker date="1557388912301" expanded="true" signature="404:472" ph="{...}" />
+            <marker date="1557388912301" expanded="true" signature="515:591" ph="{...}" />
+            <marker date="1557388912301" expanded="true" signature="715:801" ph="{...}" />
+            <marker date="1557388912301" expanded="true" signature="895:1064" ph="{...}" />
+            <marker date="1557388912301" expanded="true" signature="958:1058" ph="{...}" />
+            <marker date="1557388912301" expanded="true" signature="1150:1312" ph="{...}" />
+            <marker date="1557388912301" expanded="true" signature="1197:1306" ph="{...}" />
+            <marker date="1557388912301" expanded="true" signature="1385:1468" ph="{...}" />
+            <marker date="1557388912301" expanded="true" signature="1550:1645" ph="{...}" />
           </folding>
         </state>
       </provider>
