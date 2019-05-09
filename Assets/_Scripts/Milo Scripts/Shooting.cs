@@ -1,16 +1,14 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    public ProjectileManager _ProjectileManager;
-    private float _cooldown;
+    public ProjectileManager projectileManager;
+    [SerializeField]private float _cooldown = 1f;
     private bool _canShoot;
 
     private void Awake()
     {
-        _cooldown = 1f;
         _canShoot = true;
     }
 
@@ -18,25 +16,21 @@ public class Shooting : MonoBehaviour
     {
         Shoot();
     }
-
     
     private void Shoot()
     {
         if (Input.GetKeyUp(KeyCode.Space) && _canShoot)
         {   
-            GameObject bullet = Instantiate(_ProjectileManager.GetProjectileQueue(), transform.position, transform.rotation);
-            _canShoot = false;
-            StartCoroutine(ShootTime(_cooldown));
+            GameObject bullet = Instantiate(projectileManager?.GetProjectileFromQueue(), transform.position, transform.rotation);
+            StartCoroutine(StartCooldown(_cooldown));
         }
     }
 
-    private IEnumerator ShootTime(float time)
-    { 
-        while (!_canShoot)
-        {
-            yield return new WaitForSeconds(time);
-            _canShoot = true;
-        }
+    private IEnumerator StartCooldown(float cooldownTime)
+    {
+        _canShoot = false;
+        yield return new WaitForSeconds(cooldownTime);
+        _canShoot = true;
     }
     
 }

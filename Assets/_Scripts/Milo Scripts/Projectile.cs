@@ -5,15 +5,13 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class Projectile : MonoBehaviour
 {
-    private float _velocity;
-    private float _destroyAfterSeconds;
+    [SerializeField]private float _velocity = 20f;
+    [SerializeField]private float _destroyAfterSeconds = 2.5f;
     private Rigidbody _rb;
 
     private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
-        _velocity = 2f;
-        _destroyAfterSeconds = 2.5f;
     }
 
     private void Start()
@@ -28,7 +26,7 @@ public class Projectile : MonoBehaviour
 
     private void MoveProjectile()
     {
-        _rb.AddForce(transform.forward * _velocity);
+        _rb.AddForce(transform.forward * (_velocity * Time.deltaTime));
     }
 
     private void DestroyProjectile()
@@ -37,13 +35,9 @@ public class Projectile : MonoBehaviour
     }
     
    
-    private IEnumerator DestroyProjectileTimer(float time)
+    private IEnumerator DestroyProjectileTimer(float timeTillDestruction)
     {
-        while (true)
-        {
-            yield return new WaitForSeconds(time);
-            DestroyProjectile();
-        }
-       
+        yield return new WaitForSeconds(timeTillDestruction);
+        DestroyProjectile();
     }
 }
