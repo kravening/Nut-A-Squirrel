@@ -2,7 +2,7 @@
 
 
 /// <summary>
-/// this class handles the in game score and highscore
+/// this class handles the highscore and current scoring data of the game.
 /// </summary>
 
 public class Highscore : MonoBehaviour
@@ -14,60 +14,79 @@ public class Highscore : MonoBehaviour
         _currentScore = 0;
         CheckKeys();
     }
-    //Check if Score and HighScore key exist in PlayerPrefs
+
+    /// <summary>
+    /// Check if Score and HighScore key exist in PlayerPrefs
+    /// </summary>
     private void CheckKeys()
     {
-        if (!PlayerPrefs.HasKey("HighScore"))
-        {
-            PlayerPrefs.SetInt("HighScore", 0);
-        }
-
-        if (!PlayerPrefs.HasKey("Score"))
-        {
-            PlayerPrefs.SetInt("Score", _currentScore);
-        }
-        
+        IntializeKey("HighScore");
+        IntializeKey("Score");
         PlayerPrefs.Save();
     }
-    
-    // add a score to the currentscore
-    private void AddScore(int score)
+
+    /// <summary>
+    /// increments _currentScore
+    /// </summary>
+    /// <param name="scoreToAdd"></param>
+    public void IncrementScore(int incrementValue)
     {
-        _currentScore += score;
-        SaveScoreToDevice(_currentScore);
+        _currentScore += incrementValue;
     }
-    
-    // save the currentscore to the device
-    private void SaveScoreToDevice(int score)
+
+    /// <summary>
+    /// saves the currentscore to the device
+    /// </summary>
+    /// <param name="scoreToSave"></param>
+    private void SaveScoreToDevice(int scoreToSave)
     {
         if (_currentScore > PlayerPrefs.GetInt("Score"))
         {
-            PlayerPrefs.SetInt("Score", score);
+            PlayerPrefs.SetInt("Score", scoreToSave);
             PlayerPrefs.Save();
         }
     }
-    
-    // save the highscore to the device
+
+    /// <summary>
+    /// save the highscore to the device
+    /// </summary>
     private void SaveHighScoreToDevice()
     {
-        if (GetScore() > GetHighScore())
+        if (GetCurrentScore() > GetHighScore())
         {
-            PlayerPrefs.SetInt("HighScore", GetScore());
+            PlayerPrefs.SetInt("HighScore", GetCurrentScore());
             PlayerPrefs.Save();
         }
     }
 
-    // return the score from the playerprefs
-    private int GetScore()
+    /// <summary>
+    /// returns the currentscore
+    /// </summary>
+    /// <returns></returns>
+    public int GetCurrentScore()
     {
-        int score = PlayerPrefs.GetInt("Score");
-        return score;
+        return _currentScore;
     }
 
-    // return the highscore from the playerprefs 
+    /// <summary>
+    /// return the highscore from the playerprefs
+    /// </summary>
+    /// <returns></returns>
     private int GetHighScore()
     {
         int highscore = PlayerPrefs.GetInt("HighScore");
         return highscore;
-    }  
+    }
+
+    /// <summary>
+    /// Intitializes a new key with the given keyName if it doesn't already exist on the device.
+    /// </summary>
+    /// <param name="keyName"></param>
+    private void IntializeKey(string keyName)
+    {
+        if (!PlayerPrefs.HasKey(keyName))
+        {
+            PlayerPrefs.SetInt(keyName, 0);
+        }
+    }
 }
