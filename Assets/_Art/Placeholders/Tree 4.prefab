@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 631275843}
   - component: {fileID: 631275842}
   m_Layer: 0
-  m_Name: Quad (4)
+  m_Name: ShadowedSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 634249817}
   - component: {fileID: 634249816}
   m_Layer: 0
-  m_Name: Quad
+  m_Name: ShadowedSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5400,7 +5400,7 @@ GameObject:
   - component: {fileID: 2004538221}
   - component: {fileID: 2004538220}
   m_Layer: 0
-  m_Name: Quad (5)
+  m_Name: ShadowedSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5477,7 +5477,7 @@ GameObject:
   - component: {fileID: 2096141929}
   - component: {fileID: 2096141928}
   m_Layer: 0
-  m_Name: Quad (1)
+  m_Name: ShadowedSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5542,7 +5542,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-
 --- !u!1 &3849793283226522785
 GameObject:
   m_ObjectHideFlags: 0
@@ -5555,7 +5554,7 @@ GameObject:
   - component: {fileID: 2351545451149784603}
   - component: {fileID: 708407936184789756}
   m_Layer: 0
-  m_Name: Quad
+  m_Name: ShadowedSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5632,7 +5631,7 @@ GameObject:
   - component: {fileID: 1280347668294281703}
   - component: {fileID: 2910383328453088732}
   m_Layer: 0
-  m_Name: Quad (3)
+  m_Name: ShadowedSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5746,7 +5745,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 1.14, z: 0.24}
-  m_Center: {x: -0.06, y: 0.63, z: -0.1}
+  m_Center: {x: -0.06, y: 2, z: -0.1}
 --- !u!95 &1115160378973443700
 Animator:
   serializedVersion: 3
@@ -5956,7 +5955,7 @@ GameObject:
   - component: {fileID: 8762038714738799462}
   - component: {fileID: 3108625265037250604}
   m_Layer: 0
-  m_Name: Quad (1)
+  m_Name: ShadowedSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6033,7 +6032,7 @@ GameObject:
   - component: {fileID: 797798522343385223}
   - component: {fileID: 2541048941990146454}
   m_Layer: 0
-  m_Name: Quad (2)
+  m_Name: ShadowedSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
