@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Xonar\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Xonar\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Squirrel.-2087799391.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Xonar\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Xonar\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Squirrel.-2087799391.00" t="ExcludeRecursive" />
     <e p="C:\Users\Xonar\OneDrive\Documents\Squirrel" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -27,6 +27,7 @@
         </e>
         <e p="_Scripts" t="Include">
           <e p="Milo Scripts" t="Include">
+            <e p="Highscore.cs" t="Include" />
             <e p="Projectile.cs" t="Include" />
             <e p="ProjectileManager.cs" t="Include" />
             <e p="Shooting.cs" t="Include" />
@@ -94,6 +95,21 @@
             <e p="Sprites" t="Include">
               <e p="EmojiOne Attribution.txt" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="Demigiant" t="Include">
+          <e p="DOTween" t="Include">
+            <e p="Modules" t="Include">
+              <e p="DOTween.Modules.asmdef" t="Include" />
+              <e p="DOTweenModuleAudio.cs" t="Include" />
+              <e p="DOTweenModulePhysics.cs" t="Include" />
+              <e p="DOTweenModulePhysics2D.cs" t="Include" />
+              <e p="DOTweenModuleSprite.cs" t="Include" />
+              <e p="DOTweenModuleUI.cs" t="Include" />
+              <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+              <e p="DOTweenModuleUtils.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
           </e>
         </e>
         <e p="Editor" t="Include">
@@ -290,13 +306,11 @@
           </e>
         </e>
       </e>
-      <e p="Library" t="ExcludeRecursive" />
+      <e p="DOTween.Modules.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Squirrel.sln" t="IncludeFlat" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
       <e p="VuforiaScripts.csproj" t="IncludeRecursive" />
       <e p="VuforiaVersionCheckerScripts.csproj" t="IncludeRecursive" />
     </e>
