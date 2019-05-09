@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class SquirrelCollision : MonoBehaviour
 {
-    public void OnCollisionEnter2D(Collision2D collider)
+    private SquirrelController _squirrelController;
+
+    private void Awake()
     {
-        gameObject.GetComponent<Animation>().clip.SampleAnimation(this.gameObject,0);
-        AddScore();
+        _squirrelController = gameObject.GetComponent<SquirrelController>();
     }
 
-    public void AddScore()
+    public void OnCollisionEnter(Collision collider)
     {
-        
+        OnSquirrelHit();
+    }
+
+    public void OnSquirrelHit()
+    {
+        _squirrelController.Hide();
     }
 }
