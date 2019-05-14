@@ -13,6 +13,10 @@ public class SquirrelCollision : MonoBehaviour
 
     public void OnCollisionEnter(Collision collider)
     {
+        if (collider.transform.tag != "Nut")
+        {
+            return;
+        }
         OnSquirrelHit();
     }
 

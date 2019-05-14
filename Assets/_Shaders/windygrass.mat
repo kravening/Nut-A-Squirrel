@@ -10,7 +10,7 @@ Material:
   m_Name: windygrass
   m_Shader: {fileID: 4800000, guid: fb1949b5473e79e438eaced3a987b5cc, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 0
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 2800000, guid: 63e763d67b264724c996c34d11310142, type: 3}
+        m_Texture: {fileID: 2800000, guid: c44dfb6bebdfa40e19b0cf6ff01d8ff9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -65,7 +65,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _Cutoff: 0.229
+    - _Cutoff: 0
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
@@ -84,17 +84,19 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _WindShape: 1
-    - _WindSize: 0.1
-    - _WindSpeed: 0.2
-    - _XSwayStrength: 5
+    - _WindSize: 0.01
+    - _WindSpeed: 0.34
+    - _XSwayStrength: 0.2
     - _X_Sway_Strength: 2
+    - _YScalecorrection: 0
     - _ZSway: 1
-    - _ZSwayStrength: 0.5
+    - _ZSwayStrength: 0.2
     - _ZWrite: 1
     - _Z_Sway_Strength: 1
     - __dirty: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.0020939435, g: 0.21698111, b: 0, a: 0}
+    - _Color2: {r: 0.44915786, g: 0.6226415, b: 0.43173727, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Vector0: {r: 0.15, g: 10.49, b: 8.56, a: 0}
     - _rotationtest: {r: 0, g: 1.56, b: 0, a: 0}

@@ -19,7 +19,7 @@ public class Shooting : MonoBehaviour
     
     private void Shoot()
     {
-        if (Input.GetKeyUp(KeyCode.Space) && _canShoot)
+        if (Input.touches.Length != 0 && _canShoot)
         {   
             GameObject bullet = Instantiate(projectileManager?.GetProjectileFromQueue(), transform.position, transform.rotation);
             StartCoroutine(StartCooldown(_cooldown));

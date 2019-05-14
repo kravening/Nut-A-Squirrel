@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Props
   - Squirrel
+  - Nut
   layers:
   - Default
   - TransparentFX
