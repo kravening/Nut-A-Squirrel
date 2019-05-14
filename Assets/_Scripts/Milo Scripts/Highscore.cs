@@ -28,17 +28,26 @@ public class Highscore : MonoBehaviour
     /// <summary>
     /// increments _currentScore
     /// </summary>
-    /// <param name="scoreToAdd"></param>
+    /// <param name="incrementValue"></param>
     public void IncrementScore(int incrementValue)
     {
         _currentScore += incrementValue;
+    }
+    
+    /// <summary>
+    /// decrements _currentScore
+    /// </summary>
+    /// <param name="decrementValue"></param>
+    public void DecrementScore(int decrementValue)
+    {
+        _currentScore -= decrementValue;
     }
 
     /// <summary>
     /// saves the currentscore to the device
     /// </summary>
     /// <param name="scoreToSave"></param>
-    private void SaveScoreToDevice(int scoreToSave)
+    public void SaveScoreToDevice(int scoreToSave)
     {
         if (_currentScore > PlayerPrefs.GetInt("Score"))
         {
@@ -50,7 +59,7 @@ public class Highscore : MonoBehaviour
     /// <summary>
     /// save the highscore to the device
     /// </summary>
-    private void SaveHighScoreToDevice()
+    public void SaveHighScoreToDevice()
     {
         if (GetCurrentScore() > GetHighScore())
         {
@@ -72,7 +81,7 @@ public class Highscore : MonoBehaviour
     /// return the highscore from the playerprefs
     /// </summary>
     /// <returns></returns>
-    private int GetHighScore()
+    public int GetHighScore()
     {
         int highscore = PlayerPrefs.GetInt("HighScore");
         return highscore;
