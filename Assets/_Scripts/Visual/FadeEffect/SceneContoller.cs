@@ -2,9 +2,11 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class SceneContoller : MonoBehaviour
 {
     private static string _fade = "Fade";
+    private const string SCENE_NAME = "TestScene";
     [SerializeField] private Image _black;
     [SerializeField] private Animator _anim;
     // Start is called before the first frame update
@@ -26,7 +28,7 @@ public class SceneContoller : MonoBehaviour
     {
         _anim.SetBool(_fade, true);
         yield return new WaitUntil(()=>_black.color.a==1);
-        _anim.SetBool(_fade, false);
-        Debug.Log("NoU");
+        //_anim.SetBool(_fade, false);
+        SceneManager.LoadScene(SCENE_NAME);
     }
 }

@@ -26,6 +26,7 @@
           </e>
         </e>
         <e p="_Scripts" t="Include">
+          <e p="Gamestart.cs" t="Include" />
           <e p="Shooting.cs" t="Include" />
           <e p="Visual" t="Include">
             <e p="BillboardingSprite.cs" t="Include" />
