@@ -13,25 +13,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-159">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="583">
+              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
               <folding>
-                <marker date="1557388912301" expanded="true" signature="21:104" ph="/// this class handles the in game score and highscore ... " />
-                <marker date="1557388912301" expanded="true" signature="144:1649" ph="{...}" />
-                <marker date="1557388912301" expanded="true" signature="203:263" ph="{...}" />
-                <marker date="1557388912301" expanded="true" signature="352:634" ph="{...}" />
-                <marker date="1557388912301" expanded="true" signature="404:472" ph="{...}" />
-                <marker date="1557388912301" expanded="true" signature="515:591" ph="{...}" />
-                <marker date="1557388912301" expanded="true" signature="715:801" ph="{...}" />
-                <marker date="1557388912301" expanded="true" signature="895:1064" ph="{...}" />
-                <marker date="1557388912301" expanded="true" signature="958:1058" ph="{...}" />
-                <marker date="1557388912301" expanded="true" signature="1150:1312" ph="{...}" />
-                <marker date="1557388912301" expanded="true" signature="1197:1306" ph="{...}" />
-                <marker date="1557388912301" expanded="true" signature="1385:1468" ph="{...}" />
-                <marker date="1557388912301" expanded="true" signature="1550:1645" ph="{...}" />
+                <marker date="1557475868712" expanded="true" signature="21:124" ph="/// this class handles the highscore and current scoring data of the game. ... " />
+                <marker date="1557475868712" expanded="true" signature="164:2140" ph="{...}" />
+                <marker date="1557475868712" expanded="true" signature="223:283" ph="{...}" />
+                <marker date="1557475868712" expanded="true" signature="289:383" ph="/// Check if Score and HighScore key exist in PlayerPrefs ... " />
+                <marker date="1557475868712" expanded="true" signature="412:518" ph="{...}" />
+                <marker date="1557475868712" expanded="true" signature="524:631" ph="/// increments _currentScore ... " />
+                <marker date="1557475868712" expanded="true" signature="682:735" ph="{...}" />
+                <marker date="1557475868712" expanded="true" signature="741:861" ph="/// saves the currentscore to the device ... " />
+                <marker date="1557475868712" expanded="true" signature="913:1088" ph="{...}" />
+                <marker date="1557475868712" expanded="true" signature="976:1082" ph="{...}" />
+                <marker date="1557475868712" expanded="true" signature="1094:1167" ph="/// save the highscore to the device ... " />
+                <marker date="1557475868712" expanded="true" signature="1208:1384" ph="{...}" />
+                <marker date="1557475868712" expanded="true" signature="1262:1378" ph="{...}" />
+                <marker date="1557475868712" expanded="true" signature="1390:1483" ph="/// returns the currentscore ... " />
+                <marker date="1557475868712" expanded="true" signature="1516:1558" ph="{...}" />
+                <marker date="1557475868712" expanded="true" signature="1564:1674" ph="/// return the highscore from the playerprefs ... " />
+                <marker date="1557475868712" expanded="true" signature="1705:1800" ph="{...}" />
+                <marker date="1557475868712" expanded="true" signature="1806:1974" ph="/// Intitializes a new key with the given keyName if it doesn't already exist on the device. ... " />
+                <marker date="1557475868712" expanded="true" signature="2020:2138" ph="{...}" />
+                <marker date="1557475868712" expanded="true" signature="2068:2132" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/AudioManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="23" column="1" selection-end-line="24" />
+              <folding>
+                <marker date="1557492265348" expanded="false" signature="6:125" ph="..." />
+                <marker date="1557492265348" expanded="true" signature="127:200" ph="/// This class handles incoming audio events ... " />
+                <marker date="1557492265348" expanded="true" signature="242:617" ph="{...}" />
+                <marker date="1557492265348" expanded="true" signature="285:457" ph="/// This function plays an audio file with the chosen volume ... " />
+                <marker date="1557492265348" expanded="true" signature="517:615" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -44,6 +67,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Shooting.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -53,6 +77,7 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Shooting.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/ProjectileManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/AudioManager.cs" />
       </list>
     </option>
   </component>
@@ -67,14 +92,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -108,10 +133,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="968">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="968" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -133,11 +158,14 @@
       <workItem from="1556286426438" duration="4203000" />
       <workItem from="1557224042874" duration="3817000" />
       <workItem from="1557388849469" duration="72000" />
+      <workItem from="1557479211055" duration="5596000" />
+      <workItem from="1557486726976" duration="5667000" />
+      <workItem from="1557492526247" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21328000" />
+    <option name="totallyTimeSpent" value="32619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -151,7 +179,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.27114093" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.28322148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -159,7 +187,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994452" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -171,7 +199,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Unit Tests" order="13" />
       <window_info anchor="bottom" id="Terminal" order="14" />
-      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" weight="0.32871014" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -230,22 +258,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="583">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
           <folding>
-            <marker date="1557388912301" expanded="true" signature="21:104" ph="/// this class handles the in game score and highscore ... " />
-            <marker date="1557388912301" expanded="true" signature="144:1649" ph="{...}" />
-            <marker date="1557388912301" expanded="true" signature="203:263" ph="{...}" />
-            <marker date="1557388912301" expanded="true" signature="352:634" ph="{...}" />
-            <marker date="1557388912301" expanded="true" signature="404:472" ph="{...}" />
-            <marker date="1557388912301" expanded="true" signature="515:591" ph="{...}" />
-            <marker date="1557388912301" expanded="true" signature="715:801" ph="{...}" />
-            <marker date="1557388912301" expanded="true" signature="895:1064" ph="{...}" />
-            <marker date="1557388912301" expanded="true" signature="958:1058" ph="{...}" />
-            <marker date="1557388912301" expanded="true" signature="1150:1312" ph="{...}" />
-            <marker date="1557388912301" expanded="true" signature="1197:1306" ph="{...}" />
-            <marker date="1557388912301" expanded="true" signature="1385:1468" ph="{...}" />
-            <marker date="1557388912301" expanded="true" signature="1550:1645" ph="{...}" />
+            <marker date="1557475868712" expanded="true" signature="21:124" ph="/// this class handles the highscore and current scoring data of the game. ... " />
+            <marker date="1557475868712" expanded="true" signature="164:2140" ph="{...}" />
+            <marker date="1557475868712" expanded="true" signature="223:283" ph="{...}" />
+            <marker date="1557475868712" expanded="true" signature="289:383" ph="/// Check if Score and HighScore key exist in PlayerPrefs ... " />
+            <marker date="1557475868712" expanded="true" signature="412:518" ph="{...}" />
+            <marker date="1557475868712" expanded="true" signature="524:631" ph="/// increments _currentScore ... " />
+            <marker date="1557475868712" expanded="true" signature="682:735" ph="{...}" />
+            <marker date="1557475868712" expanded="true" signature="741:861" ph="/// saves the currentscore to the device ... " />
+            <marker date="1557475868712" expanded="true" signature="913:1088" ph="{...}" />
+            <marker date="1557475868712" expanded="true" signature="976:1082" ph="{...}" />
+            <marker date="1557475868712" expanded="true" signature="1094:1167" ph="/// save the highscore to the device ... " />
+            <marker date="1557475868712" expanded="true" signature="1208:1384" ph="{...}" />
+            <marker date="1557475868712" expanded="true" signature="1262:1378" ph="{...}" />
+            <marker date="1557475868712" expanded="true" signature="1390:1483" ph="/// returns the currentscore ... " />
+            <marker date="1557475868712" expanded="true" signature="1516:1558" ph="{...}" />
+            <marker date="1557475868712" expanded="true" signature="1564:1674" ph="/// return the highscore from the playerprefs ... " />
+            <marker date="1557475868712" expanded="true" signature="1705:1800" ph="{...}" />
+            <marker date="1557475868712" expanded="true" signature="1806:1974" ph="/// Intitializes a new key with the given keyName if it doesn't already exist on the device. ... " />
+            <marker date="1557475868712" expanded="true" signature="2020:2138" ph="{...}" />
+            <marker date="1557475868712" expanded="true" signature="2068:2132" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/AudioManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="1" selection-end-line="24" />
+          <folding>
+            <marker date="1557492265348" expanded="false" signature="6:125" ph="..." />
+            <marker date="1557492265348" expanded="true" signature="127:200" ph="/// This class handles incoming audio events ... " />
+            <marker date="1557492265348" expanded="true" signature="242:617" ph="{...}" />
+            <marker date="1557492265348" expanded="true" signature="285:457" ph="/// This function plays an audio file with the chosen volume ... " />
+            <marker date="1557492265348" expanded="true" signature="517:615" ph="{...}" />
           </folding>
         </state>
       </provider>
