@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 2800000, guid: c44dfb6bebdfa40e19b0cf6ff01d8ff9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7319be812c4f88b459290c6b133b82d6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -65,7 +65,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _Cutoff: 0
+    - _Cutoff: 0.18
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
@@ -90,7 +90,7 @@ Material:
     - _X_Sway_Strength: 2
     - _YScalecorrection: 0
     - _ZSway: 1
-    - _ZSwayStrength: 0.2
+    - _ZSwayStrength: 0.61
     - _ZWrite: 1
     - _Z_Sway_Strength: 1
     - __dirty: 0
