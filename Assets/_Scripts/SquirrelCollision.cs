@@ -22,6 +22,7 @@ public class SquirrelCollision : MonoBehaviour
 
     public void OnSquirrelHit()
     {
+        Highscore.instance.IncrementScore(100);
         _squirrelController.Hide();
     }
 }
