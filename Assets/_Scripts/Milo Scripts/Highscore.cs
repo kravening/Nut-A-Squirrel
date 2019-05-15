@@ -7,12 +7,31 @@
 
 public class Highscore : MonoBehaviour
 {
+    
+    public static Highscore instance { get; private set; }
     private int _currentScore;
 
     private void Awake()
     {
+        if (instance != null && instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            instance = this;
+        }
+
         _currentScore = 0;
         CheckKeys();
+    }
+    
+    private void OnDestroy()
+    {
+        if (instance == this)
+        {
+            instance = null;
+        }
     }
 
     /// <summary>
