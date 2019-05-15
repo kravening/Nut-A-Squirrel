@@ -25,6 +25,11 @@
             </e>
           </e>
         </e>
+        <e p="_prototyping" t="Include">
+          <e p="art" t="Include">
+            <e p="New AmplifyShader.shader" t="Include" />
+          </e>
+        </e>
         <e p="_Scripts" t="Include">
           <e p="Milo Scripts" t="Include">
             <e p="Highscore.cs" t="Include" />
