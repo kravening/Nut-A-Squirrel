@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: fb1949b5473e79e438eaced3a987b5cc, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -81,8 +81,8 @@ Material:
     - _UVSec: 0
     - _WindSize: 0.01
     - _WindSpeed: 0.1
-    - _XSwayStrength: 0.5
-    - _ZSwayStrength: 0.5
+    - _XSwayStrength: 0.8
+    - _ZSwayStrength: 0.8
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:

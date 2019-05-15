@@ -27,10 +27,10 @@ public class SquirrelController : MonoBehaviour
     private IEnumerator ShowSquirrelRoutine()
     {
         treeRuffleBehaviour?.RuffleTree();
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
 
         _animator?.SetBool("IsShowing", true);
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
 
         //if squirrel isn't already hidden or starting to hide.
         if (_isSquirrelHidden == false && _isHiding == false)
