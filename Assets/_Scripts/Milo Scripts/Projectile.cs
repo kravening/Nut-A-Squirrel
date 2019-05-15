@@ -12,6 +12,7 @@ public class Projectile : MonoBehaviour
     private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
+        _rb.useGravity = false;
     }
 
     private void Start()
