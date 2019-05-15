@@ -762,7 +762,7 @@ PlayerSettings:
   webGLWasmStreaming: 0
   scriptingDefineSymbols:
     4: VUFORIA_IOS_SETTINGS
-    7: VUFORIA_ANDROID_SETTINGS
+    7: VUFORIA_ANDROID_SETTINGS;AMPLIFY_SHADER_EDITOR
     14: VUFORIA_WSA_SETTINGS
   platformArchitecture:
     iPhone: 2

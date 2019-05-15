@@ -1,18 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Gamestart : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Animator _animation;
+    public Animator flipDownAnimation;
+    public Animator flipUpAnimation;
     [SerializeField]
     private GameObject[] props;
     private bool _testbool;
     
 	private void Start()
     {
-        _animation = GetComponent<Animator>();
+        flipDownAnimation = props[0].GetComponent<Animator>();
+        flipUpAnimation = props[1].GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -20,8 +23,9 @@ public class Gamestart : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-           _animation.Play("NFlip");
+            flipDownAnimation.Play("NFlip");
             _testbool = true;
+            props[2].SetActive(false);
         }
     }
 
@@ -29,7 +33,8 @@ public class Gamestart : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Character"))
         {
-            _animation.Play("NFlip");
+            props[2].SetActive(false);
+            flipDownAnimation.Play("NFlip");
             _testbool = true;
         }
     }
@@ -40,6 +45,6 @@ public class Gamestart : MonoBehaviour
         props[0].SetActive(false);
         Debug.Log("Called for animation");
         Debug.Log("GameStart");
-        _animation.Play("TreeFlipAnimation2");
+        flipUpAnimation.Play("TreeFlipAnimation2");
     }
 }

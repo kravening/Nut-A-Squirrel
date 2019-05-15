@@ -9,38 +9,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Visual/FadeEffect/SceneContoller.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding>
-                <marker date="1557833162354" expanded="false" signature="6:115" ph="..." />
-                <marker date="1557833162354" expanded="true" signature="159:826" ph="{...}" />
-                <marker date="1557833162354" expanded="true" signature="412:433" ph="{...}" />
-                <marker date="1557833162354" expanded="true" signature="497:608" ph="{...}" />
-                <marker date="1557833162354" expanded="true" signature="544:602" ph="{...}" />
-                <marker date="1557833162354" expanded="true" signature="634:824" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+            <state relative-caret-position="405">
+              <caret line="30" selection-start-line="22" selection-end-line="30" />
               <folding>
-                <marker date="1557835055486" expanded="false" signature="6:78" ph="..." />
-                <marker date="1557835055486" expanded="true" signature="118:1046" ph="{...}" />
-                <marker date="1557835055486" expanded="true" signature="313:372" ph="{...}" />
-                <marker date="1557835055486" expanded="true" signature="438:582" ph="{...}" />
-                <marker date="1557835055486" expanded="true" signature="489:576" ph="{...}" />
-                <marker date="1557835055486" expanded="true" signature="638:811" ph="{...}" />
-                <marker date="1557835055486" expanded="true" signature="702:805" ph="{...}" />
-                <marker date="1557835055486" expanded="true" signature="841:1044" ph="{...}" />
+                <marker date="1557908860060" expanded="false" signature="6:111" ph="..." />
+                <marker date="1557908860060" expanded="true" signature="151:1283" ph="{...}" />
+                <marker date="1557908860060" expanded="true" signature="390:526" ph="{...}" />
+                <marker date="1557908860060" expanded="true" signature="592:783" ph="{...}" />
+                <marker date="1557908860060" expanded="true" signature="643:777" ph="{...}" />
+                <marker date="1557908860060" expanded="true" signature="839:1043" ph="{...}" />
+                <marker date="1557908860060" expanded="true" signature="903:1037" ph="{...}" />
+                <marker date="1557908860060" expanded="true" signature="1073:1281" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -52,9 +35,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mobile.android-logcat@0.1.5-preview/Editor/Unity.Mobile.AndroidLogcat.Editor.asmdef" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Visual/FadeEffect/SceneContoller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -75,7 +58,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
@@ -83,7 +66,7 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,7 +122,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31235000" />
+    <option name="totallyTimeSpent" value="32882000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -154,7 +137,7 @@
     <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22087379" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21116506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -231,17 +214,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        <state relative-caret-position="405">
+          <caret line="30" selection-start-line="22" selection-end-line="30" />
           <folding>
-            <marker date="1557835055486" expanded="false" signature="6:78" ph="..." />
-            <marker date="1557835055486" expanded="true" signature="118:1046" ph="{...}" />
-            <marker date="1557835055486" expanded="true" signature="313:372" ph="{...}" />
-            <marker date="1557835055486" expanded="true" signature="438:582" ph="{...}" />
-            <marker date="1557835055486" expanded="true" signature="489:576" ph="{...}" />
-            <marker date="1557835055486" expanded="true" signature="638:811" ph="{...}" />
-            <marker date="1557835055486" expanded="true" signature="702:805" ph="{...}" />
-            <marker date="1557835055486" expanded="true" signature="841:1044" ph="{...}" />
+            <marker date="1557908860060" expanded="false" signature="6:111" ph="..." />
+            <marker date="1557908860060" expanded="true" signature="151:1283" ph="{...}" />
+            <marker date="1557908860060" expanded="true" signature="390:526" ph="{...}" />
+            <marker date="1557908860060" expanded="true" signature="592:783" ph="{...}" />
+            <marker date="1557908860060" expanded="true" signature="643:777" ph="{...}" />
+            <marker date="1557908860060" expanded="true" signature="839:1043" ph="{...}" />
+            <marker date="1557908860060" expanded="true" signature="903:1037" ph="{...}" />
+            <marker date="1557908860060" expanded="true" signature="1073:1281" ph="{...}" />
           </folding>
         </state>
       </provider>
