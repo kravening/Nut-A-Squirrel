@@ -5,7 +5,7 @@ using UnityEngine;
 public class SquirrelManager : MonoBehaviour
 {
     /// <summary>
-    /// 
+    /// the instance off this singleton, this variable the class it's in.
     /// </summary>
     public static SquirrelManager instance;
 
@@ -87,7 +87,9 @@ public class SquirrelManager : MonoBehaviour
         _currentNewSquirrelTime -= Time.deltaTime;
         
     }
-
+    /// <summary>
+    /// this function will run through a few checks to see if it's the right moment to call for a new squirrel
+    /// </summary>
     private void CheckToSeeIfSquirrelWillSpawn()
     {
         //less than the minimum amount of squirrels in the field, force a squirrel to show.
