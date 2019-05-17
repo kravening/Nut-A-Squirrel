@@ -2,8 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// this class handles the incoming collisions of the squirrels
+/// </summary>
 public class SquirrelCollision : MonoBehaviour
 {
+
     private SquirrelController _squirrelController;
 
     private void Awake()
@@ -11,7 +15,7 @@ public class SquirrelCollision : MonoBehaviour
         _squirrelController = gameObject.GetComponent<SquirrelController>();
     }
 
-    public void OnCollisionEnter(Collision collider)
+    private void OnCollisionEnter(Collision collider)
     {
         if (collider.transform.tag != "Nut")
         {
@@ -20,6 +24,9 @@ public class SquirrelCollision : MonoBehaviour
         OnSquirrelHit();
     }
 
+    /// <summary>
+    /// if the colliding object is a nut this function gets called and calls for the squirrel to hide, and increments the score.
+    /// </summary>
     public void OnSquirrelHit()
     {
         Highscore.instance.IncrementScore(100);

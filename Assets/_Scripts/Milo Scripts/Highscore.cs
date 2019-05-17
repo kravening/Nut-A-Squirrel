@@ -2,12 +2,13 @@
 
 
 /// <summary>
-/// this class handles the highscore and current scoring data of the game.
+/// this singleton handles the highscore and current scoring data of the game.
 /// </summary>
-
 public class Highscore : MonoBehaviour
 {
-    
+    /// <summary>
+    /// this variable refers to the instance of this class
+    /// </summary>
     public static Highscore instance { get; private set; }
     private int _currentScore;
 

@@ -1,7 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// this class takes track of which projectile is next in the queue to shoot.
+/// </summary>
 public class ProjectileManager : MonoBehaviour
 {
     public List<GameObject> projectiles = new List<GameObject>();// all the projectile objects available
@@ -14,6 +17,10 @@ public class ProjectileManager : MonoBehaviour
         GetProjectileFromQueue();
     }
 
+    /// <summary>
+    /// this function returns the first game object in the queue and then generates a new one.
+    /// </summary>
+    /// <returns></returns>
     public GameObject GetProjectileFromQueue()
     {
         GameObject projectileToShoot = _projectileQueue[0];
@@ -23,6 +30,9 @@ public class ProjectileManager : MonoBehaviour
         return projectileToShoot;
     }
 
+    /// <summary>
+    /// this function takes care of the initial setup of the queue.
+    /// </summary>
     private void InitializeProjectileQueue()
     {
         for (int i = 0; i < _queueSize; i++)
@@ -31,6 +41,9 @@ public class ProjectileManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// this function adds a new projectile to the queue, picked randomly from the possible types of projectiles.
+    /// </summary>
     private void AddProjectileToQueue()
     {
         _projectileQueue.Add(projectiles?[Random.Range(0, projectiles.Count)]);
