@@ -120,7 +120,7 @@ public class SquirrelManager : MonoBehaviour
     {
         int randomIndex = Random.Range(0, squirrels.Count);
         Debug.Log(randomIndex);
-        squirrels[randomIndex].Show();
+         squirrels[randomIndex].Show();
     }
 
     /// <summary>

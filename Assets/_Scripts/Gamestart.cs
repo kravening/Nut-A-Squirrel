@@ -1,50 +1,48 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Behaviour;
 using UnityEngine.Serialization;
 
-public class Gamestart : MonoBehaviour
+namespace GameStart
 {
-    // Start is called before the first frame update
-    public Animator flipDownAnimation;
-    public Animator flipUpAnimation;
-    [SerializeField]
-    private GameObject[] props;
-    private bool _testbool;
-    
-	private void Start()
+    public class Gamestart : MonoBehaviour
     {
-        flipDownAnimation = props[0].GetComponent<Animator>();
-        flipUpAnimation = props[1].GetComponent<Animator>();
-    }
+        // Start is called before the first frame update
+        [SerializeField] private GameObject[] props;
+        [SerializeField] public Animator treeFlipAnimator;
+        public static Gamestart instance;
 
-    // Update is called once per frame
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
+        private void Start()
         {
-            flipDownAnimation.Play("NFlip");
-            _testbool = true;
-            props[2].SetActive(false);
+            instance = this;
+            Debug.Log(TreeRuffleBehaviour.Instance);
         }
-    }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Character"))
+        // Update is called once per frame
+        private void Update()
         {
-            props[2].SetActive(false);
-            flipDownAnimation.Play("NFlip");
-            _testbool = true;
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                TreeRuffleBehaviour.Instance.TreeFlip();
+                props[0].SetActive(false);
+            }
         }
-    }
 
-    private void GameStart()
-    {
-        props[1].SetActive(true);
-        props[0].SetActive(false);
-        Debug.Log("Called for animation");
-        Debug.Log("GameStart");
-        flipUpAnimation.Play("TreeFlipAnimation2");
+        private void OnCollisionEnter(Collision collision)
+        {
+            if (collision.gameObject.CompareTag("Character"))
+            {
+                props[2].SetActive(false);
+                TreeRuffleBehaviour.Instance.TreeFlip();
+            }
+        }
+
+        public void GameStart()
+        {
+            Debug.Log("Called for animation");
+            Debug.Log("call for GameStart");
+            TreeRuffleBehaviour.Instance.TreeFlip();
+        }
     }
 }

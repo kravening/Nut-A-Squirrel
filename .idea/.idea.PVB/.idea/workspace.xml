@@ -9,21 +9,131 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="30" selection-start-line="22" selection-end-line="30" />
+            <state relative-caret-position="570">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
-                <marker date="1557908860060" expanded="false" signature="6:111" ph="..." />
-                <marker date="1557908860060" expanded="true" signature="151:1283" ph="{...}" />
-                <marker date="1557908860060" expanded="true" signature="390:526" ph="{...}" />
-                <marker date="1557908860060" expanded="true" signature="592:783" ph="{...}" />
-                <marker date="1557908860060" expanded="true" signature="643:777" ph="{...}" />
-                <marker date="1557908860060" expanded="true" signature="839:1043" ph="{...}" />
-                <marker date="1557908860060" expanded="true" signature="903:1037" ph="{...}" />
-                <marker date="1557908860060" expanded="true" signature="1073:1281" ph="{...}" />
+                <marker date="1558445656732" expanded="true" signature="6:128" ph="..." />
+                <marker date="1558445656732" expanded="true" signature="149:1290" ph="{...}" />
+                <marker date="1558445656732" expanded="true" signature="194:1288" ph="{...}" />
+                <marker date="1558445656732" expanded="true" signature="441:543" ph="{...}" />
+                <marker date="1558445656732" expanded="true" signature="617:814" ph="{...}" />
+                <marker date="1558445656732" expanded="true" signature="676:804" ph="{...}" />
+                <marker date="1558445656732" expanded="true" signature="874:1084" ph="{...}" />
+                <marker date="1558445656732" expanded="true" signature="946:1074" ph="{...}" />
+                <marker date="1558445656732" expanded="true" signature="1117:1282" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <folding>
+                <marker date="1558445526939" expanded="true" signature="6:95" ph="..." />
+                <marker date="1558445526939" expanded="true" signature="116:896" ph="{...}" />
+                <marker date="1558445526939" expanded="true" signature="171:894" ph="{...}" />
+                <marker date="1558445526939" expanded="true" signature="440:489" ph="{...}" />
+                <marker date="1558445526939" expanded="true" signature="523:666" ph="{...}" />
+                <marker date="1558445526939" expanded="true" signature="703:767" ph="{...}" />
+                <marker date="1558445526939" expanded="true" signature="799:888" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
+              <folding>
+                <marker date="1558443826700" expanded="false" signature="6:78" ph="..." />
+                <marker date="1558443826700" expanded="true" signature="124:4115" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="131:172" ph="///  ... " />
+                <marker date="1558443826700" expanded="true" signature="222:312" ph="/// a list with references to squirrels in the field. ... " />
+                <marker date="1558443826700" expanded="true" signature="398:614" ph="/// maximum amount of squirrels that can come out of hiding in one moment, new ones won't spawn if the current am ... " />
+                <marker date="1558443826700" expanded="true" signature="662:859" ph="/// minimum amount of squirrels to show at one time, if there are less squirrels than this number currently in th ... " />
+                <marker date="1558443826700" expanded="true" signature="907:1010" ph="/// the current amount of squirrels out showing in the game field. ... " />
+                <marker date="1558443826700" expanded="true" signature="1062:1156" ph="/// the minimal amount of time for a squirrel to show up. ... " />
+                <marker date="1558443826700" expanded="true" signature="1201:1304" ph="/// the maximum possible amount of time for a squirrel to show up. ... " />
+                <marker date="1558443826700" expanded="true" signature="1349:1455" ph="/// a variable to keep the time for when a new squirrel will show up. ... " />
+                <marker date="1558443826700" expanded="true" signature="1528:1988" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="1585:1632" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="1645:1694" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="1910:1982" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="2019:2111" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="2056:2105" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="2138:2214" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="2220:2341" ph="/// this functions decrements the squirrelTimer with the unity deltaTime each frame. ... " />
+                <marker date="1558443826700" expanded="true" signature="2372:2444" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="2494:3127" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="2653:2724" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="2840:2880" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="3021:3062" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="3132:3236" ph="/// this function calls a random unshowing squirrel to show itself. ... " />
+                <marker date="1558443826700" expanded="true" signature="3272:3416" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="3422:3571" ph="/// randomly set a time for a new squirrel to appear, the random number is based on the min and max appear time. ... " />
+                <marker date="1558443826700" expanded="true" signature="3610:3713" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="3719:3831" ph="/// increment the counter of how many squirrels currently are in the field. ... " />
+                <marker date="1558443826700" expanded="true" signature="3863:3911" ph="{...}" />
+                <marker date="1558443826700" expanded="true" signature="3917:4030" ph="/// decrements the counter of how many squirrels currently are in the field. ... " />
+                <marker date="1558443826700" expanded="true" signature="4063:4111" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Managers/FeedBackManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="602">
+              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <marker date="1557921606596" expanded="false" signature="6:95" ph="..." />
+                <marker date="1557921606596" expanded="true" signature="144:1424" ph="{...}" />
+                <marker date="1557921606596" expanded="true" signature="351:409" ph="{...}" />
+                <marker date="1557921606596" expanded="true" signature="433:641" ph="{...}" />
+                <marker date="1557921606596" expanded="true" signature="470:635" ph="{...}" />
+                <marker date="1557921606596" expanded="true" signature="688:1046" ph="{...}" />
+                <marker date="1557921606596" expanded="true" signature="1000:1040" ph="{...}" />
+                <marker date="1557921606596" expanded="true" signature="1070:1181" ph="{...}" />
+                <marker date="1557921606596" expanded="true" signature="1228:1422" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelCollision.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <marker date="1557910853575" expanded="false" signature="6:78" ph="..." />
+                <marker date="1557910853575" expanded="true" signature="126:554" ph="{...}" />
+                <marker date="1557910853575" expanded="true" signature="206:295" ph="{...}" />
+                <marker date="1557910853575" expanded="true" signature="349:471" ph="{...}" />
+                <marker date="1557910853575" expanded="true" signature="400:440" ph="{...}" />
+                <marker date="1557910853575" expanded="true" signature="504:552" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -35,21 +145,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mobile.android-logcat@0.1.5-preview/Editor/Unity.Mobile.AndroidLogcat.Editor.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Controllers/ARController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Managers/FeedBackManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Visual/FadeEffect/SceneContoller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mobile.android-logcat@0.1.5-preview/Editor/Unity.Mobile.AndroidLogcat.Editor.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Proef-proeven/Proef proeven/Proef proeven/Assets/Scenes/Controllers/UIController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Controllers/SceneController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Controllers/UIController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Controllers/TouchController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Controllers/NFCController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/_Scripts/Visual/FadeEffect/SceneContoller.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/SquirrelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1333" />
-    <option name="y" value="59" />
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="width" value="1920" />
     <option name="height" value="1047" />
   </component>
@@ -58,11 +180,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
@@ -118,11 +240,12 @@
       <workItem from="1556280324751" duration="10108000" />
       <workItem from="1557390751492" duration="14085000" />
       <workItem from="1557833471737" duration="1491000" />
+      <workItem from="1558424466852" duration="13506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32882000" />
+    <option name="totallyTimeSpent" value="54442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -134,10 +257,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21116506" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14247312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -212,19 +335,169 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../Proef-proeven/Proef proeven/Proef proeven/Assets/Scenes/Controllers/UIController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-822" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Controllers/TouchController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Controllers/SceneController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <folding>
+            <element signature="e#0#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Controllers/ARController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Controllers/UIController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Controllers/NFCController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Managers/FeedBackManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelCollision.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <marker date="1557910853575" expanded="false" signature="6:78" ph="..." />
+            <marker date="1557910853575" expanded="true" signature="126:554" ph="{...}" />
+            <marker date="1557910853575" expanded="true" signature="206:295" ph="{...}" />
+            <marker date="1557910853575" expanded="true" signature="349:471" ph="{...}" />
+            <marker date="1557910853575" expanded="true" signature="400:440" ph="{...}" />
+            <marker date="1557910853575" expanded="true" signature="504:552" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1557921606596" expanded="false" signature="6:95" ph="..." />
+            <marker date="1557921606596" expanded="true" signature="144:1424" ph="{...}" />
+            <marker date="1557921606596" expanded="true" signature="351:409" ph="{...}" />
+            <marker date="1557921606596" expanded="true" signature="433:641" ph="{...}" />
+            <marker date="1557921606596" expanded="true" signature="470:635" ph="{...}" />
+            <marker date="1557921606596" expanded="true" signature="688:1046" ph="{...}" />
+            <marker date="1557921606596" expanded="true" signature="1000:1040" ph="{...}" />
+            <marker date="1557921606596" expanded="true" signature="1070:1181" ph="{...}" />
+            <marker date="1557921606596" expanded="true" signature="1228:1422" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+          <folding>
+            <marker date="1558443826700" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558443826700" expanded="true" signature="124:4115" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="131:172" ph="///  ... " />
+            <marker date="1558443826700" expanded="true" signature="222:312" ph="/// a list with references to squirrels in the field. ... " />
+            <marker date="1558443826700" expanded="true" signature="398:614" ph="/// maximum amount of squirrels that can come out of hiding in one moment, new ones won't spawn if the current am ... " />
+            <marker date="1558443826700" expanded="true" signature="662:859" ph="/// minimum amount of squirrels to show at one time, if there are less squirrels than this number currently in th ... " />
+            <marker date="1558443826700" expanded="true" signature="907:1010" ph="/// the current amount of squirrels out showing in the game field. ... " />
+            <marker date="1558443826700" expanded="true" signature="1062:1156" ph="/// the minimal amount of time for a squirrel to show up. ... " />
+            <marker date="1558443826700" expanded="true" signature="1201:1304" ph="/// the maximum possible amount of time for a squirrel to show up. ... " />
+            <marker date="1558443826700" expanded="true" signature="1349:1455" ph="/// a variable to keep the time for when a new squirrel will show up. ... " />
+            <marker date="1558443826700" expanded="true" signature="1528:1988" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="1585:1632" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="1645:1694" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="1910:1982" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="2019:2111" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="2056:2105" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="2138:2214" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="2220:2341" ph="/// this functions decrements the squirrelTimer with the unity deltaTime each frame. ... " />
+            <marker date="1558443826700" expanded="true" signature="2372:2444" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="2494:3127" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="2653:2724" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="2840:2880" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="3021:3062" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="3132:3236" ph="/// this function calls a random unshowing squirrel to show itself. ... " />
+            <marker date="1558443826700" expanded="true" signature="3272:3416" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="3422:3571" ph="/// randomly set a time for a new squirrel to appear, the random number is based on the min and max appear time. ... " />
+            <marker date="1558443826700" expanded="true" signature="3610:3713" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="3719:3831" ph="/// increment the counter of how many squirrels currently are in the field. ... " />
+            <marker date="1558443826700" expanded="true" signature="3863:3911" ph="{...}" />
+            <marker date="1558443826700" expanded="true" signature="3917:4030" ph="/// decrements the counter of how many squirrels currently are in the field. ... " />
+            <marker date="1558443826700" expanded="true" signature="4063:4111" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <marker date="1558445526939" expanded="true" signature="6:95" ph="..." />
+            <marker date="1558445526939" expanded="true" signature="116:896" ph="{...}" />
+            <marker date="1558445526939" expanded="true" signature="171:894" ph="{...}" />
+            <marker date="1558445526939" expanded="true" signature="440:489" ph="{...}" />
+            <marker date="1558445526939" expanded="true" signature="523:666" ph="{...}" />
+            <marker date="1558445526939" expanded="true" signature="703:767" ph="{...}" />
+            <marker date="1558445526939" expanded="true" signature="799:888" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="30" selection-start-line="22" selection-end-line="30" />
+        <state relative-caret-position="570">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding>
-            <marker date="1557908860060" expanded="false" signature="6:111" ph="..." />
-            <marker date="1557908860060" expanded="true" signature="151:1283" ph="{...}" />
-            <marker date="1557908860060" expanded="true" signature="390:526" ph="{...}" />
-            <marker date="1557908860060" expanded="true" signature="592:783" ph="{...}" />
-            <marker date="1557908860060" expanded="true" signature="643:777" ph="{...}" />
-            <marker date="1557908860060" expanded="true" signature="839:1043" ph="{...}" />
-            <marker date="1557908860060" expanded="true" signature="903:1037" ph="{...}" />
-            <marker date="1557908860060" expanded="true" signature="1073:1281" ph="{...}" />
+            <marker date="1558445656732" expanded="true" signature="6:128" ph="..." />
+            <marker date="1558445656732" expanded="true" signature="149:1290" ph="{...}" />
+            <marker date="1558445656732" expanded="true" signature="194:1288" ph="{...}" />
+            <marker date="1558445656732" expanded="true" signature="441:543" ph="{...}" />
+            <marker date="1558445656732" expanded="true" signature="617:814" ph="{...}" />
+            <marker date="1558445656732" expanded="true" signature="676:804" ph="{...}" />
+            <marker date="1558445656732" expanded="true" signature="874:1084" ph="{...}" />
+            <marker date="1558445656732" expanded="true" signature="946:1074" ph="{...}" />
+            <marker date="1558445656732" expanded="true" signature="1117:1282" ph="{...}" />
           </folding>
         </state>
       </provider>
