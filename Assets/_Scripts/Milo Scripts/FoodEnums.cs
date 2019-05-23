@@ -16,7 +16,7 @@ public class FoodEnums : MonoBehaviour
         Cranberry
     }
 
-    public  Food GetRandomFood()
+    public Food GetRandomFood()
     {
         _food = (Food)Random.Range(0, 3);
         return _food;
