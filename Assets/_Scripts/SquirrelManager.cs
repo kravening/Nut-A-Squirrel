@@ -51,6 +51,11 @@ public class SquirrelManager : MonoBehaviour
     
   
 
+    /// <summary>
+    /// a boolean that tells this manager if the game is paused or not.
+    /// </summary>
+    private bool _isGameRunning = false;
+
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -70,6 +75,12 @@ public class SquirrelManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        GameTimeManager.instance.GameStartedEvent += ResumeSpawning;
+        GameTimeManager.instance.GameEndedEvent += PauseSpawning;
+    }
+
 
     private void OnDestroy()
     {
@@ -82,6 +93,11 @@ public class SquirrelManager : MonoBehaviour
 
     private void Update()
     {
+        if (!_isGameRunning)// don't execute any update logic if the game isn't running
+        {
+            return;
+        }
+
         UpdateTimer();
         CheckToSeeIfSquirrelWillSpawn();
     }
@@ -155,6 +171,22 @@ public class SquirrelManager : MonoBehaviour
     public void SquirrelHiding()
     {
         _currentShowingSquirrels--;
+    }
+
+    /// <summary>
+    /// pauses the spawning of squirrels
+    /// </summary>
+    private void PauseSpawning()
+    {
+        _isGameRunning = true;
+    }
+
+    /// <summary>
+    /// resumes the spawning of squirrels
+    /// </summary>
+    private void ResumeSpawning()
+    {
+        _isGameRunning = false;
     }
 
 
