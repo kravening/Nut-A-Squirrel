@@ -21,7 +21,16 @@ public class SquirrelCollision : MonoBehaviour
         {
             return;
         }
-        OnSquirrelHit();
+
+        if (collider.gameObject.GetComponent<Projectile>()._ingredient ==
+            SquirrelManager.instance._ingredient)
+        {
+            OnSquirrelHit();
+        }
+        else
+        {
+            Highscore.instance.DecrementScore(100);
+        }
     }
 
     /// <summary>

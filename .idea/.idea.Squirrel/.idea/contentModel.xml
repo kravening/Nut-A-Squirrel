@@ -32,13 +32,12 @@
         </e>
         <e p="_Scripts" t="Include">
           <e p="Milo Scripts" t="Include">
+            <e p="FoodEnums.cs" t="Include" />
             <e p="Highscore.cs" t="Include" />
             <e p="Projectile.cs" t="Include" />
             <e p="ProjectileManager.cs" t="Include" />
             <e p="Shooting.cs" t="Include" />
           </e>
-          <e p="ParticlePlayer.cs" t="Include" />
-          <e p="rotate.cs" t="Include" />
           <e p="SquirrelCollision.cs" t="Include" />
           <e p="SquirrelController.cs" t="Include" />
           <e p="SquirrelManager.cs" t="Include" />
