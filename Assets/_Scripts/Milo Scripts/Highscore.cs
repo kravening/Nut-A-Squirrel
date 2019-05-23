@@ -2,17 +2,37 @@
 
 
 /// <summary>
-/// this class handles the highscore and current scoring data of the game.
+/// this singleton handles the highscore and current scoring data of the game.
 /// </summary>
-
 public class Highscore : MonoBehaviour
 {
+    /// <summary>
+    /// this variable refers to the instance of this class
+    /// </summary>
+    public static Highscore instance { get; private set; }
     private int _currentScore;
 
     private void Awake()
     {
+        if (instance != null && instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            instance = this;
+        }
+
         _currentScore = 0;
         CheckKeys();
+    }
+    
+    private void OnDestroy()
+    {
+        if (instance == this)
+        {
+            instance = null;
+        }
     }
 
     /// <summary>
@@ -28,17 +48,26 @@ public class Highscore : MonoBehaviour
     /// <summary>
     /// increments _currentScore
     /// </summary>
-    /// <param name="scoreToAdd"></param>
+    /// <param name="incrementValue"></param>
     public void IncrementScore(int incrementValue)
     {
         _currentScore += incrementValue;
+    }
+    
+    /// <summary>
+    /// decrements _currentScore
+    /// </summary>
+    /// <param name="decrementValue"></param>
+    public void DecrementScore(int decrementValue)
+    {
+        _currentScore -= decrementValue;
     }
 
     /// <summary>
     /// saves the currentscore to the device
     /// </summary>
     /// <param name="scoreToSave"></param>
-    private void SaveScoreToDevice(int scoreToSave)
+    public void SaveScoreToDevice(int scoreToSave)
     {
         if (_currentScore > PlayerPrefs.GetInt("Score"))
         {
@@ -50,7 +79,7 @@ public class Highscore : MonoBehaviour
     /// <summary>
     /// save the highscore to the device
     /// </summary>
-    private void SaveHighScoreToDevice()
+    public void SaveHighScoreToDevice()
     {
         if (GetCurrentScore() > GetHighScore())
         {
@@ -72,7 +101,7 @@ public class Highscore : MonoBehaviour
     /// return the highscore from the playerprefs
     /// </summary>
     /// <returns></returns>
-    private int GetHighScore()
+    public int GetHighScore()
     {
         int highscore = PlayerPrefs.GetInt("HighScore");
         return highscore;

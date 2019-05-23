@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 6395c2226abc61b469be2004f36c861c
+  - enabled: 0
+    path: Assets/_Scenes/Kaj's scene.unity
+    guid: 5a9e6181a4fcf354787654f7e54e47f2
+  - enabled: 1
+    path: Assets/_Scenes/Kaj's scene v2.unity
+    guid: b7639f7fea506264eb4354a66573877b
   m_configObjects: {}
