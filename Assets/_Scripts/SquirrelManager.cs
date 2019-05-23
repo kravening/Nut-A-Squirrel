@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class SquirrelManager : MonoBehaviour
 {
@@ -43,10 +45,14 @@ public class SquirrelManager : MonoBehaviour
     /// a variable to keep the time for when a new squirrel will show up.
     /// </summary>
     private float _currentNewSquirrelTime = 0;
+    
+    public FoodEnums FoodList;
+    [HideInInspector] public Enum _ingredient;
+    
+  
 
     private void Awake()
     {
-
         if (instance != null && instance != this)
         {
             Destroy(this);
@@ -55,7 +61,8 @@ public class SquirrelManager : MonoBehaviour
         {
             instance = this;
         }
-
+        
+        _ingredient = FoodList.GetRandomFood();
         // if there are more max squirrels showing in the squirrels list, set max squirrels showing to the amount of elements in the list to prevent index errors.
         if (_maxSquirrelsShowing > squirrels.Count)
         {
