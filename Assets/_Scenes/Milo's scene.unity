@@ -217,7 +217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcc47d8d202044445a365d3f205a40ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileManager: {fileID: 0}
+  _arCamera: {fileID: 1417806734}
+  projectileManager: {fileID: 1417806737}
   _cooldown: 0
 --- !u!114 &1417806737
 MonoBehaviour:
@@ -232,5 +233,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectiles:
-  - {fileID: 8052106746320753823, guid: 502825b72be2b4949a3f38652eebf9cc, type: 3}
-  - {fileID: 4526778327668833202, guid: 68370450061f12a4591c34ba7b5a2cd0, type: 3}
+  - {fileID: 7378035686568812199, guid: 62c99cbd36ea4a04f8a8b8c2bca71e70, type: 3}

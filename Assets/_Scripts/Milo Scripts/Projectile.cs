@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,9 +13,11 @@ public class Projectile : MonoBehaviour
     [SerializeField]private float _velocity = 20f;
     [SerializeField]private float _destroyAfterSeconds = 2.5f;
     private Rigidbody _rb;
-
+    public FoodEnums FoodList;
+    [HideInInspector] public Enum _ingredient;
     private void Awake()
     {
+        _ingredient = FoodList.GetRandomFood();
         _rb = GetComponent<Rigidbody>();
         _rb.useGravity = false;
     }
