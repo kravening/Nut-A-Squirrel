@@ -13,17 +13,26 @@ public class Projectile : MonoBehaviour
     [SerializeField]private float _velocity = 20f;
     [SerializeField]private float _destroyAfterSeconds = 2.5f;
     private Rigidbody _rb;
-    public FoodEnums FoodList;
-    [HideInInspector] public Enum _ingredient;
+    private SpriteRenderer _xd;
+    public FoodEnums.FoodType foodType;
+
+
+
     private void Awake()
     {
-        _ingredient = FoodList.GetRandomFood();
+        _xd = GetComponent<SpriteRenderer>();
         _rb = GetComponent<Rigidbody>();
         _rb.useGravity = false;
     }
 
     private void Start()
     {
+        //assigns projectile a random food type.
+        foodType = FoodEnums.GetRandomFood();
+
+        //assigns project the matching sprite. 
+        _xd.sprite = SpriteDataManager.instance.GetFoodSpriteFromList((int) foodType);
+
         StartCoroutine(DestroyProjectileTimer(_destroyAfterSeconds));
         MoveProjectile();
     }
@@ -33,7 +42,7 @@ public class Projectile : MonoBehaviour
     /// </summary>
     private void MoveProjectile()
     {
-        _rb.AddForce(transform.forward * _velocity, ForceMode.Impulse);
+        _rb?.AddForce(transform.forward * _velocity, ForceMode.Impulse);
     }
 
     /// <summary>

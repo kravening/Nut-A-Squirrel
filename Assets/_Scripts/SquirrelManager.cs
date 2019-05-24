@@ -45,11 +45,11 @@ public class SquirrelManager : MonoBehaviour
     /// a variable to keep the time for when a new squirrel will show up.
     /// </summary>
     private float _currentNewSquirrelTime = 0;
-    
-    public FoodEnums FoodList;
-    [HideInInspector] public Enum _ingredient;
-    
-  
+
+    /// <summary>
+    /// a boolean that tells this manager if the game is paused or not.
+    /// </summary>
+    private bool _isGameRunning = false;
 
     private void Awake()
     {
@@ -62,12 +62,17 @@ public class SquirrelManager : MonoBehaviour
             instance = this;
         }
         
-        _ingredient = FoodList.GetRandomFood();
         // if there are more max squirrels showing in the squirrels list, set max squirrels showing to the amount of elements in the list to prevent index errors.
         if (_maxSquirrelsShowing > squirrels.Count)
         {
             _maxSquirrelsShowing = squirrels.Count;
         }
+    }
+
+    private void Start()
+    {
+        GameTimeManager.instance.GameStartedEvent += ResumeSpawning;
+        GameTimeManager.instance.GameEndedEvent += PauseSpawning;
     }
 
 
@@ -82,6 +87,11 @@ public class SquirrelManager : MonoBehaviour
 
     private void Update()
     {
+        if (!_isGameRunning)// don't execute any update logic if the game isn't running
+        {
+            return;
+        }
+
         UpdateTimer();
         CheckToSeeIfSquirrelWillSpawn();
     }
@@ -155,6 +165,22 @@ public class SquirrelManager : MonoBehaviour
     public void SquirrelHiding()
     {
         _currentShowingSquirrels--;
+    }
+
+    /// <summary>
+    /// pauses the spawning of squirrels
+    /// </summary>
+    private void PauseSpawning()
+    {
+        _isGameRunning = true;
+    }
+
+    /// <summary>
+    /// resumes the spawning of squirrels
+    /// </summary>
+    private void ResumeSpawning()
+    {
+        _isGameRunning = false;
     }
 
 

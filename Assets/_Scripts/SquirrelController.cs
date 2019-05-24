@@ -17,9 +17,11 @@ public class SquirrelController : MonoBehaviour
     // this is a reference to the animator component on this object
     private Animator _animator;
 
+    private FoodEnums.FoodType _preferredFoodType;
 
     public void Awake()
     {
+        _preferredFoodType = FoodEnums.GetRandomFood();
         _animator = GetComponent<Animator>();
     }
 
@@ -43,10 +45,10 @@ public class SquirrelController : MonoBehaviour
     private IEnumerator ShowSquirrelRoutine()
     {
         treeRuffleBehaviour?.RuffleTree();
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
 
         _animator?.SetBool("IsShowing", true);
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
 
         //if squirrel isn't already hidden or starting to hide.
         if (_isSquirrelHidden == false && _isHiding == false)
@@ -74,5 +76,16 @@ public class SquirrelController : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         _isSquirrelHidden = true;
         _isHiding = false;
+    }
+
+    public void ThrowNut()
+    {
+        //throw nut here
+        Hide();
+    }
+
+    public FoodEnums.FoodType GetPrefferedFoodType()
+    {
+        return _preferredFoodType;
     }
 }
