@@ -7,8 +7,8 @@ using UnityEngine;
 /// </summary>
 public class ProjectileManager : MonoBehaviour
 {
-    public List<GameObject> projectiles = new List<GameObject>();// all the projectile objects available
-    private List<GameObject> _projectileQueue =  new List<GameObject>();// queue for next projectile 
+    public Projectile projectiles;// all the projectile objects available
+    private List<Projectile> _projectileQueue =  new List<Projectile>();// queue for next projectile 
     private int _queueSize = 4;
 
     private void Start()
@@ -23,7 +23,7 @@ public class ProjectileManager : MonoBehaviour
     /// <returns></returns>
     public GameObject GetProjectileFromQueue()
     {
-        GameObject projectileToShoot = _projectileQueue[0];
+        GameObject projectileToShoot = _projectileQueue[0].gameObject;
         _projectileQueue.RemoveAt(0);
         AddProjectileToQueue();
 
@@ -46,6 +46,11 @@ public class ProjectileManager : MonoBehaviour
     /// </summary>
     private void AddProjectileToQueue()
     {
-        _projectileQueue.Add(projectiles?[Random.Range(0, projectiles.Count)]);
+        Projectile newProjectile = projectiles;
+
+        //assigns projectile a random food type.
+        newProjectile.foodType = FoodEnums.GetRandomFood();
+
+        _projectileQueue.Add(newProjectile);
     }
 }
