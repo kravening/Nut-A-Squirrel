@@ -45,11 +45,6 @@ public class SquirrelManager : MonoBehaviour
     /// a variable to keep the time for when a new squirrel will show up.
     /// </summary>
     private float _currentNewSquirrelTime = 0;
-    
-    public FoodEnums FoodList;
-    [HideInInspector] public Enum _ingredient;
-    
-  
 
     /// <summary>
     /// a boolean that tells this manager if the game is paused or not.
@@ -67,7 +62,6 @@ public class SquirrelManager : MonoBehaviour
             instance = this;
         }
         
-        _ingredient = FoodList.GetRandomFood();
         // if there are more max squirrels showing in the squirrels list, set max squirrels showing to the amount of elements in the list to prevent index errors.
         if (_maxSquirrelsShowing > squirrels.Count)
         {

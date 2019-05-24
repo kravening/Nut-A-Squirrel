@@ -1,25 +1,18 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using Random = UnityEngine.Random;
+﻿using Random = UnityEngine.Random;
 
 
-public class FoodEnums : MonoBehaviour
+public class FoodEnums
 {
-    private static Food _food;
     
-    public enum Food
+    public enum FoodType
     {
         Nut,
         Apple,
         Cranberry
     }
 
-    public Food GetRandomFood()
+    public static FoodType GetRandomFood()
     {
-        _food = (Food)Random.Range(0, 3);
-        return _food;
+        return (FoodType)Random.Range(0, 2);
     }
-
 }

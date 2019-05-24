@@ -17,28 +17,30 @@ public class SquirrelCollision : MonoBehaviour
 
     private void OnCollisionEnter(Collision collider)
     {
-        if (collider.transform.tag != "Nut")
+        if (collider.gameObject?.GetComponent<Projectile>()?.foodType ==
+            _squirrelController?.GetPrefferedFoodType())
         {
-            return;
-        }
-
-        if (collider.gameObject.GetComponent<Projectile>()._ingredient ==
-            SquirrelManager.instance._ingredient)
-        {
-            OnSquirrelHit();
+            OnSquirrelHit(true);
         }
         else
         {
-            Highscore.instance.DecrementScore(100);
+            OnSquirrelHit(false);
         }
     }
 
     /// <summary>
     /// if the colliding object is a nut this function gets called and calls for the squirrel to hide, and increments the score.
     /// </summary>
-    public void OnSquirrelHit()
+    public void OnSquirrelHit(bool isNutAccordingToPreference)
     {
-        Highscore.instance.IncrementScore(100);
-        _squirrelController.Hide();
+        if (isNutAccordingToPreference)
+        {
+            Highscore.instance?.IncrementScore(100);
+            _squirrelController?.Hide();
+        }
+        else
+        {
+            _squirrelController?.ThrowNut();
+        }
     }
 }
