@@ -11,7 +11,6 @@ public class GameworldPlacer : MonoBehaviour
     {
         //maxScale = transform.localScale;
         //transform.localScale = Vector3.zero;
-        //Time.timeScale = 0;
 
         GameTimeManager.instance.GameStartedEvent += PlaceWorld;
     }
@@ -23,8 +22,6 @@ public class GameworldPlacer : MonoBehaviour
 
     public void PlaceWorld()
     {
-        //Time.timeScale = 1;
         //transform.localScale = maxScale;
-
     }
 }
