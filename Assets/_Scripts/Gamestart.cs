@@ -31,9 +31,9 @@ namespace GameStart
 
         private void OnCollisionEnter(Collision collision)
         {
-            if (collision.gameObject.CompareTag("Character"))
+            if (collision.gameObject.CompareTag("Nut"))
             {
-                props[2].SetActive(false);
+                props[0].SetActive(false);
                 TreeRuffleBehaviour.Instance.TreeFlip();
             }
         }

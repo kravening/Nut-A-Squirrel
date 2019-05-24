@@ -10,21 +10,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="645">
+              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding>
-                <marker date="1558445656732" expanded="true" signature="6:128" ph="..." />
-                <marker date="1558445656732" expanded="true" signature="149:1290" ph="{...}" />
-                <marker date="1558445656732" expanded="true" signature="194:1288" ph="{...}" />
-                <marker date="1558445656732" expanded="true" signature="441:543" ph="{...}" />
-                <marker date="1558445656732" expanded="true" signature="617:814" ph="{...}" />
-                <marker date="1558445656732" expanded="true" signature="676:804" ph="{...}" />
-                <marker date="1558445656732" expanded="true" signature="874:1084" ph="{...}" />
-                <marker date="1558445656732" expanded="true" signature="946:1074" ph="{...}" />
-                <marker date="1558445656732" expanded="true" signature="1117:1282" ph="{...}" />
+                <marker date="1558685485585" expanded="false" signature="6:128" ph="..." />
+                <marker date="1558685485585" expanded="true" signature="149:1284" ph="{...}" />
+                <marker date="1558685485585" expanded="true" signature="194:1282" ph="{...}" />
+                <marker date="1558685485585" expanded="true" signature="441:543" ph="{...}" />
+                <marker date="1558685485585" expanded="true" signature="617:814" ph="{...}" />
+                <marker date="1558685485585" expanded="true" signature="676:804" ph="{...}" />
+                <marker date="1558685485585" expanded="true" signature="874:1078" ph="{...}" />
+                <marker date="1558685485585" expanded="true" signature="940:1068" ph="{...}" />
+                <marker date="1558685485585" expanded="true" signature="1111:1276" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UIController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <marker date="1558696552137" expanded="true" signature="6:124" ph="..." />
+                <marker date="1558696552137" expanded="true" signature="167:426" ph="{...}" />
+                <marker date="1558696552137" expanded="true" signature="291:317" ph="{...}" />
+                <marker date="1558696552137" expanded="true" signature="357:424" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -33,10 +48,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="420">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding>
-                <marker date="1558445526939" expanded="true" signature="6:95" ph="..." />
+                <marker date="1558445526939" expanded="false" signature="6:95" ph="..." />
                 <marker date="1558445526939" expanded="true" signature="116:896" ph="{...}" />
                 <marker date="1558445526939" expanded="true" signature="171:894" ph="{...}" />
                 <marker date="1558445526939" expanded="true" signature="440:489" ph="{...}" />
@@ -52,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
-              <caret line="122" selection-start-line="122" selection-end-line="122" />
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
               <folding>
                 <marker date="1558443826700" expanded="false" signature="6:78" ph="..." />
                 <marker date="1558443826700" expanded="true" signature="124:4115" ph="{...}" />
@@ -93,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Managers/FeedBackManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
+            <state relative-caret-position="570">
               <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding>
                 <element signature="e#0#68#0" expanded="true" />
@@ -105,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="165">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <marker date="1557921606596" expanded="false" signature="6:95" ph="..." />
@@ -125,8 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelCollision.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="375">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <marker date="1557910853575" expanded="false" signature="6:78" ph="..." />
                 <marker date="1557910853575" expanded="true" signature="126:554" ph="{...}" />
@@ -148,6 +163,7 @@
     <setting file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Controllers/ARController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Managers/FeedBackManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Visual/FadeEffect/SceneContoller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UIController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -168,12 +184,15 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/SquirrelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UIController.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
     <option name="width" value="1920" />
-    <option name="height" value="1047" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
@@ -241,11 +260,12 @@
       <workItem from="1557390751492" duration="14085000" />
       <workItem from="1557833471737" duration="1491000" />
       <workItem from="1558424466852" duration="13506000" />
+      <workItem from="1558683315807" duration="7324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54442000" />
+    <option name="totallyTimeSpent" value="61766000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,10 +277,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1047" extended-state="1" />
+    <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14247312" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21682848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -385,9 +405,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <marker date="1558445526939" expanded="false" signature="6:95" ph="..." />
+            <marker date="1558445526939" expanded="true" signature="116:896" ph="{...}" />
+            <marker date="1558445526939" expanded="true" signature="171:894" ph="{...}" />
+            <marker date="1558445526939" expanded="true" signature="440:489" ph="{...}" />
+            <marker date="1558445526939" expanded="true" signature="523:666" ph="{...}" />
+            <marker date="1558445526939" expanded="true" signature="703:767" ph="{...}" />
+            <marker date="1558445526939" expanded="true" signature="799:888" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../ab-toolbox-unity/AB_toolbox/Assets/Scripts/Managers/FeedBackManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
+        <state relative-caret-position="570">
           <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
           <folding>
             <element signature="e#0#68#0" expanded="true" />
@@ -395,24 +431,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelCollision.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <marker date="1557910853575" expanded="false" signature="6:78" ph="..." />
-            <marker date="1557910853575" expanded="true" signature="126:554" ph="{...}" />
-            <marker date="1557910853575" expanded="true" signature="206:295" ph="{...}" />
-            <marker date="1557910853575" expanded="true" signature="349:471" ph="{...}" />
-            <marker date="1557910853575" expanded="true" signature="400:440" ph="{...}" />
-            <marker date="1557910853575" expanded="true" signature="504:552" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="165">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <marker date="1557921606596" expanded="false" signature="6:95" ph="..." />
@@ -428,10 +449,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelCollision.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <marker date="1557910853575" expanded="false" signature="6:78" ph="..." />
+            <marker date="1557910853575" expanded="true" signature="126:554" ph="{...}" />
+            <marker date="1557910853575" expanded="true" signature="206:295" ph="{...}" />
+            <marker date="1557910853575" expanded="true" signature="349:471" ph="{...}" />
+            <marker date="1557910853575" expanded="true" signature="400:440" ph="{...}" />
+            <marker date="1557910853575" expanded="true" signature="504:552" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <marker date="1558685485585" expanded="false" signature="6:128" ph="..." />
+            <marker date="1558685485585" expanded="true" signature="149:1284" ph="{...}" />
+            <marker date="1558685485585" expanded="true" signature="194:1282" ph="{...}" />
+            <marker date="1558685485585" expanded="true" signature="441:543" ph="{...}" />
+            <marker date="1558685485585" expanded="true" signature="617:814" ph="{...}" />
+            <marker date="1558685485585" expanded="true" signature="676:804" ph="{...}" />
+            <marker date="1558685485585" expanded="true" signature="874:1078" ph="{...}" />
+            <marker date="1558685485585" expanded="true" signature="940:1068" ph="{...}" />
+            <marker date="1558685485585" expanded="true" signature="1111:1276" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
           <folding>
             <marker date="1558443826700" expanded="false" signature="6:78" ph="..." />
             <marker date="1558443826700" expanded="true" signature="124:4115" ph="{...}" />
@@ -468,36 +522,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UIController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
-            <marker date="1558445526939" expanded="true" signature="6:95" ph="..." />
-            <marker date="1558445526939" expanded="true" signature="116:896" ph="{...}" />
-            <marker date="1558445526939" expanded="true" signature="171:894" ph="{...}" />
-            <marker date="1558445526939" expanded="true" signature="440:489" ph="{...}" />
-            <marker date="1558445526939" expanded="true" signature="523:666" ph="{...}" />
-            <marker date="1558445526939" expanded="true" signature="703:767" ph="{...}" />
-            <marker date="1558445526939" expanded="true" signature="799:888" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <marker date="1558445656732" expanded="true" signature="6:128" ph="..." />
-            <marker date="1558445656732" expanded="true" signature="149:1290" ph="{...}" />
-            <marker date="1558445656732" expanded="true" signature="194:1288" ph="{...}" />
-            <marker date="1558445656732" expanded="true" signature="441:543" ph="{...}" />
-            <marker date="1558445656732" expanded="true" signature="617:814" ph="{...}" />
-            <marker date="1558445656732" expanded="true" signature="676:804" ph="{...}" />
-            <marker date="1558445656732" expanded="true" signature="874:1084" ph="{...}" />
-            <marker date="1558445656732" expanded="true" signature="946:1074" ph="{...}" />
-            <marker date="1558445656732" expanded="true" signature="1117:1282" ph="{...}" />
+            <marker date="1558696552137" expanded="true" signature="6:124" ph="..." />
+            <marker date="1558696552137" expanded="true" signature="167:426" ph="{...}" />
+            <marker date="1558696552137" expanded="true" signature="291:317" ph="{...}" />
+            <marker date="1558696552137" expanded="true" signature="357:424" ph="{...}" />
           </folding>
         </state>
       </provider>
