@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Net.Sockets;
 using UnityEngine;
 
 /// <summary>
@@ -9,11 +10,18 @@ public class Shooting : MonoBehaviour
     public Camera _arCamera;
     public ProjectileManager projectileManager;
     [SerializeField]private float _cooldown = 1f;
-    private bool _canShoot;
+    private bool _canShoot = false;
 
     private void Awake()
     {
-        _canShoot = true;
+        StartCoroutine(StartCooldown(_cooldown));
+
+        if (_arCamera)
+        {
+            return;
+        }
+
+        _arCamera = Camera.main;
     }
 
     private void Update()
@@ -28,7 +36,7 @@ public class Shooting : MonoBehaviour
     {
         if (Input.touches.Length != 0 && _canShoot )
         {
-            GameObject bullet = Instantiate(projectileManager?.GetProjectileFromQueue(), _arCamera.transform.position, _arCamera.transform.rotation);
+            GameObject bullet = Instantiate(projectileManager?.GetProjectileFromQueue().gameObject, _arCamera.transform.position + (Vector3.forward * 1.5f), _arCamera.transform.rotation);
             bullet.transform.parent = this.transform;
             StartCoroutine(StartCooldown(_cooldown));
         }

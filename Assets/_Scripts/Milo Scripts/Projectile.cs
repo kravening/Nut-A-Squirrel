@@ -42,6 +42,13 @@ public class Projectile : MonoBehaviour
         _rb?.AddForce(transform.forward * _velocity, ForceMode.Impulse);
     }
 
+    public void MoveTowardsPlayer()
+    {
+        _rb.velocity = Vector3.zero;
+        transform.LookAt(Camera.main.transform);
+        MoveProjectile();
+    }
+
     /// <summary>
     /// when this function gets called the projectile will be destroyed.
     /// </summary>
@@ -59,5 +66,11 @@ public class Projectile : MonoBehaviour
     {
         yield return new WaitForSeconds(timeTillDestruction);
         DestroyProjectile();
+    }
+
+    public void ResetTimer()
+    {
+        StopCoroutine(DestroyProjectileTimer(_destroyAfterSeconds));
+        StartCoroutine(DestroyProjectileTimer(_destroyAfterSeconds));
     }
 }
