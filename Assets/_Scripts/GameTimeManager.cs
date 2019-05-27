@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameTimeManager : MonoBehaviour
@@ -43,6 +42,8 @@ public class GameTimeManager : MonoBehaviour
     /// </summary>
     private float _roundTime = 60;
 
+    private bool once = true;
+
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -74,6 +75,15 @@ public class GameTimeManager : MonoBehaviour
         StartCoroutine(GameTimer());
     }
 
+    private void LateUpdate()
+    {
+        if (once)
+        {
+            once = false;
+            StartGame();
+        }
+    }
+
     /// <summary>
     /// this pauses the game timer and time based behaviours resulting in the game staying stationary, besides maybe the shaders.
     /// </summary>
@@ -102,7 +112,6 @@ public class GameTimeManager : MonoBehaviour
         {
             
             currentTime += Time.deltaTime;
-            Debug.Log(currentTime);
             yield return new WaitForSeconds(0);
         }
 

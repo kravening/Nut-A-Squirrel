@@ -172,7 +172,7 @@ public class SquirrelManager : MonoBehaviour
     /// </summary>
     private void PauseSpawning()
     {
-        _isGameRunning = true;
+        _isGameRunning = false;
     }
 
     /// <summary>
@@ -180,7 +180,7 @@ public class SquirrelManager : MonoBehaviour
     /// </summary>
     private void ResumeSpawning()
     {
-        _isGameRunning = false;
+        _isGameRunning = true;
     }
 
 
