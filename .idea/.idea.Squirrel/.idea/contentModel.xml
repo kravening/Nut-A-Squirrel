@@ -31,7 +31,11 @@
           </e>
         </e>
         <e p="_Scripts" t="Include">
+          <e p="GameTimeManager.cs" t="Include" />
+          <e p="GameworldPlacer.cs" t="Include" />
           <e p="Milo Scripts" t="Include">
+            <e p="DisplayPlayerIngredient.cs" t="Include" />
+            <e p="DisplaySquirrelIngredient.cs" t="Include" />
             <e p="FoodEnums.cs" t="Include" />
             <e p="Highscore.cs" t="Include" />
             <e p="Projectile.cs" t="Include" />
@@ -947,6 +951,7 @@
             <e p="TransparentUnlit.shader" t="Include" />
           </e>
         </e>
+        <e p="SpriteDataManager.cs" t="Include" />
         <e p="StreamingAssets" t="Include">
           <e p="Vuforia" t="Include">
             <e p="Johnny_ARcade.xml" t="Include" />

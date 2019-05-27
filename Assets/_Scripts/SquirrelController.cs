@@ -17,7 +17,7 @@ public class SquirrelController : MonoBehaviour
     // this is a reference to the animator component on this object
     private Animator _animator;
 
-    private FoodEnums.FoodType _preferredFoodType;
+    public FoodEnums.FoodType _preferredFoodType;
 
     public void Awake()
     {
