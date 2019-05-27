@@ -9,14 +9,36 @@ public class ProjectileManager : MonoBehaviour
 {
     public Projectile projectiles;// all the projectile objects available
     public List<Projectile> _projectileQueue =  new List<Projectile>();// queue for next projectile 
+
     private int _queueSize = 4;
+
+    public static ProjectileManager instance;
+
+    private void Awake()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            instance = this;
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (instance == this)
+        {
+            instance = null;
+        }
+    }
 
     private void Start()
     {
         InitializeProjectileQueue();
         GetProjectileFromQueue();
     }
-    
     /// <summary>
     /// this function takes care of the initial setup of the queue.
     /// </summary>
@@ -29,12 +51,11 @@ public class ProjectileManager : MonoBehaviour
     }
     
     /// <summary>
-    /// this function adds a new projectile to the queue, picked randomly from the possible types of projectiles.
+    /// this function adds a new projectile to the queue, picked randomly from the possible types of projectile.
     /// </summary>
     private void AddProjectileToQueue()
     {
-        Projectile newProjectile = projectiles;
-
+        Projectile newProjectile = projectile;
         //assigns projectile a random food type.
         newProjectile.foodType = FoodEnums.GetRandomFood();
 
@@ -55,6 +76,13 @@ public class ProjectileManager : MonoBehaviour
         return projectileToShoot;
     }
     
-    
-    
+    public Projectile GetProjectileWithSetIngredientType(FoodEnums.FoodType ingredientType)
+    {
+        _projectileQueue.Add(projectile);
+        _projectileQueue[_projectileQueue.Count - 1].foodType = ingredientType;
+        Projectile newProjectile = _projectileQueue[_projectileQueue.Count - 1];
+        _projectileQueue.RemoveAt(_projectileQueue.Count - 1);
+
+        return newProjectile;
+    }
 }

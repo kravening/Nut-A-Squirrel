@@ -1,9 +1,8 @@
-﻿using Random = UnityEngine.Random;
+﻿using UnityEngine;
 
 
 public class FoodEnums
 {
-    
     public enum FoodType
     {
         Nut,

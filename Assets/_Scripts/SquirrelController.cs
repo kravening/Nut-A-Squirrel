@@ -60,7 +60,7 @@ public class SquirrelController : MonoBehaviour
     /// <summary>
     /// this function calls for the squirrel to hide.
     /// </summary>
-    public void Hide()
+    private void Hide()
     {
         SquirrelManager.instance?.SquirrelHiding();
         StartCoroutine(HideSquirrelRoutine());
@@ -78,13 +78,40 @@ public class SquirrelController : MonoBehaviour
         _isHiding = false;
     }
 
-    public void ThrowNut()
-    {
-        //throw nut here
+    private IEnumerator ThrowIngredientRoutine(Projectile incomingIngredient)
+    { 
+        Projectile newProjectile = ProjectileManager.instance.GetProjectileWithSetIngredientType(incomingIngredient.foodType);
+        newProjectile.transform.position = incomingIngredient.transform.position;
+        newProjectile.transform.LookAt(Camera.main.transform);
+
+        Instantiate(newProjectile.gameObject);
+
+        Destroy(incomingIngredient.gameObject);
+
+        yield return new WaitForSeconds(0.25f);
         Hide();
     }
 
-    public FoodEnums.FoodType GetPrefferedFoodType()
+    private IEnumerator EatIngredientRoutine()
+    {
+        Highscore.instance?.IncrementScore(100);
+        // start animation
+        yield return new WaitForSeconds(0.5f);
+        Hide();
+    }
+
+    public void ThrowIngredient(Projectile ingredient)
+    {
+        StartCoroutine(ThrowIngredientRoutine(ingredient));
+        Hide();
+    }
+
+    public void EatIngredient()
+    {
+        StartCoroutine(EatIngredientRoutine());
+    }
+
+    public FoodEnums.FoodType GetPreferredFoodType()
     {
         return _preferredFoodType;
     }

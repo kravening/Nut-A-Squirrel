@@ -36,28 +36,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Projectile.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/FoodEnums.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-227">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="75">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding>
-                <marker date="1558959788681" expanded="false" signature="6:92" ph="..." />
-                <marker date="1558959788681" expanded="true" signature="95:226" ph="/// when this class is added to an object it will move straight forward in its set direction over time ... " />
-                <marker date="1558959788681" expanded="true" signature="304:1901" ph="{...}" />
-                <marker date="1558959788681" expanded="true" signature="550:681" ph="{...}" />
-                <marker date="1558959788681" expanded="true" signature="707:1047" ph="{...}" />
-                <marker date="1558959788681" expanded="true" signature="1053:1198" ph="/// this function adds force to the rigidbody making the object this class is on move in it's set direction. ... " />
-                <marker date="1558959788681" expanded="true" signature="1232:1317" ph="{...}" />
-                <marker date="1558959788681" expanded="true" signature="1323:1428" ph="/// when this function gets called the projectile will be destroyed. ... " />
-                <marker date="1558959788681" expanded="true" signature="1465:1511" ph="{...}" />
-                <marker date="1558959788681" expanded="true" signature="1521:1722" ph="/// this routine keeps track of when the projectile needs to be destroyed, time wise. ... " />
-                <marker date="1558959788681" expanded="true" signature="1796:1899" ph="{...}" />
+                <marker date="1558963788659" expanded="true" signature="59:252" ph="{...}" />
+                <marker date="1558963788659" expanded="true" signature="91:149" ph="{...}" />
+                <marker date="1558963788659" expanded="true" signature="193:250" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Projectile.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-257">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <folding>
+                <marker date="1558963848343" expanded="false" signature="6:92" ph="..." />
+                <marker date="1558963848343" expanded="true" signature="95:226" ph="/// when this class is added to an object it will move straight forward in its set direction over time ... " />
+                <marker date="1558963848343" expanded="true" signature="304:1898" ph="{...}" />
+                <marker date="1558963848343" expanded="true" signature="547:678" ph="{...}" />
+                <marker date="1558963848343" expanded="true" signature="704:1044" ph="{...}" />
+                <marker date="1558963848343" expanded="true" signature="1050:1195" ph="/// this function adds force to the rigidbody making the object this class is on move in it's set direction. ... " />
+                <marker date="1558963848343" expanded="true" signature="1229:1314" ph="{...}" />
+                <marker date="1558963848343" expanded="true" signature="1320:1425" ph="/// when this function gets called the projectile will be destroyed. ... " />
+                <marker date="1558963848343" expanded="true" signature="1462:1508" ph="{...}" />
+                <marker date="1558963848343" expanded="true" signature="1518:1719" ph="/// this routine keeps track of when the projectile needs to be destroyed, time wise. ... " />
+                <marker date="1558963848343" expanded="true" signature="1793:1896" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/DisplayPlayerIngredient.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
@@ -87,22 +101,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Shooting.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="32" column="53" lean-forward="true" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+            <state relative-caret-position="390">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
               <folding>
-                <marker date="1558960538572" expanded="false" signature="6:44" ph="..." />
-                <marker date="1558960538572" expanded="true" signature="46:173" ph="/// this class houses the behaviour needed to spawn a gameobject to shoot off into the game world. ... " />
-                <marker date="1558960538572" expanded="true" signature="211:1330" ph="{...}" />
-                <marker date="1558960538572" expanded="true" signature="394:432" ph="{...}" />
-                <marker date="1558960538572" expanded="true" signature="459:488" ph="{...}" />
-                <marker date="1558960538572" expanded="true" signature="498:576" ph="/// call this function to shoot a bullet. ... " />
-                <marker date="1558960538572" expanded="true" signature="601:979" ph="{...}" />
-                <marker date="1558960538572" expanded="true" signature="695:973" ph="{...}" />
-                <marker date="1558960538572" expanded="true" signature="984:1145" ph="/// this routine manages the cooldown for the bullet ... " />
-                <marker date="1558960538572" expanded="true" signature="1203:1323" ph="{...}" />
+                <marker date="1558963882172" expanded="false" signature="6:44" ph="..." />
+                <marker date="1558963882172" expanded="true" signature="46:173" ph="/// this class houses the behaviour needed to spawn a gameobject to shoot off into the game world. ... " />
+                <marker date="1558963882172" expanded="true" signature="211:1295" ph="{...}" />
+                <marker date="1558963882172" expanded="true" signature="394:432" ph="{...}" />
+                <marker date="1558963882172" expanded="true" signature="459:488" ph="{...}" />
+                <marker date="1558963882172" expanded="true" signature="498:576" ph="/// call this function to shoot a bullet. ... " />
+                <marker date="1558963882172" expanded="true" signature="601:944" ph="{...}" />
+                <marker date="1558963882172" expanded="true" signature="660:938" ph="{...}" />
+                <marker date="1558963882172" expanded="true" signature="949:1110" ph="/// this routine manages the cooldown for the bullet ... " />
+                <marker date="1558963882172" expanded="true" signature="1168:1288" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -139,12 +153,12 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/SquirrelCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/DisplayIngredient.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Projectile.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Shooting.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/FoodEnums.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/ProjectileManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/DisplayPlayerIngredient.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/DisplaySquirrelIngredient.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/FoodEnums.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Shooting.cs" />
       </list>
     </option>
   </component>
@@ -232,12 +246,12 @@
       <workItem from="1558100627875" duration="248000" />
       <workItem from="1558427958446" duration="11518000" />
       <workItem from="1558599072505" duration="500000" />
-      <workItem from="1558949256730" duration="10719000" />
+      <workItem from="1558949256730" duration="10990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48027000" />
+    <option name="totallyTimeSpent" value="48298000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -249,7 +263,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49716714" weight="0.26778522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -434,57 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Shooting.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="32" column="53" lean-forward="true" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-          <folding>
-            <marker date="1558960538572" expanded="false" signature="6:44" ph="..." />
-            <marker date="1558960538572" expanded="true" signature="46:173" ph="/// this class houses the behaviour needed to spawn a gameobject to shoot off into the game world. ... " />
-            <marker date="1558960538572" expanded="true" signature="211:1330" ph="{...}" />
-            <marker date="1558960538572" expanded="true" signature="394:432" ph="{...}" />
-            <marker date="1558960538572" expanded="true" signature="459:488" ph="{...}" />
-            <marker date="1558960538572" expanded="true" signature="498:576" ph="/// call this function to shoot a bullet. ... " />
-            <marker date="1558960538572" expanded="true" signature="601:979" ph="{...}" />
-            <marker date="1558960538572" expanded="true" signature="695:973" ph="{...}" />
-            <marker date="1558960538572" expanded="true" signature="984:1145" ph="/// this routine manages the cooldown for the bullet ... " />
-            <marker date="1558960538572" expanded="true" signature="1203:1323" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/FoodEnums.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <marker date="1558961137531" expanded="true" signature="59:247" ph="{...}" />
-            <marker date="1558961137531" expanded="true" signature="86:144" ph="{...}" />
-            <marker date="1558961137531" expanded="true" signature="188:245" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Projectile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-227">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <marker date="1558959788681" expanded="false" signature="6:92" ph="..." />
-            <marker date="1558959788681" expanded="true" signature="95:226" ph="/// when this class is added to an object it will move straight forward in its set direction over time ... " />
-            <marker date="1558959788681" expanded="true" signature="304:1901" ph="{...}" />
-            <marker date="1558959788681" expanded="true" signature="550:681" ph="{...}" />
-            <marker date="1558959788681" expanded="true" signature="707:1047" ph="{...}" />
-            <marker date="1558959788681" expanded="true" signature="1053:1198" ph="/// this function adds force to the rigidbody making the object this class is on move in it's set direction. ... " />
-            <marker date="1558959788681" expanded="true" signature="1232:1317" ph="{...}" />
-            <marker date="1558959788681" expanded="true" signature="1323:1428" ph="/// when this function gets called the projectile will be destroyed. ... " />
-            <marker date="1558959788681" expanded="true" signature="1465:1511" ph="{...}" />
-            <marker date="1558959788681" expanded="true" signature="1521:1722" ph="/// this routine keeps track of when the projectile needs to be destroyed, time wise. ... " />
-            <marker date="1558959788681" expanded="true" signature="1796:1899" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/ProjectileManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -527,6 +491,57 @@
             <marker date="1558963688590" expanded="true" signature="94:616" ph="{...}" />
             <marker date="1558963688590" expanded="true" signature="221:357" ph="{...}" />
             <marker date="1558963688590" expanded="true" signature="395:614" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/FoodEnums.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <marker date="1558963788659" expanded="true" signature="59:252" ph="{...}" />
+            <marker date="1558963788659" expanded="true" signature="91:149" ph="{...}" />
+            <marker date="1558963788659" expanded="true" signature="193:250" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Projectile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-257">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <marker date="1558963848343" expanded="false" signature="6:92" ph="..." />
+            <marker date="1558963848343" expanded="true" signature="95:226" ph="/// when this class is added to an object it will move straight forward in its set direction over time ... " />
+            <marker date="1558963848343" expanded="true" signature="304:1898" ph="{...}" />
+            <marker date="1558963848343" expanded="true" signature="547:678" ph="{...}" />
+            <marker date="1558963848343" expanded="true" signature="704:1044" ph="{...}" />
+            <marker date="1558963848343" expanded="true" signature="1050:1195" ph="/// this function adds force to the rigidbody making the object this class is on move in it's set direction. ... " />
+            <marker date="1558963848343" expanded="true" signature="1229:1314" ph="{...}" />
+            <marker date="1558963848343" expanded="true" signature="1320:1425" ph="/// when this function gets called the projectile will be destroyed. ... " />
+            <marker date="1558963848343" expanded="true" signature="1462:1508" ph="{...}" />
+            <marker date="1558963848343" expanded="true" signature="1518:1719" ph="/// this routine keeps track of when the projectile needs to be destroyed, time wise. ... " />
+            <marker date="1558963848343" expanded="true" signature="1793:1896" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Shooting.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <marker date="1558963882172" expanded="false" signature="6:44" ph="..." />
+            <marker date="1558963882172" expanded="true" signature="46:173" ph="/// this class houses the behaviour needed to spawn a gameobject to shoot off into the game world. ... " />
+            <marker date="1558963882172" expanded="true" signature="211:1295" ph="{...}" />
+            <marker date="1558963882172" expanded="true" signature="394:432" ph="{...}" />
+            <marker date="1558963882172" expanded="true" signature="459:488" ph="{...}" />
+            <marker date="1558963882172" expanded="true" signature="498:576" ph="/// call this function to shoot a bullet. ... " />
+            <marker date="1558963882172" expanded="true" signature="601:944" ph="{...}" />
+            <marker date="1558963882172" expanded="true" signature="660:938" ph="{...}" />
+            <marker date="1558963882172" expanded="true" signature="949:1110" ph="/// this routine manages the cooldown for the bullet ... " />
+            <marker date="1558963882172" expanded="true" signature="1168:1288" ph="{...}" />
           </folding>
         </state>
       </provider>

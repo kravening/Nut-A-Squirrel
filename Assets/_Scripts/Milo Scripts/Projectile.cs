@@ -27,9 +27,6 @@ public class Projectile : MonoBehaviour
 
     private void Start()
     {
-        //assigns projectile a random food type.
-        foodType = FoodEnums.GetRandomFood();
-
         //assigns project the matching sprite. 
         _xd.sprite = SpriteDataManager.instance.GetFoodSpriteFromList((int) foodType);
 
@@ -43,6 +40,13 @@ public class Projectile : MonoBehaviour
     private void MoveProjectile()
     {
         _rb?.AddForce(transform.forward * _velocity, ForceMode.Impulse);
+    }
+
+    public void MoveTowardsPlayer()
+    {
+        _rb.velocity = Vector3.zero;
+        transform.LookAt(Camera.main.transform);
+        MoveProjectile();
     }
 
     /// <summary>
@@ -62,5 +66,11 @@ public class Projectile : MonoBehaviour
     {
         yield return new WaitForSeconds(timeTillDestruction);
         DestroyProjectile();
+    }
+
+    public void ResetTimer()
+    {
+        StopCoroutine(DestroyProjectileTimer(_destroyAfterSeconds));
+        StartCoroutine(DestroyProjectileTimer(_destroyAfterSeconds));
     }
 }
