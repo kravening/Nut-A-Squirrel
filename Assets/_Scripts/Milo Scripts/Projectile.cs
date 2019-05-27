@@ -27,9 +27,6 @@ public class Projectile : MonoBehaviour
 
     private void Start()
     {
-        //assigns projectile a random food type.
-        foodType = FoodEnums.GetRandomFood();
-
         //assigns project the matching sprite. 
         _xd.sprite = SpriteDataManager.instance.GetFoodSpriteFromList((int) foodType);
 
