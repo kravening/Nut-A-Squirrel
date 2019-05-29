@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -8763282865282270999}
   m_Layer: 0
   m_Name: projectile
-  m_TagString: Untagged
+  m_TagString: Nut
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,9 +27,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3142717725459941812}
-  m_LocalRotation: {x: -0.0003159093, y: 0.9981791, z: 0.06009124, w: 0.0052475873}
-  m_LocalPosition: {x: -0.027316557, y: 4.58125, z: -1.4188659}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -62,8 +62,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a4852ca5a0df0248bfc57d006d3240a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _velocity: 20
-  _destroyAfterSeconds: 2.5
+  _velocity: 10
+  _destroyAfterSeconds: 5
   foodType: 0
 --- !u!212 &1577542387235741877
 SpriteRenderer:

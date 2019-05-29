@@ -36,7 +36,7 @@ public class Shooting : MonoBehaviour
     {
         if (Input.touches.Length != 0 && _canShoot )
         {
-            GameObject bullet = Instantiate(projectileManager?.GetProjectileFromQueue().gameObject, _arCamera.transform.position + (Vector3.forward * 1.5f), _arCamera.transform.rotation);
+            GameObject bullet = Instantiate(projectileManager?.GetProjectileFromQueue().gameObject, _arCamera.transform.position + (_arCamera.transform.forward * 1), _arCamera.transform.rotation);
             bullet.transform.parent = this.transform;
             StartCoroutine(StartCooldown(_cooldown));
         }

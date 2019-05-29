@@ -40,9 +40,7 @@ public class GameTimeManager : MonoBehaviour
     /// <summary>
     /// max time of any given game round
     /// </summary>
-    private float _roundTime = 60;
-
-    private bool once = true;
+    private float _roundTime = 180;
 
     private void Awake()
     {
@@ -73,15 +71,6 @@ public class GameTimeManager : MonoBehaviour
         currentTime = 0;
         GameStartedEvent.Invoke();
         StartCoroutine(GameTimer());
-    }
-
-    private void LateUpdate()
-    {
-        if (once)
-        {
-            once = false;
-            StartGame();
-        }
     }
 
     /// <summary>
