@@ -14,7 +14,7 @@ public class DisplaySquirrelIngredient : MonoBehaviour
 
     public void DisplayIngredient()
     {
-        Sprite food = SpriteDataManager.instance.GetFoodSpriteFromList((int) _squirrelController.GetPrefferedFoodType());
+        Sprite food = SpriteDataManager.instance.GetFoodSpriteFromList((int) _squirrelController.GetPreferredFoodType());
         _ingredientSprite.sprite = food;
     }
     
