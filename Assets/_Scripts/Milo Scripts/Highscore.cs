@@ -10,6 +10,7 @@ public class Highscore : MonoBehaviour
     /// this variable refers to the instance of this class
     /// </summary>
     public static Highscore instance { get; private set; }
+    private static UiController _uiController;
     private int _currentScore;
 
     private void Awake()
@@ -92,8 +93,9 @@ public class Highscore : MonoBehaviour
     /// returns the currentscore
     /// </summary>
     /// <returns></returns>
-    public int GetCurrentScore()
+    private int GetCurrentScore()
     {
+        _uiController._instance.UpdateScoreUI(_currentScore);
         return _currentScore;
     }
 

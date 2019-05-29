@@ -55,7 +55,7 @@ public class ProjectileManager : MonoBehaviour
     /// </summary>
     private void AddProjectileToQueue()
     {
-        Projectile newProjectile = projectile;
+        Projectile newProjectile = projectiles;
         //assigns projectile a random food type.
         newProjectile.foodType = FoodEnums.GetRandomFood();
 
@@ -78,7 +78,7 @@ public class ProjectileManager : MonoBehaviour
     
     public Projectile GetProjectileWithSetIngredientType(FoodEnums.FoodType ingredientType)
     {
-        _projectileQueue.Add(projectile);
+        _projectileQueue.Add(projectiles);
         _projectileQueue[_projectileQueue.Count - 1].foodType = ingredientType;
         Projectile newProjectile = _projectileQueue[_projectileQueue.Count - 1];
         _projectileQueue.RemoveAt(_projectileQueue.Count - 1);
