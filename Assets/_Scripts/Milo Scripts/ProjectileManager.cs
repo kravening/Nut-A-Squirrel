@@ -7,7 +7,7 @@ using UnityEngine;
 /// </summary>
 public class ProjectileManager : MonoBehaviour
 {
-    public Projectile projectiles;// all the projectile objects available
+    public Projectile projectile;// all the projectile objects available
     public List<Projectile> _projectileQueue =  new List<Projectile>();// queue for next projectile 
 
     private int _queueSize = 4;
