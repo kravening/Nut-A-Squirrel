@@ -44,7 +44,6 @@
           <e p="SquirrelController.cs" t="Include" />
           <e p="SquirrelManager.cs" t="Include" />
           <e p="TreeRuffleBehaviour.cs" t="Include" />
-          <e p="UIController.cs" t="Include" />
           <e p="Visual" t="Include">
             <e p="BillboardingSprite.cs" t="Include" />
             <e p="FadeEffect" t="Include">
