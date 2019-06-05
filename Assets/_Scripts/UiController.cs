@@ -1,20 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
+using UnityEngine.Serialization;
 
-public class UiController : MonoBehaviour
+public class UIController : MonoBehaviour
 {
-   public UiController _instance;
-   [SerializeField] private TextMeshProUGUI highScoreText;
+	[SerializeField] private TextMeshProUGUI highScoreText;
+	public UIController _instance;
 
-   private void Start()
-   {
-      _instance = this;
-   }
+	private void Start()
+	{
+		_instance = this;
+	}
 
-   public void UpdateScoreUI(int score)
-   {
-      highScoreText.text = score.ToString();
-   }
+	public void UpdateScoreUi(int score)
+	{
+		Debug.Log(score);
+		highScoreText.text = score.ToString();
+	}
 }

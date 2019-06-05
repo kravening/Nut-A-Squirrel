@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Manager;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -139,7 +140,7 @@ public class SquirrelManager : MonoBehaviour
     {
         int randomIndex = Random.Range(0, squirrels.Count);
         Debug.Log(randomIndex);
-        squirrels[randomIndex].Show();
+         squirrels[randomIndex].Show();
     }
 
     /// <summary>
