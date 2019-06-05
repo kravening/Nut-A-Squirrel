@@ -18,6 +18,6 @@ public class TreeRuffleBehaviour : MonoBehaviour
     {
         _particleSystem?.Play(true);
         _treeAnimator?.SetTrigger("Ruffle");
-        _audioSource.Play();
+        _audioSource?.Play();
     }
 }

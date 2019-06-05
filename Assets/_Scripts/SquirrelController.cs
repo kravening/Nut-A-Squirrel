@@ -87,7 +87,7 @@ public class SquirrelController : MonoBehaviour
         Instantiate(newProjectile.gameObject);
 
         Destroy(incomingIngredient.gameObject);
-
+        _animator?.SetTrigger("ThrowIngredient");
         yield return new WaitForSeconds(0.25f);
         Hide();
     }
@@ -95,15 +95,15 @@ public class SquirrelController : MonoBehaviour
     private IEnumerator EatIngredientRoutine()
     {
         Highscore.instance?.IncrementScore(100);
+        _animator?.SetTrigger("EatIngredient");
         // start animation
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.25f);
         Hide();
     }
 
     public void ThrowIngredient(Projectile ingredient)
     {
         StartCoroutine(ThrowIngredientRoutine(ingredient));
-        Hide();
     }
 
     public void EatIngredient()
