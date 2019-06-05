@@ -18,7 +18,6 @@ namespace GameStart
         private void Start()
         {
             instance = this;
-            Debug.Log(TreeRuffleBehaviour.Instance);
         }
 
         // Update is called once per frame
@@ -27,16 +26,16 @@ namespace GameStart
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 //TreeRuffleBehaviour.Instance.TreeFlip();
-                props[0].SetActive(false);
+                props[0]?.SetActive(false);
                 GameStart();
             }
         }
 
         private void OnCollisionEnter(Collision collision)
         {
-            if (collision.gameObject.name.Contains("Nut"))
+            if (collision.gameObject.tag == "Nut")
             {
-                props[0].SetActive(false);
+                props[0]?.SetActive(false);
                 GameStart();
                 //TreeRuffleBehaviour.Instance.TreeFlip();
             }
