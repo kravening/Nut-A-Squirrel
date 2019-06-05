@@ -4,10 +4,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class UIController : MonoBehaviour
+public class UiController : MonoBehaviour
 {
 	[SerializeField] private TextMeshProUGUI highScoreText;
-	public UIController _instance;
+	public UiController _instance;
 
 	private void Start()
 	{
