@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Behaviour;
+using Manager;
 using UnityEngine.Serialization;
 
 namespace GameStart
@@ -24,17 +25,19 @@ namespace GameStart
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                TreeRuffleBehaviour.Instance.TreeFlip();
+                //TreeRuffleBehaviour.Instance.TreeFlip();
                 props[0].SetActive(false);
+                GameStart();
             }
         }
 
         private void OnCollisionEnter(Collision collision)
         {
-            if (collision.gameObject.CompareTag("Nut"))
+            if (collision.gameObject.name.Contains("Nut"))
             {
                 props[0].SetActive(false);
-                TreeRuffleBehaviour.Instance.TreeFlip();
+                GameStart();
+                //TreeRuffleBehaviour.Instance.TreeFlip();
             }
         }
 
@@ -42,7 +45,8 @@ namespace GameStart
         {
             Debug.Log("Called for animation");
             Debug.Log("call for GameStart");
-            TreeRuffleBehaviour.Instance.TreeFlip();
+            GameTimeManager.instance.StartGame();
+            //TreeRuffleBehaviour.Instance.TreeFlip();
         }
     }
 }
