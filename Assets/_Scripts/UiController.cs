@@ -4,19 +4,27 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class UIController : MonoBehaviour
+namespace Controller
 {
-	[SerializeField] private TextMeshProUGUI highScoreText;
-	public UIController _instance;
-
-	private void Start()
+	public class UiController : MonoBehaviour
 	{
-		_instance = this;
-	}
+		[SerializeField] private TextMeshProUGUI[] highScoreText;
+		public static UiController _instance;
 
-	public void UpdateScoreUi(int score)
-	{
-		Debug.Log(score);
-		highScoreText.text = score.ToString();
+		private void Start()
+		{
+			_instance = this;
+		}
+
+		public void UpdateScoreUi(int score)
+		{
+			Debug.Log(score);
+			highScoreText[0].text = score.ToString();
+		}
+
+		public void TimerUi(int timer)
+		{
+			highScoreText[1].text = timer.ToString();
+		}
 	}
 }

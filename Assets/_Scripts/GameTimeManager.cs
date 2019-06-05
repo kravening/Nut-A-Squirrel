@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using Controller;
 
 namespace Manager
 {
@@ -47,7 +48,8 @@ namespace Manager
         /// max time of any given game round
         /// </summary>
         private float _roundTime = 180;
-
+        
+        private static UiController _uiController;
         private void Awake()
         {
             if (instance != null && instance != this)
@@ -105,7 +107,7 @@ namespace Manager
         {
             while (currentTime <= _roundTime)
             {
-
+                UiController._instance.TimerUi((int)currentTime);
                 currentTime += Time.deltaTime;
                 yield return new WaitForSeconds(0);
             }
