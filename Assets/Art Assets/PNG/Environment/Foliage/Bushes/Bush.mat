@@ -81,8 +81,8 @@ Material:
     - _UVSec: 0
     - _WindSize: 0.1
     - _WindSpeed: 0.1
-    - _XSwayStrength: 1.5
-    - _ZSwayStrength: 1
+    - _XSwayStrength: 0.15
+    - _ZSwayStrength: 0.1
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:

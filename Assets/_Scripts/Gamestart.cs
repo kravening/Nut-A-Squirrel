@@ -12,6 +12,7 @@ namespace GameStart
         // Start is called before the first frame update
         [SerializeField] private GameObject[] props;
         [SerializeField] public Animator treeFlipAnimator;
+
         public static Gamestart instance;
 
         private void Start()
