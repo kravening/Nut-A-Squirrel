@@ -1,11 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class SquirrelManager : MonoBehaviour
 {
     /// <summary>
-    /// 
+    /// the instance off this singleton, this variable the class it's in.
     /// </summary>
     public static SquirrelManager instance;
 
@@ -44,9 +46,13 @@ public class SquirrelManager : MonoBehaviour
     /// </summary>
     private float _currentNewSquirrelTime = 0;
 
+    /// <summary>
+    /// a boolean that tells this manager if the game is paused or not.
+    /// </summary>
+    private bool _isGameRunning = false;
+
     private void Awake()
     {
-
         if (instance != null && instance != this)
         {
             Destroy(this);
@@ -55,12 +61,18 @@ public class SquirrelManager : MonoBehaviour
         {
             instance = this;
         }
-
+        
         // if there are more max squirrels showing in the squirrels list, set max squirrels showing to the amount of elements in the list to prevent index errors.
         if (_maxSquirrelsShowing > squirrels.Count)
         {
             _maxSquirrelsShowing = squirrels.Count;
         }
+    }
+
+    private void Start()
+    {
+        GameTimeManager.instance.GameStartedEvent += ResumeSpawning;
+        GameTimeManager.instance.GameEndedEvent += PauseSpawning;
     }
 
 
@@ -75,6 +87,11 @@ public class SquirrelManager : MonoBehaviour
 
     private void Update()
     {
+        if (!_isGameRunning)// don't execute any update logic if the game isn't running
+        {
+            return;
+        }
+
         UpdateTimer();
         CheckToSeeIfSquirrelWillSpawn();
     }
@@ -87,7 +104,9 @@ public class SquirrelManager : MonoBehaviour
         _currentNewSquirrelTime -= Time.deltaTime;
         
     }
-
+    /// <summary>
+    /// this function will run through a few checks to see if it's the right moment to call for a new squirrel
+    /// </summary>
     private void CheckToSeeIfSquirrelWillSpawn()
     {
         //less than the minimum amount of squirrels in the field, force a squirrel to show.
@@ -146,6 +165,22 @@ public class SquirrelManager : MonoBehaviour
     public void SquirrelHiding()
     {
         _currentShowingSquirrels--;
+    }
+
+    /// <summary>
+    /// pauses the spawning of squirrels
+    /// </summary>
+    private void PauseSpawning()
+    {
+        _isGameRunning = false;
+    }
+
+    /// <summary>
+    /// resumes the spawning of squirrels
+    /// </summary>
+    private void ResumeSpawning()
+    {
+        _isGameRunning = true;
     }
 
 

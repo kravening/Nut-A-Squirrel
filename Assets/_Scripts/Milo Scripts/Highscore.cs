@@ -2,17 +2,38 @@
 
 
 /// <summary>
-/// this class handles the highscore and current scoring data of the game.
+/// this singleton handles the highscore and current scoring data of the game.
 /// </summary>
-
 public class Highscore : MonoBehaviour
 {
+    /// <summary>
+    /// this variable refers to the instance of this class
+    /// </summary>
+    public static Highscore instance { get; private set; }
+    private static UiController _uiController;
     private int _currentScore;
 
     private void Awake()
     {
+        if (instance != null && instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            instance = this;
+        }
+
         _currentScore = 0;
         CheckKeys();
+    }
+    
+    private void OnDestroy()
+    {
+        if (instance == this)
+        {
+            instance = null;
+        }
     }
 
     /// <summary>
@@ -72,8 +93,9 @@ public class Highscore : MonoBehaviour
     /// returns the currentscore
     /// </summary>
     /// <returns></returns>
-    public int GetCurrentScore()
+    private int GetCurrentScore()
     {
+        _uiController._instance.UpdateScoreUI(_currentScore);
         return _currentScore;
     }
 
