@@ -22,7 +22,7 @@ public class SquirrelController : MonoBehaviour
 
     public void Awake()
     {
-        _preferredFoodType = FoodEnums.GetRandomFood();
+        //_preferredFoodType = FoodEnums.GetRandomFood();
         _animator = GetComponent<Animator>();
     }
 

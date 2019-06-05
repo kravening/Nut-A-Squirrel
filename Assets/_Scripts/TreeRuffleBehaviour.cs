@@ -29,10 +29,6 @@ namespace Behaviour
             _treeAnimator?.SetTrigger("Ruffle");
             _audioSource?.Play();
         }
-        public void CallgameStart()
-        {
-            Gamestart.instance.GameStart();
-        }
 
         public void TreeFlip()
         {

@@ -6068,12 +6068,12 @@ PrefabInstance:
     - target: {fileID: 3863052140289834644, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.014
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 3863052140289834644, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.208
+      value: -0.119
       objectReference: {fileID: 0}
     - target: {fileID: 3863052140289834644, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
         type: 3}
@@ -6120,20 +6120,60 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1081146272965065275, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1081146272965065275, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1081146272965065275, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1081146272965065275, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 316512739248087636, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6363379435817331352, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
+    - target: {fileID: 3779266980776609591, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1633064957702357374, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
-        type: 3}
-      propertyPath: m_IsActive
+      propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779266980776609591, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779266980776609591, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779266980776609591, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779266980776609591, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779266980776609591, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1416624624866343422, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
         type: 3}
@@ -6145,6 +6185,22 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1633064957702357374, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363379435817331352, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363379435817331352, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d18f450c579c1b2428d611b8779e4f10,
+        type: 3}
     - target: {fileID: 5181617530702415843, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
         type: 3}
       propertyPath: prewarm
