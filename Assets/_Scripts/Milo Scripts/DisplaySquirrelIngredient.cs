@@ -8,8 +8,13 @@ public class DisplaySquirrelIngredient : MonoBehaviour
 
     private void Awake()
     {
-        _ingredientSprite = GetComponent<SpriteRenderer>();
+        //_ingredientSprite = GetComponent<SpriteRenderer>();
         _squirrelController = GetComponent<SquirrelController>();
+    }
+
+    private void Start()
+    {
+        DisplayIngredient();
     }
 
     public void DisplayIngredient()

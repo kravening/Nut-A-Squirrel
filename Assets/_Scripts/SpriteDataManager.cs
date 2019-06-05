@@ -33,7 +33,7 @@ public class SpriteDataManager : MonoBehaviour
 
     public Sprite GetFoodSpriteFromList(int index)
     {
-        if (index >= foodSpriteList?.Count)
+        if (index > foodSpriteList?.Count)
         {
             //fallback sprite
             return foodSpriteList[0];
