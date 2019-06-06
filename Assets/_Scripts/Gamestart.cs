@@ -1,12 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
-using Behaviour;
-using Manager;
-using UnityEngine.Serialization;
 
-namespace GameStart
-{
     public class Gamestart : MonoBehaviour
     {
         // Start is called before the first frame update
@@ -15,9 +9,24 @@ namespace GameStart
 
         public static Gamestart instance;
 
-        private void Start()
+        private void Awake()
         {
-            instance = this;
+            if (instance != null && instance != this)
+            {
+                Destroy(this);
+            }
+            else
+            {
+                instance = this;
+            }
+        }
+
+        private void OnDestroy()
+        {
+            if (instance == this)
+            {
+                instance = null;
+            }
         }
 
         // Update is called once per frame
@@ -33,7 +42,7 @@ namespace GameStart
 
         private void OnCollisionEnter(Collision collision)
         {
-            if (collision.gameObject.tag == "Nut")
+            if (collision.gameObject.CompareTag("Nut"))
             {
                 props[0]?.SetActive(false);
                 GameStart();
@@ -41,12 +50,8 @@ namespace GameStart
             }
         }
 
-        public void GameStart()
+        private void GameStart()
         {
-            Debug.Log("Called for animation");
-            Debug.Log("call for GameStart");
             GameTimeManager.instance.StartGame();
-            //TreeRuffleBehaviour.Instance.TreeFlip();
         }
     }
-}
