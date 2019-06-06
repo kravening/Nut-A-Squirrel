@@ -95,7 +95,7 @@ public class Highscore : MonoBehaviour
     /// <returns></returns>
     private int GetCurrentScore()
     {
-        UiController.instance.UpdateScoreUi(10);
+        UiController.instance.UpdateScoreUi(_currentScore);
         return _currentScore;
     }
 

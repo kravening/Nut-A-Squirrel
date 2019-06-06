@@ -48,7 +48,6 @@ using UnityEngine;
         /// </summary>
         private float _roundTime = 180;
         
-        //private UiController _uiController;
 
         private void Awake()
         {
@@ -106,7 +105,6 @@ using UnityEngine;
         private IEnumerator GameTimer()
         {
             
-            
             while (currentTime > 0)
             {
                 UiController.instance.TimerUi((int)currentTime);
@@ -120,10 +118,11 @@ using UnityEngine;
 
             EndGame();
         }
-
+        /// <summary>
+        /// This function calls the event that ends the game.
+        /// </summary>
         private void EndGame()
         {
             GameEndedEvent.Invoke();
         }
-
     }

@@ -77,7 +77,11 @@ public class SquirrelController : MonoBehaviour
         _isSquirrelHidden = true;
         _isHiding = false;
     }
-
+    /// <summary>
+    /// this coroutine takes in a projectile and 'throws' a new projectile with the same properties in the direction of the player.
+    /// </summary>
+    /// <param name="incomingIngredient"></param>
+    /// <returns></returns>
     private IEnumerator ThrowIngredientRoutine(Projectile incomingIngredient)
     { 
         Projectile newProjectile = ProjectileManager.instance.GetProjectileWithSetIngredientType(incomingIngredient.foodType);
@@ -92,6 +96,10 @@ public class SquirrelController : MonoBehaviour
         Hide();
     }
 
+    /// <summary>
+    /// this coroutine increments score and starts the 'eat' animtion.
+    /// </summary>
+    /// <returns></returns>
     private IEnumerator EatIngredientRoutine()
     {
         Highscore.instance?.IncrementScore(100);
@@ -101,16 +109,27 @@ public class SquirrelController : MonoBehaviour
         Hide();
     }
 
+    /// <summary>
+    /// call this function to throw an ingredient at the player
+    /// </summary>
+    /// <param name="ingredient"></param>
     public void ThrowIngredient(Projectile ingredient)
     {
         StartCoroutine(ThrowIngredientRoutine(ingredient));
     }
 
+    /// <summary>
+    /// call this function to eat the preffered ingredient.
+    /// </summary>
     public void EatIngredient()
     {
         StartCoroutine(EatIngredientRoutine());
     }
 
+    /// <summary>
+    /// returns the preferred food type of this instance.
+    /// </summary>
+    /// <returns></returns>
     public FoodEnums.FoodType GetPreferredFoodType()
     {
         return _preferredFoodType;

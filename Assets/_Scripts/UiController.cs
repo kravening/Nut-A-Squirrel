@@ -1,41 +1,50 @@
 ﻿using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
-
 
 public class UiController : MonoBehaviour
+{
+	/// <summary>
+	/// Gets the TextMeshProGui from the scene.
+	/// </summary>
+	[SerializeField] private TextMeshProUGUI[] highScoreText;
+	/// <summary>
+	/// makes the uicontroller an instance
+	/// </summary>
+	public static UiController instance;
+
+	private void Awake()
 	{
-		[SerializeField] private TextMeshProUGUI[] highScoreText;
-		 public static UiController instance;
-
-		private void Awake()
+		if (instance != null && instance != this)
 		{
-			if (instance != null && instance != this)
-			{
-				Destroy(this);
-			}
-			else
-			{
-				instance = this;
-			}
+			Destroy(this);
 		}
-
-		private void OnDestroy()
+		else
 		{
-			if (instance == this)
-			{
-				instance = null;
-			}
-		}
-
-		public void UpdateScoreUi(int score)
-		{
-			Debug.Log(score);
-			highScoreText[0].text = score.ToString();
-		}
-
-		public void TimerUi(int timer)
-		{
-			highScoreText[1].text = timer.ToString();
+			instance = this;
 		}
 	}
+
+	private void OnDestroy()
+	{
+		if (instance == this)
+		{
+			instance = null;
+		}
+	}
+	/// <summary>
+	/// Updates the score UI inside the game
+	/// </summary>
+	/// <param name="score"></param>
+	public void UpdateScoreUi(int score)
+	{
+		highScoreText[0].text = score.ToString();
+	}
+	/// <summary>
+	/// Updates the timer UI inside the game
+	/// </summary>
+	/// <param name="timer"></param>
+	public void TimerUi(int timer)
+	{
+		highScoreText[1].text = timer.ToString();
+	}
+}
