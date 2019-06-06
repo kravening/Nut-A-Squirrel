@@ -13,36 +13,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1019">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="1455">
+              <caret line="97" column="57" selection-start-line="97" selection-start-column="57" selection-end-line="97" selection-end-column="57" />
               <folding>
-                <marker date="1559825540728" expanded="true" signature="21:128" ph="/// this singleton handles the highscore and current scoring data of the game. ... " />
-                <marker date="1559825540728" expanded="true" signature="167:2860" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="174:265" ph="/// this variable refers to the instance of this class ... " />
-                <marker date="1559825540728" expanded="true" signature="382:602" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="438:485" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="498:547" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="636:727" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="672:721" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="733:827" ph="/// Check if Score and HighScore key exist in PlayerPrefs ... " />
-                <marker date="1559825540728" expanded="true" signature="856:962" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="968:1079" ph="/// increments _currentScore ... " />
-                <marker date="1559825540728" expanded="true" signature="1130:1183" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="1193:1304" ph="/// decrements _currentScore ... " />
-                <marker date="1559825540728" expanded="true" signature="1355:1408" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="1414:1534" ph="/// saves the currentscore to the device ... " />
-                <marker date="1559825540728" expanded="true" signature="1585:1760" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="1648:1754" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="1766:1839" ph="/// save the highscore to the device ... " />
-                <marker date="1559825540728" expanded="true" signature="1879:2055" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="1933:2049" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="2061:2154" ph="/// returns the currentscore ... " />
-                <marker date="1559825540728" expanded="true" signature="2188:2279" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="2285:2395" ph="/// return the highscore from the playerprefs ... " />
-                <marker date="1559825540728" expanded="true" signature="2425:2520" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="2526:2694" ph="/// Intitializes a new key with the given keyName if it doesn't already exist on the device. ... " />
-                <marker date="1559825540728" expanded="true" signature="2740:2858" ph="{...}" />
-                <marker date="1559825540728" expanded="true" signature="2788:2852" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="21:128" ph="/// this singleton handles the highscore and current scoring data of the game. ... " />
+                <marker date="1559827073204" expanded="true" signature="167:2871" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="174:265" ph="/// this variable refers to the instance of this class ... " />
+                <marker date="1559827073204" expanded="true" signature="382:602" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="438:485" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="498:547" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="636:727" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="672:721" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="733:827" ph="/// Check if Score and HighScore key exist in PlayerPrefs ... " />
+                <marker date="1559827073204" expanded="true" signature="856:962" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="968:1079" ph="/// increments _currentScore ... " />
+                <marker date="1559827073204" expanded="true" signature="1130:1183" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="1193:1304" ph="/// decrements _currentScore ... " />
+                <marker date="1559827073204" expanded="true" signature="1355:1408" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="1414:1534" ph="/// saves the currentscore to the device ... " />
+                <marker date="1559827073204" expanded="true" signature="1585:1760" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="1648:1754" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="1766:1839" ph="/// save the highscore to the device ... " />
+                <marker date="1559827073204" expanded="true" signature="1879:2055" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="1933:2049" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="2061:2154" ph="/// returns the currentscore ... " />
+                <marker date="1559827073204" expanded="true" signature="2188:2290" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="2296:2406" ph="/// return the highscore from the playerprefs ... " />
+                <marker date="1559827073204" expanded="true" signature="2436:2531" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="2537:2705" ph="/// Intitializes a new key with the given keyName if it doesn't already exist on the device. ... " />
+                <marker date="1559827073204" expanded="true" signature="2751:2869" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="2799:2863" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -51,18 +51,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UiController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="210">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
-                <marker date="1559825498120" expanded="true" signature="6:64" ph="..." />
-                <marker date="1559825498120" expanded="true" signature="108:652" ph="{...}" />
-                <marker date="1559825498120" expanded="true" signature="235:356" ph="{...}" />
-                <marker date="1559825498120" expanded="true" signature="284:313" ph="{...}" />
-                <marker date="1559825498120" expanded="true" signature="321:352" ph="{...}" />
-                <marker date="1559825498120" expanded="true" signature="384:448" ph="{...}" />
-                <marker date="1559825498120" expanded="true" signature="413:444" ph="{...}" />
-                <marker date="1559825498120" expanded="true" signature="488:562" ph="{...}" />
-                <marker date="1559825498120" expanded="true" signature="596:649" ph="{...}" />
+                <marker date="1559828841401" expanded="true" signature="6:31" ph="..." />
+                <marker date="1559828841401" expanded="true" signature="74:925" ph="{...}" />
+                <marker date="1559828841401" expanded="true" signature="78:152" ph="///  ... " />
+                <marker date="1559828841401" expanded="true" signature="213:282" ph="///  ... " />
+                <marker date="1559828841401" expanded="true" signature="343:454" ph="{...}" />
+                <marker date="1559828841401" expanded="true" signature="390:416" ph="{...}" />
+                <marker date="1559828841401" expanded="true" signature="423:451" ph="{...}" />
+                <marker date="1559828841401" expanded="true" signature="481:539" ph="{...}" />
+                <marker date="1559828841401" expanded="true" signature="508:536" ph="{...}" />
+                <marker date="1559828841401" expanded="true" signature="541:646" ph="/// Calls ... " />
+                <marker date="1559828841401" expanded="true" signature="684:734" ph="{...}" />
+                <marker date="1559828841401" expanded="true" signature="736:841" ph="///  ... " />
+                <marker date="1559828841401" expanded="true" signature="873:923" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -71,55 +75,60 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="315">
+              <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
               <folding>
-                <marker date="1559824434091" expanded="true" signature="6:78" ph="..." />
-                <marker date="1559824434091" expanded="true" signature="80:166" ph="/// contains the functionality needed to ruffle the tree. ... " />
-                <marker date="1559824434091" expanded="true" signature="219:1252" ph="{...}" />
-                <marker date="1559824434091" expanded="true" signature="469:556" ph="/// call this function to ruffle the tree. ... " />
-                <marker date="1559824434091" expanded="true" signature="585:796" ph="{...}" />
-                <marker date="1559824434091" expanded="true" signature="649:708" ph="{...}" />
-                <marker date="1559824434091" expanded="true" signature="725:786" ph="{...}" />
-                <marker date="1559824434091" expanded="true" signature="830:945" ph="{...}" />
-                <marker date="1559824434091" expanded="true" signature="874:935" ph="{...}" />
-                <marker date="1559824434091" expanded="true" signature="979:1123" ph="{...}" />
-                <marker date="1559824434091" expanded="true" signature="1155:1246" ph="{...}" />
+                <marker date="1559828522104" expanded="true" signature="6:78" ph="..." />
+                <marker date="1559828522104" expanded="true" signature="80:166" ph="/// contains the functionality needed to ruffle the tree. ... " />
+                <marker date="1559828522104" expanded="true" signature="219:1635" ph="{...}" />
+                <marker date="1559828522104" expanded="true" signature="229:303" ph="///  ... " />
+                <marker date="1559828522104" expanded="true" signature="378:450" ph="///  ... " />
+                <marker date="1559828522104" expanded="true" signature="517:611" ph="///  ... " />
+                <marker date="1559828522104" expanded="true" signature="680:791" ph="///  ... " />
+                <marker date="1559828522104" expanded="true" signature="854:941" ph="/// call this function to ruffle the tree. ... " />
+                <marker date="1559828522104" expanded="true" signature="970:1181" ph="{...}" />
+                <marker date="1559828522104" expanded="true" signature="1034:1093" ph="{...}" />
+                <marker date="1559828522104" expanded="true" signature="1110:1171" ph="{...}" />
+                <marker date="1559828522104" expanded="true" signature="1215:1330" ph="{...}" />
+                <marker date="1559828522104" expanded="true" signature="1259:1320" ph="{...}" />
+                <marker date="1559828522104" expanded="true" signature="1348:1452" ph="///  ... " />
+                <marker date="1559828522104" expanded="true" signature="1485:1629" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/GameTimeManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="112" column="29" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
+            <state relative-caret-position="-456">
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
               <folding>
-                <marker date="1559825654762" expanded="true" signature="6:44" ph="..." />
-                <marker date="1559825654762" expanded="true" signature="96:3383" ph="{...}" />
-                <marker date="1559825654762" expanded="true" signature="111:199" ph="/// an event signaling the game has started ... " />
-                <marker date="1559825654762" expanded="true" signature="305:392" ph="/// an event signaling the game has paused ... " />
-                <marker date="1559825654762" expanded="true" signature="495:583" ph="/// an event signaling the game has resumed ... " />
-                <marker date="1559825654762" expanded="true" signature="688:774" ph="/// an event signaling the game has ended ... " />
-                <marker date="1559825654762" expanded="true" signature="874:945" ph="/// instance of this class ... " />
-                <marker date="1559825654762" expanded="true" signature="1024:1103" ph="/// current time of the game round ... " />
-                <marker date="1559825654762" expanded="true" signature="1168:1249" ph="/// max time of any given game round ... " />
-                <marker date="1559825654762" expanded="true" signature="1374:1585" ph="{...}" />
-                <marker date="1559825654762" expanded="true" signature="1438:1497" ph="{...}" />
-                <marker date="1559825654762" expanded="true" signature="1514:1575" ph="{...}" />
-                <marker date="1559825654762" expanded="true" signature="1619:1734" ph="{...}" />
-                <marker date="1559825654762" expanded="true" signature="1663:1724" ph="{...}" />
-                <marker date="1559825654762" expanded="true" signature="1744:1864" ph="/// this invokes the game started event, and starts the timer for the game. ... " />
-                <marker date="1559825654762" expanded="true" signature="1896:2058" ph="{...}" />
-                <marker date="1559825654762" expanded="true" signature="2068:2238" ph="/// this pauses the game timer and time based behaviours resulting in the game staying stationary, besides maybe  ... " />
-                <marker date="1559825654762" expanded="true" signature="2270:2360" ph="{...}" />
-                <marker date="1559825654762" expanded="true" signature="2370:2531" ph="/// this resumes the game timer and time based behaviours resulting in the game continuing from where it was paus ... " />
-                <marker date="1559825654762" expanded="true" signature="2564:2655" ph="{...}" />
-                <marker date="1559825654762" expanded="true" signature="2665:2865" ph="/// this function functions as the game timer, and will call the game ended event once the max round time has bee ... " />
-                <marker date="1559825654762" expanded="true" signature="2905:3287" ph="{...}" />
-                <marker date="1559825654762" expanded="true" signature="3012:3204" ph="{...}" />
-                <marker date="1559825654762" expanded="true" signature="3319:3376" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="6:44" ph="..." />
+                <marker date="1559826862493" expanded="true" signature="96:3474" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="111:199" ph="/// an event signaling the game has started ... " />
+                <marker date="1559826862493" expanded="true" signature="305:392" ph="/// an event signaling the game has paused ... " />
+                <marker date="1559826862493" expanded="true" signature="495:583" ph="/// an event signaling the game has resumed ... " />
+                <marker date="1559826862493" expanded="true" signature="688:774" ph="/// an event signaling the game has ended ... " />
+                <marker date="1559826862493" expanded="true" signature="874:945" ph="/// instance of this class ... " />
+                <marker date="1559826862493" expanded="true" signature="1024:1103" ph="/// current time of the game round ... " />
+                <marker date="1559826862493" expanded="true" signature="1168:1249" ph="/// max time of any given game round ... " />
+                <marker date="1559826862493" expanded="true" signature="1328:1539" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="1392:1451" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="1468:1529" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="1573:1688" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="1617:1678" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="1698:1818" ph="/// this invokes the game started event, and starts the timer for the game. ... " />
+                <marker date="1559826862493" expanded="true" signature="1850:2021" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="2031:2201" ph="/// this pauses the game timer and time based behaviours resulting in the game staying stationary, besides maybe  ... " />
+                <marker date="1559826862493" expanded="true" signature="2233:2323" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="2333:2494" ph="/// this resumes the game timer and time based behaviours resulting in the game continuing from where it was paus ... " />
+                <marker date="1559826862493" expanded="true" signature="2527:2618" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="2628:2828" ph="/// this function functions as the game timer, and will call the game ended event once the max round time has bee ... " />
+                <marker date="1559826862493" expanded="true" signature="2868:3273" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="2927:3119" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="3282:3380" ph="///  ... " />
+                <marker date="1559826862493" expanded="true" signature="3411:3468" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -128,28 +137,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1112">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            <state relative-caret-position="1935">
+              <caret line="129" column="57" selection-start-line="129" selection-start-column="57" selection-end-line="129" selection-end-column="57" />
               <folding>
-                <marker date="1559824223152" expanded="true" signature="6:78" ph="..." />
-                <marker date="1559824223152" expanded="true" signature="80:163" ph="/// this class controls the behaviour of the squirrel. ... " />
-                <marker date="1559824223152" expanded="true" signature="211:3443" ph="{...}" />
-                <marker date="1559824223152" expanded="true" signature="691:807" ph="{...}" />
-                <marker date="1559824223152" expanded="true" signature="813:898" ph="/// this function calls the squirrel to show up. ... " />
-                <marker date="1559824223152" expanded="true" signature="921:1129" ph="{...}" />
-                <marker date="1559824223152" expanded="true" signature="958:1123" ph="{...}" />
-                <marker date="1559824223152" expanded="true" signature="1135:1290" ph="/// this is a routine for showing the squirrels, ensuring the logic is in the right order. ... " />
-                <marker date="1559824223152" expanded="true" signature="1336:1697" ph="{...}" />
-                <marker date="1559824223152" expanded="true" signature="1651:1691" ph="{...}" />
-                <marker date="1559824223152" expanded="true" signature="1703:1789" ph="/// this function calls for the squirrel to hide. ... " />
-                <marker date="1559824223152" expanded="true" signature="1813:1924" ph="{...}" />
-                <marker date="1559824223152" expanded="true" signature="1930:2056" ph="/// this is a routine for hiding the squirrels, ensuring the logic is in the right order. ... " />
-                <marker date="1559824223152" expanded="true" signature="2102:2296" ph="{...}" />
-                <marker date="1559824223152" expanded="true" signature="2375:2871" ph="{...}" />
-                <marker date="1559824223152" expanded="true" signature="2919:3119" ph="{...}" />
-                <marker date="1559824223152" expanded="true" signature="3175:3247" ph="{...}" />
-                <marker date="1559824223152" expanded="true" signature="3280:3340" ph="{...}" />
-                <marker date="1559824223152" expanded="true" signature="3394:3441" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="6:78" ph="..." />
+                <marker date="1559828066380" expanded="true" signature="80:163" ph="/// this class controls the behaviour of the squirrel. ... " />
+                <marker date="1559828066380" expanded="true" signature="211:4188" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="691:807" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="813:898" ph="/// this function calls the squirrel to show up. ... " />
+                <marker date="1559828066380" expanded="true" signature="921:1129" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="958:1123" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="1135:1290" ph="/// this is a routine for showing the squirrels, ensuring the logic is in the right order. ... " />
+                <marker date="1559828066380" expanded="true" signature="1336:1697" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="1651:1691" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="1703:1789" ph="/// this function calls for the squirrel to hide. ... " />
+                <marker date="1559828066380" expanded="true" signature="1813:1924" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="1930:2056" ph="/// this is a routine for hiding the squirrels, ensuring the logic is in the right order. ... " />
+                <marker date="1559828066380" expanded="true" signature="2102:2296" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="2301:2543" ph="///  ... " />
+                <marker date="1559828066380" expanded="true" signature="2621:3117" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="3123:3254" ph="///  ... " />
+                <marker date="1559828066380" expanded="true" signature="3301:3501" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="3507:3645" ph="///  ... " />
+                <marker date="1559828066380" expanded="true" signature="3700:3772" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="3778:3870" ph="///  ... " />
+                <marker date="1559828066380" expanded="true" signature="3902:3962" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="3968:4086" ph="///  ... " />
+                <marker date="1559828066380" expanded="true" signature="4139:4186" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -158,7 +172,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2162">
+            <state relative-caret-position="-47">
               <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
               <folding>
                 <marker date="1559824069741" expanded="true" signature="6:127" ph="..." />
@@ -205,23 +219,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="42" column="58" lean-forward="true" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+            <state relative-caret-position="118">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding>
-                <marker date="1559825172271" expanded="true" signature="63:1380" ph="{...}" />
-                <marker date="1559825172271" expanded="true" signature="311:522" ph="{...}" />
-                <marker date="1559825172271" expanded="true" signature="375:434" ph="{...}" />
-                <marker date="1559825172271" expanded="true" signature="451:512" ph="{...}" />
-                <marker date="1559825172271" expanded="true" signature="556:671" ph="{...}" />
-                <marker date="1559825172271" expanded="true" signature="600:661" ph="{...}" />
-                <marker date="1559825172271" expanded="true" signature="745:974" ph="{...}" />
-                <marker date="1559825172271" expanded="true" signature="804:964" ph="{...}" />
-                <marker date="1559825172271" expanded="true" signature="1034:1270" ph="{...}" />
-                <marker date="1559825172271" expanded="true" signature="1100:1260" ph="{...}" />
-                <marker date="1559825172271" expanded="true" signature="1304:1374" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="63:1719" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="78:177" ph="///  ... " />
+                <marker date="1559828841410" expanded="true" signature="239:288" ph="///  ... " />
+                <marker date="1559828841410" expanded="true" signature="420:631" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="484:543" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="560:621" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="665:780" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="709:770" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="789:851" ph="/// test function ... " />
+                <marker date="1559828841410" expanded="true" signature="924:1153" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="983:1143" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="1171:1314" ph="/// Checks collision and calls gamestart when its hit ... " />
+                <marker date="1559828841410" expanded="true" signature="1373:1609" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="1439:1599" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="1643:1713" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -269,14 +287,14 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/DisplaySquirrelIngredient.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/ProjectileManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/UIController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/SquirrelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/GameworldPlacer.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/UiController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/GameTimeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UiController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs" />
       </list>
     </option>
   </component>
@@ -353,7 +371,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12752000" />
+    <option name="totallyTimeSpent" value="15614000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,7 +392,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -484,9 +502,173 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/GameworldPlacer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <marker date="1559824093402" expanded="true" signature="6:78" ph="..." />
+            <marker date="1559824093402" expanded="true" signature="124:589" ph="{...}" />
+            <marker date="1559824093402" expanded="true" signature="227:395" ph="{...}" />
+            <marker date="1559824093402" expanded="true" signature="242:323" ph="/* maxScale = transform.localScale; ... */" />
+            <marker date="1559824093402" expanded="true" signature="425:502" ph="{...}" />
+            <marker date="1559824093402" expanded="true" signature="532:587" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1455">
+          <caret line="97" column="57" selection-start-line="97" selection-start-column="57" selection-end-line="97" selection-end-column="57" />
+          <folding>
+            <marker date="1559827073204" expanded="true" signature="21:128" ph="/// this singleton handles the highscore and current scoring data of the game. ... " />
+            <marker date="1559827073204" expanded="true" signature="167:2871" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="174:265" ph="/// this variable refers to the instance of this class ... " />
+            <marker date="1559827073204" expanded="true" signature="382:602" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="438:485" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="498:547" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="636:727" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="672:721" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="733:827" ph="/// Check if Score and HighScore key exist in PlayerPrefs ... " />
+            <marker date="1559827073204" expanded="true" signature="856:962" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="968:1079" ph="/// increments _currentScore ... " />
+            <marker date="1559827073204" expanded="true" signature="1130:1183" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="1193:1304" ph="/// decrements _currentScore ... " />
+            <marker date="1559827073204" expanded="true" signature="1355:1408" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="1414:1534" ph="/// saves the currentscore to the device ... " />
+            <marker date="1559827073204" expanded="true" signature="1585:1760" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="1648:1754" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="1766:1839" ph="/// save the highscore to the device ... " />
+            <marker date="1559827073204" expanded="true" signature="1879:2055" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="1933:2049" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="2061:2154" ph="/// returns the currentscore ... " />
+            <marker date="1559827073204" expanded="true" signature="2188:2290" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="2296:2406" ph="/// return the highscore from the playerprefs ... " />
+            <marker date="1559827073204" expanded="true" signature="2436:2531" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="2537:2705" ph="/// Intitializes a new key with the given keyName if it doesn't already exist on the device. ... " />
+            <marker date="1559827073204" expanded="true" signature="2751:2869" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="2799:2863" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UiController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <marker date="1559828841401" expanded="true" signature="6:31" ph="..." />
+            <marker date="1559828841401" expanded="true" signature="74:925" ph="{...}" />
+            <marker date="1559828841401" expanded="true" signature="78:152" ph="///  ... " />
+            <marker date="1559828841401" expanded="true" signature="213:282" ph="///  ... " />
+            <marker date="1559828841401" expanded="true" signature="343:454" ph="{...}" />
+            <marker date="1559828841401" expanded="true" signature="390:416" ph="{...}" />
+            <marker date="1559828841401" expanded="true" signature="423:451" ph="{...}" />
+            <marker date="1559828841401" expanded="true" signature="481:539" ph="{...}" />
+            <marker date="1559828841401" expanded="true" signature="508:536" ph="{...}" />
+            <marker date="1559828841401" expanded="true" signature="541:646" ph="/// Calls ... " />
+            <marker date="1559828841401" expanded="true" signature="684:734" ph="{...}" />
+            <marker date="1559828841401" expanded="true" signature="736:841" ph="///  ... " />
+            <marker date="1559828841401" expanded="true" signature="873:923" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+          <folding>
+            <marker date="1559828522104" expanded="true" signature="6:78" ph="..." />
+            <marker date="1559828522104" expanded="true" signature="80:166" ph="/// contains the functionality needed to ruffle the tree. ... " />
+            <marker date="1559828522104" expanded="true" signature="219:1635" ph="{...}" />
+            <marker date="1559828522104" expanded="true" signature="229:303" ph="///  ... " />
+            <marker date="1559828522104" expanded="true" signature="378:450" ph="///  ... " />
+            <marker date="1559828522104" expanded="true" signature="517:611" ph="///  ... " />
+            <marker date="1559828522104" expanded="true" signature="680:791" ph="///  ... " />
+            <marker date="1559828522104" expanded="true" signature="854:941" ph="/// call this function to ruffle the tree. ... " />
+            <marker date="1559828522104" expanded="true" signature="970:1181" ph="{...}" />
+            <marker date="1559828522104" expanded="true" signature="1034:1093" ph="{...}" />
+            <marker date="1559828522104" expanded="true" signature="1110:1171" ph="{...}" />
+            <marker date="1559828522104" expanded="true" signature="1215:1330" ph="{...}" />
+            <marker date="1559828522104" expanded="true" signature="1259:1320" ph="{...}" />
+            <marker date="1559828522104" expanded="true" signature="1348:1452" ph="///  ... " />
+            <marker date="1559828522104" expanded="true" signature="1485:1629" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/GameTimeManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456">
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+          <folding>
+            <marker date="1559826862493" expanded="true" signature="6:44" ph="..." />
+            <marker date="1559826862493" expanded="true" signature="96:3474" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="111:199" ph="/// an event signaling the game has started ... " />
+            <marker date="1559826862493" expanded="true" signature="305:392" ph="/// an event signaling the game has paused ... " />
+            <marker date="1559826862493" expanded="true" signature="495:583" ph="/// an event signaling the game has resumed ... " />
+            <marker date="1559826862493" expanded="true" signature="688:774" ph="/// an event signaling the game has ended ... " />
+            <marker date="1559826862493" expanded="true" signature="874:945" ph="/// instance of this class ... " />
+            <marker date="1559826862493" expanded="true" signature="1024:1103" ph="/// current time of the game round ... " />
+            <marker date="1559826862493" expanded="true" signature="1168:1249" ph="/// max time of any given game round ... " />
+            <marker date="1559826862493" expanded="true" signature="1328:1539" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="1392:1451" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="1468:1529" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="1573:1688" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="1617:1678" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="1698:1818" ph="/// this invokes the game started event, and starts the timer for the game. ... " />
+            <marker date="1559826862493" expanded="true" signature="1850:2021" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="2031:2201" ph="/// this pauses the game timer and time based behaviours resulting in the game staying stationary, besides maybe  ... " />
+            <marker date="1559826862493" expanded="true" signature="2233:2323" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="2333:2494" ph="/// this resumes the game timer and time based behaviours resulting in the game continuing from where it was paus ... " />
+            <marker date="1559826862493" expanded="true" signature="2527:2618" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="2628:2828" ph="/// this function functions as the game timer, and will call the game ended event once the max round time has bee ... " />
+            <marker date="1559826862493" expanded="true" signature="2868:3273" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="2927:3119" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="3282:3380" ph="///  ... " />
+            <marker date="1559826862493" expanded="true" signature="3411:3468" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="129" column="57" selection-start-line="129" selection-start-column="57" selection-end-line="129" selection-end-column="57" />
+          <folding>
+            <marker date="1559828066380" expanded="true" signature="6:78" ph="..." />
+            <marker date="1559828066380" expanded="true" signature="80:163" ph="/// this class controls the behaviour of the squirrel. ... " />
+            <marker date="1559828066380" expanded="true" signature="211:4188" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="691:807" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="813:898" ph="/// this function calls the squirrel to show up. ... " />
+            <marker date="1559828066380" expanded="true" signature="921:1129" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="958:1123" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="1135:1290" ph="/// this is a routine for showing the squirrels, ensuring the logic is in the right order. ... " />
+            <marker date="1559828066380" expanded="true" signature="1336:1697" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="1651:1691" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="1703:1789" ph="/// this function calls for the squirrel to hide. ... " />
+            <marker date="1559828066380" expanded="true" signature="1813:1924" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="1930:2056" ph="/// this is a routine for hiding the squirrels, ensuring the logic is in the right order. ... " />
+            <marker date="1559828066380" expanded="true" signature="2102:2296" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="2301:2543" ph="///  ... " />
+            <marker date="1559828066380" expanded="true" signature="2621:3117" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="3123:3254" ph="///  ... " />
+            <marker date="1559828066380" expanded="true" signature="3301:3501" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="3507:3645" ph="///  ... " />
+            <marker date="1559828066380" expanded="true" signature="3700:3772" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="3778:3870" ph="///  ... " />
+            <marker date="1559828066380" expanded="true" signature="3902:3962" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="3968:4086" ph="///  ... " />
+            <marker date="1559828066380" expanded="true" signature="4139:4186" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2162">
+        <state relative-caret-position="-47">
           <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding>
             <marker date="1559824069741" expanded="true" signature="6:127" ph="..." />
@@ -532,172 +714,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/GameworldPlacer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <marker date="1559824093402" expanded="true" signature="6:78" ph="..." />
-            <marker date="1559824093402" expanded="true" signature="124:589" ph="{...}" />
-            <marker date="1559824093402" expanded="true" signature="227:395" ph="{...}" />
-            <marker date="1559824093402" expanded="true" signature="242:323" ph="/* maxScale = transform.localScale; ... */" />
-            <marker date="1559824093402" expanded="true" signature="425:502" ph="{...}" />
-            <marker date="1559824093402" expanded="true" signature="532:587" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <marker date="1559824434091" expanded="true" signature="6:78" ph="..." />
-            <marker date="1559824434091" expanded="true" signature="80:166" ph="/// contains the functionality needed to ruffle the tree. ... " />
-            <marker date="1559824434091" expanded="true" signature="219:1252" ph="{...}" />
-            <marker date="1559824434091" expanded="true" signature="469:556" ph="/// call this function to ruffle the tree. ... " />
-            <marker date="1559824434091" expanded="true" signature="585:796" ph="{...}" />
-            <marker date="1559824434091" expanded="true" signature="649:708" ph="{...}" />
-            <marker date="1559824434091" expanded="true" signature="725:786" ph="{...}" />
-            <marker date="1559824434091" expanded="true" signature="830:945" ph="{...}" />
-            <marker date="1559824434091" expanded="true" signature="874:935" ph="{...}" />
-            <marker date="1559824434091" expanded="true" signature="979:1123" ph="{...}" />
-            <marker date="1559824434091" expanded="true" signature="1155:1246" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1112">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-          <folding>
-            <marker date="1559824223152" expanded="true" signature="6:78" ph="..." />
-            <marker date="1559824223152" expanded="true" signature="80:163" ph="/// this class controls the behaviour of the squirrel. ... " />
-            <marker date="1559824223152" expanded="true" signature="211:3443" ph="{...}" />
-            <marker date="1559824223152" expanded="true" signature="691:807" ph="{...}" />
-            <marker date="1559824223152" expanded="true" signature="813:898" ph="/// this function calls the squirrel to show up. ... " />
-            <marker date="1559824223152" expanded="true" signature="921:1129" ph="{...}" />
-            <marker date="1559824223152" expanded="true" signature="958:1123" ph="{...}" />
-            <marker date="1559824223152" expanded="true" signature="1135:1290" ph="/// this is a routine for showing the squirrels, ensuring the logic is in the right order. ... " />
-            <marker date="1559824223152" expanded="true" signature="1336:1697" ph="{...}" />
-            <marker date="1559824223152" expanded="true" signature="1651:1691" ph="{...}" />
-            <marker date="1559824223152" expanded="true" signature="1703:1789" ph="/// this function calls for the squirrel to hide. ... " />
-            <marker date="1559824223152" expanded="true" signature="1813:1924" ph="{...}" />
-            <marker date="1559824223152" expanded="true" signature="1930:2056" ph="/// this is a routine for hiding the squirrels, ensuring the logic is in the right order. ... " />
-            <marker date="1559824223152" expanded="true" signature="2102:2296" ph="{...}" />
-            <marker date="1559824223152" expanded="true" signature="2375:2871" ph="{...}" />
-            <marker date="1559824223152" expanded="true" signature="2919:3119" ph="{...}" />
-            <marker date="1559824223152" expanded="true" signature="3175:3247" ph="{...}" />
-            <marker date="1559824223152" expanded="true" signature="3280:3340" ph="{...}" />
-            <marker date="1559824223152" expanded="true" signature="3394:3441" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="42" column="58" lean-forward="true" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+        <state relative-caret-position="118">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
-            <marker date="1559825172271" expanded="true" signature="63:1380" ph="{...}" />
-            <marker date="1559825172271" expanded="true" signature="311:522" ph="{...}" />
-            <marker date="1559825172271" expanded="true" signature="375:434" ph="{...}" />
-            <marker date="1559825172271" expanded="true" signature="451:512" ph="{...}" />
-            <marker date="1559825172271" expanded="true" signature="556:671" ph="{...}" />
-            <marker date="1559825172271" expanded="true" signature="600:661" ph="{...}" />
-            <marker date="1559825172271" expanded="true" signature="745:974" ph="{...}" />
-            <marker date="1559825172271" expanded="true" signature="804:964" ph="{...}" />
-            <marker date="1559825172271" expanded="true" signature="1034:1270" ph="{...}" />
-            <marker date="1559825172271" expanded="true" signature="1100:1260" ph="{...}" />
-            <marker date="1559825172271" expanded="true" signature="1304:1374" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UiController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <marker date="1559825498120" expanded="true" signature="6:64" ph="..." />
-            <marker date="1559825498120" expanded="true" signature="108:652" ph="{...}" />
-            <marker date="1559825498120" expanded="true" signature="235:356" ph="{...}" />
-            <marker date="1559825498120" expanded="true" signature="284:313" ph="{...}" />
-            <marker date="1559825498120" expanded="true" signature="321:352" ph="{...}" />
-            <marker date="1559825498120" expanded="true" signature="384:448" ph="{...}" />
-            <marker date="1559825498120" expanded="true" signature="413:444" ph="{...}" />
-            <marker date="1559825498120" expanded="true" signature="488:562" ph="{...}" />
-            <marker date="1559825498120" expanded="true" signature="596:649" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1019">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <marker date="1559825540728" expanded="true" signature="21:128" ph="/// this singleton handles the highscore and current scoring data of the game. ... " />
-            <marker date="1559825540728" expanded="true" signature="167:2860" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="174:265" ph="/// this variable refers to the instance of this class ... " />
-            <marker date="1559825540728" expanded="true" signature="382:602" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="438:485" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="498:547" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="636:727" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="672:721" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="733:827" ph="/// Check if Score and HighScore key exist in PlayerPrefs ... " />
-            <marker date="1559825540728" expanded="true" signature="856:962" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="968:1079" ph="/// increments _currentScore ... " />
-            <marker date="1559825540728" expanded="true" signature="1130:1183" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="1193:1304" ph="/// decrements _currentScore ... " />
-            <marker date="1559825540728" expanded="true" signature="1355:1408" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="1414:1534" ph="/// saves the currentscore to the device ... " />
-            <marker date="1559825540728" expanded="true" signature="1585:1760" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="1648:1754" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="1766:1839" ph="/// save the highscore to the device ... " />
-            <marker date="1559825540728" expanded="true" signature="1879:2055" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="1933:2049" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="2061:2154" ph="/// returns the currentscore ... " />
-            <marker date="1559825540728" expanded="true" signature="2188:2279" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="2285:2395" ph="/// return the highscore from the playerprefs ... " />
-            <marker date="1559825540728" expanded="true" signature="2425:2520" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="2526:2694" ph="/// Intitializes a new key with the given keyName if it doesn't already exist on the device. ... " />
-            <marker date="1559825540728" expanded="true" signature="2740:2858" ph="{...}" />
-            <marker date="1559825540728" expanded="true" signature="2788:2852" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/GameTimeManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="112" column="29" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
-          <folding>
-            <marker date="1559825654762" expanded="true" signature="6:44" ph="..." />
-            <marker date="1559825654762" expanded="true" signature="96:3383" ph="{...}" />
-            <marker date="1559825654762" expanded="true" signature="111:199" ph="/// an event signaling the game has started ... " />
-            <marker date="1559825654762" expanded="true" signature="305:392" ph="/// an event signaling the game has paused ... " />
-            <marker date="1559825654762" expanded="true" signature="495:583" ph="/// an event signaling the game has resumed ... " />
-            <marker date="1559825654762" expanded="true" signature="688:774" ph="/// an event signaling the game has ended ... " />
-            <marker date="1559825654762" expanded="true" signature="874:945" ph="/// instance of this class ... " />
-            <marker date="1559825654762" expanded="true" signature="1024:1103" ph="/// current time of the game round ... " />
-            <marker date="1559825654762" expanded="true" signature="1168:1249" ph="/// max time of any given game round ... " />
-            <marker date="1559825654762" expanded="true" signature="1374:1585" ph="{...}" />
-            <marker date="1559825654762" expanded="true" signature="1438:1497" ph="{...}" />
-            <marker date="1559825654762" expanded="true" signature="1514:1575" ph="{...}" />
-            <marker date="1559825654762" expanded="true" signature="1619:1734" ph="{...}" />
-            <marker date="1559825654762" expanded="true" signature="1663:1724" ph="{...}" />
-            <marker date="1559825654762" expanded="true" signature="1744:1864" ph="/// this invokes the game started event, and starts the timer for the game. ... " />
-            <marker date="1559825654762" expanded="true" signature="1896:2058" ph="{...}" />
-            <marker date="1559825654762" expanded="true" signature="2068:2238" ph="/// this pauses the game timer and time based behaviours resulting in the game staying stationary, besides maybe  ... " />
-            <marker date="1559825654762" expanded="true" signature="2270:2360" ph="{...}" />
-            <marker date="1559825654762" expanded="true" signature="2370:2531" ph="/// this resumes the game timer and time based behaviours resulting in the game continuing from where it was paus ... " />
-            <marker date="1559825654762" expanded="true" signature="2564:2655" ph="{...}" />
-            <marker date="1559825654762" expanded="true" signature="2665:2865" ph="/// this function functions as the game timer, and will call the game ended event once the max round time has bee ... " />
-            <marker date="1559825654762" expanded="true" signature="2905:3287" ph="{...}" />
-            <marker date="1559825654762" expanded="true" signature="3012:3204" ph="{...}" />
-            <marker date="1559825654762" expanded="true" signature="3319:3376" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="63:1719" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="78:177" ph="///  ... " />
+            <marker date="1559828841410" expanded="true" signature="239:288" ph="///  ... " />
+            <marker date="1559828841410" expanded="true" signature="420:631" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="484:543" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="560:621" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="665:780" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="709:770" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="789:851" ph="/// test function ... " />
+            <marker date="1559828841410" expanded="true" signature="924:1153" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="983:1143" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="1171:1314" ph="/// Checks collision and calls gamestart when its hit ... " />
+            <marker date="1559828841410" expanded="true" signature="1373:1609" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="1439:1599" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="1643:1713" ph="{...}" />
           </folding>
         </state>
       </provider>

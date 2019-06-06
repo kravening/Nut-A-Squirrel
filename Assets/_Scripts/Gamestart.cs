@@ -3,8 +3,13 @@ using UnityEngine;
 
     public class Gamestart : MonoBehaviour
     {
-        // Start is called before the first frame update
+        /// <summary>
+        /// get the props gameobjects to be used for setactive
+        /// </summary>
         [SerializeField] private GameObject[] props;
+        /// <summary>
+        /// gets the animator
+        /// </summary>
         [SerializeField] public Animator treeFlipAnimator;
 
         public static Gamestart instance;
@@ -28,7 +33,9 @@ using UnityEngine;
                 instance = null;
             }
         }
-
+        /// <summary>
+        /// test function
+        /// </summary>
         // Update is called once per frame
         private void Update()
         {
@@ -39,7 +46,11 @@ using UnityEngine;
                 GameStart();
             }
         }
-
+        
+        /// <summary>
+        /// Checks collision and calls gamestart when its hit
+        /// </summary>
+        /// <param name="collision"></param>
         private void OnCollisionEnter(Collision collision)
         {
             if (collision.gameObject.CompareTag("Nut"))
