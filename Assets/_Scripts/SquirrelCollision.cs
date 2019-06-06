@@ -20,12 +20,15 @@ public class SquirrelCollision : MonoBehaviour
         if (collider.gameObject?.GetComponent<Projectile>()?.foodType == _squirrelController?.GetPreferredFoodType())
         {
             EatIngredient();
-            // TODO: play projectile collision animation splat.
             Destroy(collider.gameObject);
         }
         else if(collider?.gameObject?.GetComponent<Projectile>())
         {
             ThrowIngredient(collider.gameObject.GetComponent<Projectile>());
+        }
+        else
+        {
+            Destroy(collider.gameObject);
         }
     }
 
