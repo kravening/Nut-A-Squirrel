@@ -1,19 +1,31 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace Controller
-{
-	public class UiController : MonoBehaviour
+
+public class UiController : MonoBehaviour
 	{
 		[SerializeField] private TextMeshProUGUI[] highScoreText;
-		public static UiController _instance;
+		 public static UiController instance;
 
-		private void Start()
+		private void Awake()
 		{
-			_instance = this;
+			if (instance != null && instance != this)
+			{
+				Destroy(this);
+			}
+			else
+			{
+				instance = this;
+			}
+		}
+
+		private void OnDestroy()
+		{
+			if (instance == this)
+			{
+				instance = null;
+			}
 		}
 
 		public void UpdateScoreUi(int score)
@@ -27,4 +39,3 @@ namespace Controller
 			highScoreText[1].text = timer.ToString();
 		}
 	}
-}

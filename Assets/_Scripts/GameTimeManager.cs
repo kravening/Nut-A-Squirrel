@@ -1,9 +1,8 @@
 ﻿using System.Collections;
 using UnityEngine;
-using Controller;
 
-namespace Manager
-{
+
+
     public class GameTimeManager : MonoBehaviour
     {
         /// <summary>
@@ -49,7 +48,8 @@ namespace Manager
         /// </summary>
         private float _roundTime = 180;
         
-        private static UiController _uiController;
+        //private UiController _uiController;
+
         private void Awake()
         {
             if (instance != null && instance != this)
@@ -76,7 +76,7 @@ namespace Manager
         public void StartGame()
         {
             //resets round time.
-            currentTime = 0;
+            currentTime = _roundTime;
             GameStartedEvent.Invoke();
             StartCoroutine(GameTimer());
         }
@@ -105,13 +105,17 @@ namespace Manager
         /// <returns></returns>
         private IEnumerator GameTimer()
         {
-            while (currentTime <= _roundTime)
+            
+            
+            while (currentTime > 0)
             {
-                UiController._instance.TimerUi((int)currentTime);
-                currentTime += Time.deltaTime;
+                UiController.instance.TimerUi((int)currentTime);
+                currentTime -= Time.deltaTime;
                 yield return new WaitForSeconds(0);
             }
-
+            
+            UiController.instance.TimerUi(0);
+            
             yield return new WaitForSeconds(0);
 
             EndGame();
@@ -123,4 +127,3 @@ namespace Manager
         }
 
     }
-}

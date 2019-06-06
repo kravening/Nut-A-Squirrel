@@ -1,13 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using GameStart;
 
 /// <summary>
 /// contains the functionality needed to ruffle the tree.
 /// </summary>
-namespace Behaviour
-{
     public class TreeRuffleBehaviour : MonoBehaviour
     {
         [SerializeField] private ParticleSystem _particleSystem;
@@ -18,9 +15,24 @@ namespace Behaviour
         /// <summary>
         /// call this function to ruffle the tree.
         /// </summary>
-        private void Start()
+        private void Awake()
         {
-            Instance = this;
+            if (Instance != null && Instance != this)
+            {
+                Destroy(this);
+            }
+            else
+            {
+                Instance = this;
+            }
+        }
+
+        private void OnDestroy()
+        {
+            if (Instance == this)
+            {
+                Instance = null;
+            }
         }
 
         public void RuffleTree()
@@ -32,7 +44,6 @@ namespace Behaviour
 
         public void TreeFlip()
         {
-            Gamestart.instance.treeFlipAnimator.Play("FlipBackAni");
+            //Gamestart.instance.treeFlipAnimator.Play("FlipBackAni");
         }
     }
-}
