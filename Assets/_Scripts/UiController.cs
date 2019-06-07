@@ -1,6 +1,8 @@
 ﻿using TMPro;
 using UnityEngine;
-
+/// <summary>
+/// This controller handles all the UI elements of the game
+/// </summary>
 public class UiController : MonoBehaviour
 {
 	/// <summary>

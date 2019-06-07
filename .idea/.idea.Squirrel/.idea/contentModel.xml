@@ -8,9 +8,6 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="_Misc" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="SimpleCameraController.cs" t="Include" />
-          </e>
           <e p="StreamingAssets" t="Include">
             <e p="Vuforia" t="Include">
               <e p="Johnny_ARcade.xml" t="Include" />
@@ -25,14 +22,9 @@
             </e>
           </e>
         </e>
-        <e p="_prototyping" t="Include">
-          <e p="art" t="Include">
-            <e p="New AmplifyShader.shader" t="Include" />
-          </e>
-        </e>
         <e p="_Scripts" t="Include">
+          <e p="Gamestart.cs" t="Include" />
           <e p="GameTimeManager.cs" t="Include" />
-          <e p="GameworldPlacer.cs" t="Include" />
           <e p="Milo Scripts" t="Include">
             <e p="DisplayPlayerIngredient.cs" t="Include" />
             <e p="DisplaySquirrelIngredient.cs" t="Include" />
@@ -42,13 +34,13 @@
             <e p="ProjectileManager.cs" t="Include" />
             <e p="Shooting.cs" t="Include" />
           </e>
+          <e p="PlayerCollision.cs" t="Include" />
+          <e p="SpriteDataManager.cs" t="Include" />
           <e p="SquirrelCollision.cs" t="Include" />
           <e p="SquirrelController.cs" t="Include" />
           <e p="SquirrelManager.cs" t="Include" />
           <e p="TreeRuffleBehaviour.cs" t="Include" />
-          <e p="Visual" t="Include">
-            <e p="BillboardingSprite.cs" t="Include" />
-          </e>
+          <e p="UIController.cs" t="Include" />
         </e>
         <e p="_Shaders" t="Include">
           <e p="New AmplifyShader 1.shader" t="Include" />
@@ -951,7 +943,6 @@
             <e p="TransparentUnlit.shader" t="Include" />
           </e>
         </e>
-        <e p="SpriteDataManager.cs" t="Include" />
         <e p="StreamingAssets" t="Include">
           <e p="Vuforia" t="Include">
             <e p="Johnny_ARcade.xml" t="Include" />

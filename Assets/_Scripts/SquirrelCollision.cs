@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// this class handles the incoming collisions of the squirrels
+/// This class handles the incoming collisions of the targets
 /// </summary>
 public class SquirrelCollision : MonoBehaviour
 {

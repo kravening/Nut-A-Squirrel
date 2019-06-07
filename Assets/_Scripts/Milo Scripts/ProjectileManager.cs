@@ -3,7 +3,7 @@ using UnityEngine;
 
 
 /// <summary>
-/// this class takes track of which projectile is next in the queue to shoot.
+/// This class takes track of which projectile is next in the queue to shoot.
 /// </summary>
 public class ProjectileManager : MonoBehaviour
 {

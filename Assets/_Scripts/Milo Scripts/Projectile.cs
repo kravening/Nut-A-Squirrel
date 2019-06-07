@@ -5,7 +5,7 @@ using UnityEngine;
 
 
 /// <summary>
-/// when this class is added to an object it will move straight forward in its set direction over time
+/// When this class is added to an object it will move straight forward in its set direction over time
 /// </summary>
 [RequireComponent(typeof(Rigidbody))]
 public class Projectile : MonoBehaviour
