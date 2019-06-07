@@ -3,7 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
-
+/// <summary>
+/// This class manages a collection of target controllers
+/// </summary>
 public class SquirrelManager : MonoBehaviour
 {
     /// <summary>

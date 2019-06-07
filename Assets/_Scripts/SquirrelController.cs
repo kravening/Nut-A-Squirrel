@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// this class controls the behaviour of the squirrel.
+/// This class controls the behaviour of the target.
 /// </summary>
 public class SquirrelController : MonoBehaviour
 {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// contains the functionality needed to ruffle the tree.
+/// This class contains the functionality needed to ruffle the tree.
 /// </summary>
     public class TreeRuffleBehaviour : MonoBehaviour
     {    /// <summary>

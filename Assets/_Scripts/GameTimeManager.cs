@@ -2,7 +2,9 @@
 using UnityEngine;
 
 
-
+    /// <summary>
+    /// This class is the manager for the in-game time
+    /// </summary>
     public class GameTimeManager : MonoBehaviour
     {
         /// <summary>

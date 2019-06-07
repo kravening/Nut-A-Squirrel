@@ -3,7 +3,7 @@ using System.Net.Sockets;
 using UnityEngine;
 
 /// <summary>
-/// this class houses the behaviour needed to spawn a gameobject to shoot off into the game world.
+/// This class houses the behaviour needed to spawn a gameobject to shoot off into the game world.
 /// </summary>
 public class Shooting : MonoBehaviour
 {
@@ -30,7 +30,7 @@ public class Shooting : MonoBehaviour
     }
     
     /// <summary>
-    /// call this function to shoot a bullet.
+    /// Call this function to shoot a bullet.
     /// </summary>
     private void Shoot()
     {
@@ -42,7 +42,7 @@ public class Shooting : MonoBehaviour
         }
     }
     /// <summary>
-    /// this routine manages the cooldown for the bullet
+    /// This routine manages the cooldown for the bullet
     /// </summary>
     /// <param name="cooldownTime"></param>
     /// <returns></returns>

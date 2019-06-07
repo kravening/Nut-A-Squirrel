@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// This class handles returns the sprites for the different foods 
+/// </summary>
 public class SpriteDataManager : MonoBehaviour
 {
     public static SpriteDataManager instance { get; private set; }

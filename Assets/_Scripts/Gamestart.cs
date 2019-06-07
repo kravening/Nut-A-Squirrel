@@ -1,6 +1,8 @@
 ﻿
 using UnityEngine;
-
+    /// <summary>
+    /// This class starts the game
+    /// </summary>
     public class Gamestart : MonoBehaviour
     {
         /// <summary>

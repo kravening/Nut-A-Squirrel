@@ -2,7 +2,7 @@
 
 
 /// <summary>
-/// this singleton handles the highscore and current scoring data of the game.
+/// This singleton handles the highscore and current scoring data of the game.
 /// </summary>
 public class Highscore : MonoBehaviour
 {

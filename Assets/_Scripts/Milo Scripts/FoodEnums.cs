@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 
-
+/// <summary>
+/// This class is used to get a certain food type 
+/// </summary>
 public class FoodEnums
 {
     public enum FoodType
