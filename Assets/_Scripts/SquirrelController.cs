@@ -105,7 +105,8 @@ public class SquirrelController : MonoBehaviour
         newProjectile.transform.position = incomingIngredient.transform.position;
         newProjectile.transform.LookAt(Camera.main.transform);
 
-        Instantiate(newProjectile.gameObject);
+        GameObject instantiatedIngredient = Instantiate(newProjectile.gameObject);
+        instantiatedIngredient.transform.parent = SquirrelManager.instance.transform.parent;
 
         Destroy(incomingIngredient.gameObject);
         _animator?.SetTrigger("ThrowIngredient");
