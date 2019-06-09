@@ -11,6 +11,7 @@ public class PlayerCollision : MonoBehaviour
         if (collider?.gameObject?.GetComponent<Projectile>())
         {
             Highscore.instance.DecrementScore(100);
+            Destroy(collider.gameObject);
             // TODO: play minecraft steve OOF sound clip.
         }
     }
