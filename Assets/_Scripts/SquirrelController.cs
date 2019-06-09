@@ -19,9 +19,11 @@ public class SquirrelController : MonoBehaviour
 
     public FoodEnums.FoodType _preferredFoodType;
 
+    private bool _justAte = false;
+    private bool hideStarted = false;
+
     public void Awake()
     {
-        //_preferredFoodType = FoodEnums.GetRandomFood();
         _animator = GetComponent<Animator>();
     }
 
@@ -48,7 +50,7 @@ public class SquirrelController : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         _animator?.SetBool("IsShowing", true);
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(4);
 
         //if squirrel isn't already hidden or starting to hide.
         if (_isSquirrelHidden == false && _isHiding == false)
@@ -71,11 +73,26 @@ public class SquirrelController : MonoBehaviour
     /// </summary>
     private IEnumerator HideSquirrelRoutine()
     {
+        //stops the possibility of this routine being called while it's already running.
+        if (hideStarted == true)
+        {
+            yield break;
+        }
+
+        hideStarted = true;
+
+        //wait till the character is done 'eating'
+        while (_justAte == true)
+        {
+            yield return new WaitForSeconds(0);
+        }
+
         _isHiding = true;
         _animator?.SetBool("IsShowing", false);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         _isSquirrelHidden = true;
         _isHiding = false;
+        hideStarted = false;
     }
     /// <summary>
     /// this coroutine takes in a projectile and 'throws' a new projectile with the same properties in the direction of the player.
@@ -88,8 +105,7 @@ public class SquirrelController : MonoBehaviour
         newProjectile.transform.position = incomingIngredient.transform.position;
         newProjectile.transform.LookAt(Camera.main.transform);
 
-        GameObject instantiatedIngredient = Instantiate(newProjectile.gameObject);
-        instantiatedIngredient.transform.parent = SquirrelManager.instance.transform.parent; // this parents the projectile to the gamefield transform.
+        Instantiate(newProjectile.gameObject);
 
         Destroy(incomingIngredient.gameObject);
         _animator?.SetTrigger("ThrowIngredient");
@@ -105,8 +121,10 @@ public class SquirrelController : MonoBehaviour
     {
         Highscore.instance?.IncrementScore(100);
         _animator?.SetTrigger("EatIngredient");
-        // start animation
+
+        _justAte = true;
         yield return new WaitForSeconds(0.25f);
+        _justAte = false;
         Hide();
     }
 

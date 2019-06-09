@@ -149,7 +149,6 @@ public class SquirrelManager : MonoBehaviour
     /// </summary>
     private  void ResetSquirrelTimer()
     {
-        
         _currentNewSquirrelTime = Random.Range(_minAppearTimer, _maxAppearTimer);
     }
 

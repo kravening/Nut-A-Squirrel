@@ -11643,7 +11643,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056215294}
   m_LocalRotation: {x: 0.16496152, y: 0, z: 0, w: 0.9863}
-  m_LocalPosition: {x: 0.03, y: 5.24, z: -6.87}
+  m_LocalPosition: {x: -0.44, y: 1.83, z: -4.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1743093322}
@@ -23872,6 +23872,26 @@ PrefabInstance:
       propertyPath: treeRuffleBehaviour
       value: 
       objectReference: {fileID: 410691260}
+    - target: {fileID: 2364616333636547388, guid: c51951e1cd6a27e4ca6ec3f01a20b0cf,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2364616333636547388, guid: c51951e1cd6a27e4ca6ec3f01a20b0cf,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2364616333636547388, guid: c51951e1cd6a27e4ca6ec3f01a20b0cf,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2364616333636547388, guid: c51951e1cd6a27e4ca6ec3f01a20b0cf,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c51951e1cd6a27e4ca6ec3f01a20b0cf, type: 3}
 --- !u!1001 &2012041698098279703
