@@ -26,10 +26,6 @@ public class SquirrelCollision : MonoBehaviour
         {
             ThrowIngredient(collider.gameObject.GetComponent<Projectile>());
         }
-        else
-        {
-            Destroy(collider.gameObject);
-        }
     }
 
     /// <summary>

@@ -19,9 +19,11 @@ public class SquirrelController : MonoBehaviour
 
     public FoodEnums.FoodType _preferredFoodType;
 
+    private bool _justAte = false;
+    private bool hideStarted = false;
+
     public void Awake()
     {
-        //_preferredFoodType = FoodEnums.GetRandomFood();
         _animator = GetComponent<Animator>();
     }
 
@@ -71,11 +73,26 @@ public class SquirrelController : MonoBehaviour
     /// </summary>
     private IEnumerator HideSquirrelRoutine()
     {
+        //stops the possibility of this routine being called while it's already running.
+        if (hideStarted == true)
+        {
+            yield break;
+        }
+
+        hideStarted = true;
+
+        //wait till the character is done 'eating'
+        while (_justAte == true)
+        {
+            yield return new WaitForSeconds(0);
+        }
+
         _isHiding = true;
         _animator?.SetBool("IsShowing", false);
         yield return new WaitForSeconds(0.5f);
         _isSquirrelHidden = true;
         _isHiding = false;
+        hideStarted = false;
     }
     /// <summary>
     /// this coroutine takes in a projectile and 'throws' a new projectile with the same properties in the direction of the player.
@@ -104,8 +121,10 @@ public class SquirrelController : MonoBehaviour
     {
         Highscore.instance?.IncrementScore(100);
         _animator?.SetTrigger("EatIngredient");
-        // start animation
+
+        _justAte = true;
         yield return new WaitForSeconds(0.25f);
+        _justAte = false;
         Hide();
     }
 
