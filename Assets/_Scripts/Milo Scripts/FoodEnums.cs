@@ -8,12 +8,12 @@ public class FoodEnums
     public enum FoodType
     {
         Nut,
-        Apple,
-        Cranberry
+        Strawberry,
+        Blueberry,
     }
 
     public static FoodType GetRandomFood()
     {
-        return (FoodType)Random.Range(0, 2);
+        return (FoodType)Random.Range(0, 3);
     }
 }
