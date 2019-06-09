@@ -48,7 +48,7 @@ public class SquirrelController : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         _animator?.SetBool("IsShowing", true);
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(6);
 
         //if squirrel isn't already hidden or starting to hide.
         if (_isSquirrelHidden == false && _isHiding == false)
@@ -73,7 +73,7 @@ public class SquirrelController : MonoBehaviour
     {
         _isHiding = true;
         _animator?.SetBool("IsShowing", false);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1);
         _isSquirrelHidden = true;
         _isHiding = false;
     }
@@ -88,7 +88,8 @@ public class SquirrelController : MonoBehaviour
         newProjectile.transform.position = incomingIngredient.transform.position;
         newProjectile.transform.LookAt(Camera.main.transform);
 
-        Instantiate(newProjectile.gameObject);
+        GameObject instantiatedIngredient = Instantiate(newProjectile.gameObject);
+        instantiatedIngredient.transform.parent = SquirrelManager.instance.transform.parent; // this parents the projectile to the gamefield transform.
 
         Destroy(incomingIngredient.gameObject);
         _animator?.SetTrigger("ThrowIngredient");
