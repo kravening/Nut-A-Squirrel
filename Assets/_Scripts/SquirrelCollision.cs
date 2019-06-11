@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// this class handles the incoming collisions of the squirrels
+/// This class handles the incoming collisions of the targets
 /// </summary>
 public class SquirrelCollision : MonoBehaviour
 {
@@ -17,30 +17,27 @@ public class SquirrelCollision : MonoBehaviour
 
     private void OnCollisionEnter(Collision collider)
     {
-        if (collider.gameObject?.GetComponent<Projectile>()?.foodType ==
-            _squirrelController?.GetPrefferedFoodType())
+        if (collider.gameObject?.GetComponent<Projectile>()?.foodType == _squirrelController?.GetPreferredFoodType())
         {
-            OnSquirrelHit(true);
+            EatIngredient();
+            Destroy(collider.gameObject);
         }
-        else
+        else if(collider?.gameObject?.GetComponent<Projectile>())
         {
-            OnSquirrelHit(false);
+            ThrowIngredient(collider.gameObject.GetComponent<Projectile>());
         }
     }
 
     /// <summary>
     /// if the colliding object is a nut this function gets called and calls for the squirrel to hide, and increments the score.
     /// </summary>
-    public void OnSquirrelHit(bool isNutAccordingToPreference)
+    private void EatIngredient()
     {
-        if (isNutAccordingToPreference)
-        {
-            Highscore.instance?.IncrementScore(100);
-            _squirrelController?.Hide();
-        }
-        else
-        {
-            _squirrelController?.ThrowNut();
-        }
+        _squirrelController?.EatIngredient();
+    }
+
+    private void ThrowIngredient(Projectile ingredient)
+    {
+        _squirrelController?.ThrowIngredient(ingredient);
     }
 }

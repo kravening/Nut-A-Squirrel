@@ -11,13 +11,255 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mobile.android-logcat@0.1.5-preview/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1455">
+              <caret line="97" column="57" selection-start-line="97" selection-start-column="57" selection-end-line="97" selection-end-column="57" />
+              <folding>
+                <marker date="1559827073204" expanded="true" signature="21:128" ph="/// this singleton handles the highscore and current scoring data of the game. ... " />
+                <marker date="1559827073204" expanded="true" signature="167:2871" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="174:265" ph="/// this variable refers to the instance of this class ... " />
+                <marker date="1559827073204" expanded="true" signature="382:602" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="438:485" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="498:547" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="636:727" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="672:721" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="733:827" ph="/// Check if Score and HighScore key exist in PlayerPrefs ... " />
+                <marker date="1559827073204" expanded="true" signature="856:962" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="968:1079" ph="/// increments _currentScore ... " />
+                <marker date="1559827073204" expanded="true" signature="1130:1183" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="1193:1304" ph="/// decrements _currentScore ... " />
+                <marker date="1559827073204" expanded="true" signature="1355:1408" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="1414:1534" ph="/// saves the currentscore to the device ... " />
+                <marker date="1559827073204" expanded="true" signature="1585:1760" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="1648:1754" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="1766:1839" ph="/// save the highscore to the device ... " />
+                <marker date="1559827073204" expanded="true" signature="1879:2055" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="1933:2049" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="2061:2154" ph="/// returns the currentscore ... " />
+                <marker date="1559827073204" expanded="true" signature="2188:2290" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="2296:2406" ph="/// return the highscore from the playerprefs ... " />
+                <marker date="1559827073204" expanded="true" signature="2436:2531" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="2537:2705" ph="/// Intitializes a new key with the given keyName if it doesn't already exist on the device. ... " />
+                <marker date="1559827073204" expanded="true" signature="2751:2869" ph="{...}" />
+                <marker date="1559827073204" expanded="true" signature="2799:2863" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UiController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <marker date="1559828841401" expanded="true" signature="6:31" ph="..." />
+                <marker date="1559828841401" expanded="true" signature="74:925" ph="{...}" />
+                <marker date="1559828841401" expanded="true" signature="78:152" ph="///  ... " />
+                <marker date="1559828841401" expanded="true" signature="213:282" ph="///  ... " />
+                <marker date="1559828841401" expanded="true" signature="343:454" ph="{...}" />
+                <marker date="1559828841401" expanded="true" signature="390:416" ph="{...}" />
+                <marker date="1559828841401" expanded="true" signature="423:451" ph="{...}" />
+                <marker date="1559828841401" expanded="true" signature="481:539" ph="{...}" />
+                <marker date="1559828841401" expanded="true" signature="508:536" ph="{...}" />
+                <marker date="1559828841401" expanded="true" signature="541:646" ph="/// Calls ... " />
+                <marker date="1559828841401" expanded="true" signature="684:734" ph="{...}" />
+                <marker date="1559828841401" expanded="true" signature="736:841" ph="///  ... " />
+                <marker date="1559828841401" expanded="true" signature="873:923" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+              <folding>
+                <marker date="1559828522104" expanded="true" signature="6:78" ph="..." />
+                <marker date="1559828522104" expanded="true" signature="80:166" ph="/// contains the functionality needed to ruffle the tree. ... " />
+                <marker date="1559828522104" expanded="true" signature="219:1635" ph="{...}" />
+                <marker date="1559828522104" expanded="true" signature="229:303" ph="///  ... " />
+                <marker date="1559828522104" expanded="true" signature="378:450" ph="///  ... " />
+                <marker date="1559828522104" expanded="true" signature="517:611" ph="///  ... " />
+                <marker date="1559828522104" expanded="true" signature="680:791" ph="///  ... " />
+                <marker date="1559828522104" expanded="true" signature="854:941" ph="/// call this function to ruffle the tree. ... " />
+                <marker date="1559828522104" expanded="true" signature="970:1181" ph="{...}" />
+                <marker date="1559828522104" expanded="true" signature="1034:1093" ph="{...}" />
+                <marker date="1559828522104" expanded="true" signature="1110:1171" ph="{...}" />
+                <marker date="1559828522104" expanded="true" signature="1215:1330" ph="{...}" />
+                <marker date="1559828522104" expanded="true" signature="1259:1320" ph="{...}" />
+                <marker date="1559828522104" expanded="true" signature="1348:1452" ph="///  ... " />
+                <marker date="1559828522104" expanded="true" signature="1485:1629" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/GameTimeManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-456">
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+              <folding>
+                <marker date="1559826862493" expanded="true" signature="6:44" ph="..." />
+                <marker date="1559826862493" expanded="true" signature="96:3474" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="111:199" ph="/// an event signaling the game has started ... " />
+                <marker date="1559826862493" expanded="true" signature="305:392" ph="/// an event signaling the game has paused ... " />
+                <marker date="1559826862493" expanded="true" signature="495:583" ph="/// an event signaling the game has resumed ... " />
+                <marker date="1559826862493" expanded="true" signature="688:774" ph="/// an event signaling the game has ended ... " />
+                <marker date="1559826862493" expanded="true" signature="874:945" ph="/// instance of this class ... " />
+                <marker date="1559826862493" expanded="true" signature="1024:1103" ph="/// current time of the game round ... " />
+                <marker date="1559826862493" expanded="true" signature="1168:1249" ph="/// max time of any given game round ... " />
+                <marker date="1559826862493" expanded="true" signature="1328:1539" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="1392:1451" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="1468:1529" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="1573:1688" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="1617:1678" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="1698:1818" ph="/// this invokes the game started event, and starts the timer for the game. ... " />
+                <marker date="1559826862493" expanded="true" signature="1850:2021" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="2031:2201" ph="/// this pauses the game timer and time based behaviours resulting in the game staying stationary, besides maybe  ... " />
+                <marker date="1559826862493" expanded="true" signature="2233:2323" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="2333:2494" ph="/// this resumes the game timer and time based behaviours resulting in the game continuing from where it was paus ... " />
+                <marker date="1559826862493" expanded="true" signature="2527:2618" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="2628:2828" ph="/// this function functions as the game timer, and will call the game ended event once the max round time has bee ... " />
+                <marker date="1559826862493" expanded="true" signature="2868:3273" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="2927:3119" ph="{...}" />
+                <marker date="1559826862493" expanded="true" signature="3282:3380" ph="///  ... " />
+                <marker date="1559826862493" expanded="true" signature="3411:3468" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1935">
+              <caret line="129" column="57" selection-start-line="129" selection-start-column="57" selection-end-line="129" selection-end-column="57" />
+              <folding>
+                <marker date="1559828066380" expanded="true" signature="6:78" ph="..." />
+                <marker date="1559828066380" expanded="true" signature="80:163" ph="/// this class controls the behaviour of the squirrel. ... " />
+                <marker date="1559828066380" expanded="true" signature="211:4188" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="691:807" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="813:898" ph="/// this function calls the squirrel to show up. ... " />
+                <marker date="1559828066380" expanded="true" signature="921:1129" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="958:1123" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="1135:1290" ph="/// this is a routine for showing the squirrels, ensuring the logic is in the right order. ... " />
+                <marker date="1559828066380" expanded="true" signature="1336:1697" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="1651:1691" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="1703:1789" ph="/// this function calls for the squirrel to hide. ... " />
+                <marker date="1559828066380" expanded="true" signature="1813:1924" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="1930:2056" ph="/// this is a routine for hiding the squirrels, ensuring the logic is in the right order. ... " />
+                <marker date="1559828066380" expanded="true" signature="2102:2296" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="2301:2543" ph="///  ... " />
+                <marker date="1559828066380" expanded="true" signature="2621:3117" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="3123:3254" ph="///  ... " />
+                <marker date="1559828066380" expanded="true" signature="3301:3501" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="3507:3645" ph="///  ... " />
+                <marker date="1559828066380" expanded="true" signature="3700:3772" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="3778:3870" ph="///  ... " />
+                <marker date="1559828066380" expanded="true" signature="3902:3962" ph="{...}" />
+                <marker date="1559828066380" expanded="true" signature="3968:4086" ph="///  ... " />
+                <marker date="1559828066380" expanded="true" signature="4139:4186" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-47">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+              <folding>
+                <marker date="1559824069741" expanded="true" signature="6:127" ph="..." />
+                <marker date="1559824069741" expanded="true" signature="173:5149" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="180:286" ph="/// the instance off this singleton, this variable the class it's in. ... " />
+                <marker date="1559824069741" expanded="true" signature="336:426" ph="/// a list with references to squirrels in the field. ... " />
+                <marker date="1559824069741" expanded="true" signature="512:728" ph="/// maximum amount of squirrels that can come out of hiding in one moment, new ones won't spawn if the current am ... " />
+                <marker date="1559824069741" expanded="true" signature="776:973" ph="/// minimum amount of squirrels to show at one time, if there are less squirrels than this number currently in th ... " />
+                <marker date="1559824069741" expanded="true" signature="1021:1124" ph="/// the current amount of squirrels out showing in the game field. ... " />
+                <marker date="1559824069741" expanded="true" signature="1176:1270" ph="/// the minimal amount of time for a squirrel to show up. ... " />
+                <marker date="1559824069741" expanded="true" signature="1315:1418" ph="/// the maximum possible amount of time for a squirrel to show up. ... " />
+                <marker date="1559824069741" expanded="true" signature="1463:1569" ph="/// a variable to keep the time for when a new squirrel will show up. ... " />
+                <marker date="1559824069741" expanded="true" signature="1622:1726" ph="/// a boolean that tells this manager if the game is paused or not. ... " />
+                <marker date="1559824069741" expanded="true" signature="1793:2260" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="1849:1896" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="1909:1958" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="2182:2254" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="2286:2433" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="2464:2556" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="2501:2550" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="2583:2788" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="2677:2717" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="2794:2915" ph="/// this functions decrements the squirrelTimer with the unity deltaTime each frame. ... " />
+                <marker date="1559824069741" expanded="true" signature="2946:3018" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="3023:3166" ph="/// this function will run through a few checks to see if it's the right moment to call for a new squirrel ... " />
+                <marker date="1559824069741" expanded="true" signature="3215:3848" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="3374:3445" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="3561:3601" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="3742:3783" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="3853:3957" ph="/// this function calls a random unshowing squirrel to show itself. ... " />
+                <marker date="1559824069741" expanded="true" signature="3993:4137" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="4143:4292" ph="/// randomly set a time for a new squirrel to appear, the random number is based on the min and max appear time. ... " />
+                <marker date="1559824069741" expanded="true" signature="4331:4434" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="4440:4552" ph="/// increment the counter of how many squirrels currently are in the field. ... " />
+                <marker date="1559824069741" expanded="true" signature="4584:4632" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="4638:4751" ph="/// decrements the counter of how many squirrels currently are in the field. ... " />
+                <marker date="1559824069741" expanded="true" signature="4784:4832" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="4838:4911" ph="/// pauses the spawning of squirrels ... " />
+                <marker date="1559824069741" expanded="true" signature="4944:4988" ph="{...}" />
+                <marker date="1559824069741" expanded="true" signature="4994:5068" ph="/// resumes the spawning of squirrels ... " />
+                <marker date="1559824069741" expanded="true" signature="5102:5145" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mobile.android-logcat@0.1.5-preview/Editor/Unity.Mobile.AndroidLogcat.Editor.asmdef">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding>
+                <marker date="1559828841410" expanded="true" signature="63:1719" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="78:177" ph="///  ... " />
+                <marker date="1559828841410" expanded="true" signature="239:288" ph="///  ... " />
+                <marker date="1559828841410" expanded="true" signature="420:631" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="484:543" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="560:621" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="665:780" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="709:770" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="789:851" ph="/// test function ... " />
+                <marker date="1559828841410" expanded="true" signature="924:1153" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="983:1143" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="1171:1314" ph="/// Checks collision and calls gamestart when its hit ... " />
+                <marker date="1559828841410" expanded="true" signature="1373:1609" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="1439:1599" ph="{...}" />
+                <marker date="1559828841410" expanded="true" signature="1643:1713" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/GameworldPlacer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <marker date="1559824093402" expanded="true" signature="6:78" ph="..." />
+                <marker date="1559824093402" expanded="true" signature="124:589" ph="{...}" />
+                <marker date="1559824093402" expanded="true" signature="227:395" ph="{...}" />
+                <marker date="1559824093402" expanded="true" signature="242:323" ph="/* maxScale = transform.localScale; ... */" />
+                <marker date="1559824093402" expanded="true" signature="425:502" ph="{...}" />
+                <marker date="1559824093402" expanded="true" signature="532:587" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -25,26 +267,57 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UiController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mobile.android-logcat@0.1.5-preview/Editor/Unity.Mobile.AndroidLogcat.Editor.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/ProjectileManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Shooting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/GameTimeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/GameworldPlacer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/DisplaySquirrelIngredient.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/DisplaySquirrelIngredient.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/ProjectileManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UIController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/SquirrelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/GameworldPlacer.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/GameTimeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UiController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -66,6 +339,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -78,16 +365,58 @@
       <updated>1556021416920</updated>
       <workItem from="1556021421641" duration="9000" />
       <workItem from="1556025884534" duration="5000" />
+      <workItem from="1559114145614" duration="6194000" />
+      <workItem from="1559130772689" duration="3976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14000" />
+    <option name="totallyTimeSpent" value="15614000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.078891255" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Unity" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.078891255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -107,6 +436,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Unity" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -114,7 +444,7 @@
       <window_info anchor="right" id="Errors In Solution" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Unit Tests Coverage" order="6" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -137,6 +467,276 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mobile.android-logcat@0.1.5-preview/Editor/Unity.Mobile.AndroidLogcat.Editor.asmdef">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Shooting.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1559113419792" expanded="false" signature="6:70" ph="..." />
+            <marker date="1559113419792" expanded="true" signature="72:199" ph="/// this class houses the behaviour needed to spawn a gameobject to shoot off into the game world. ... " />
+            <marker date="1559113419792" expanded="true" signature="237:1489" ph="{...}" />
+            <marker date="1559113419792" expanded="true" signature="428:588" ph="{...}" />
+            <marker date="1559113419792" expanded="true" signature="508:548" ph="{...}" />
+            <marker date="1559113419792" expanded="true" signature="615:644" ph="{...}" />
+            <marker date="1559113419792" expanded="true" signature="654:732" ph="/// call this function to shoot a bullet. ... " />
+            <marker date="1559113419792" expanded="true" signature="757:1138" ph="{...}" />
+            <marker date="1559113419792" expanded="true" signature="816:1132" ph="{...}" />
+            <marker date="1559113419792" expanded="true" signature="1143:1304" ph="/// this routine manages the cooldown for the bullet ... " />
+            <marker date="1559113419792" expanded="true" signature="1362:1482" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UiController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/DisplaySquirrelIngredient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/ProjectileManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/GameworldPlacer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <marker date="1559824093402" expanded="true" signature="6:78" ph="..." />
+            <marker date="1559824093402" expanded="true" signature="124:589" ph="{...}" />
+            <marker date="1559824093402" expanded="true" signature="227:395" ph="{...}" />
+            <marker date="1559824093402" expanded="true" signature="242:323" ph="/* maxScale = transform.localScale; ... */" />
+            <marker date="1559824093402" expanded="true" signature="425:502" ph="{...}" />
+            <marker date="1559824093402" expanded="true" signature="532:587" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Milo Scripts/Highscore.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1455">
+          <caret line="97" column="57" selection-start-line="97" selection-start-column="57" selection-end-line="97" selection-end-column="57" />
+          <folding>
+            <marker date="1559827073204" expanded="true" signature="21:128" ph="/// this singleton handles the highscore and current scoring data of the game. ... " />
+            <marker date="1559827073204" expanded="true" signature="167:2871" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="174:265" ph="/// this variable refers to the instance of this class ... " />
+            <marker date="1559827073204" expanded="true" signature="382:602" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="438:485" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="498:547" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="636:727" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="672:721" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="733:827" ph="/// Check if Score and HighScore key exist in PlayerPrefs ... " />
+            <marker date="1559827073204" expanded="true" signature="856:962" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="968:1079" ph="/// increments _currentScore ... " />
+            <marker date="1559827073204" expanded="true" signature="1130:1183" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="1193:1304" ph="/// decrements _currentScore ... " />
+            <marker date="1559827073204" expanded="true" signature="1355:1408" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="1414:1534" ph="/// saves the currentscore to the device ... " />
+            <marker date="1559827073204" expanded="true" signature="1585:1760" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="1648:1754" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="1766:1839" ph="/// save the highscore to the device ... " />
+            <marker date="1559827073204" expanded="true" signature="1879:2055" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="1933:2049" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="2061:2154" ph="/// returns the currentscore ... " />
+            <marker date="1559827073204" expanded="true" signature="2188:2290" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="2296:2406" ph="/// return the highscore from the playerprefs ... " />
+            <marker date="1559827073204" expanded="true" signature="2436:2531" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="2537:2705" ph="/// Intitializes a new key with the given keyName if it doesn't already exist on the device. ... " />
+            <marker date="1559827073204" expanded="true" signature="2751:2869" ph="{...}" />
+            <marker date="1559827073204" expanded="true" signature="2799:2863" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UiController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <marker date="1559828841401" expanded="true" signature="6:31" ph="..." />
+            <marker date="1559828841401" expanded="true" signature="74:925" ph="{...}" />
+            <marker date="1559828841401" expanded="true" signature="78:152" ph="///  ... " />
+            <marker date="1559828841401" expanded="true" signature="213:282" ph="///  ... " />
+            <marker date="1559828841401" expanded="true" signature="343:454" ph="{...}" />
+            <marker date="1559828841401" expanded="true" signature="390:416" ph="{...}" />
+            <marker date="1559828841401" expanded="true" signature="423:451" ph="{...}" />
+            <marker date="1559828841401" expanded="true" signature="481:539" ph="{...}" />
+            <marker date="1559828841401" expanded="true" signature="508:536" ph="{...}" />
+            <marker date="1559828841401" expanded="true" signature="541:646" ph="/// Calls ... " />
+            <marker date="1559828841401" expanded="true" signature="684:734" ph="{...}" />
+            <marker date="1559828841401" expanded="true" signature="736:841" ph="///  ... " />
+            <marker date="1559828841401" expanded="true" signature="873:923" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/TreeRuffleBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+          <folding>
+            <marker date="1559828522104" expanded="true" signature="6:78" ph="..." />
+            <marker date="1559828522104" expanded="true" signature="80:166" ph="/// contains the functionality needed to ruffle the tree. ... " />
+            <marker date="1559828522104" expanded="true" signature="219:1635" ph="{...}" />
+            <marker date="1559828522104" expanded="true" signature="229:303" ph="///  ... " />
+            <marker date="1559828522104" expanded="true" signature="378:450" ph="///  ... " />
+            <marker date="1559828522104" expanded="true" signature="517:611" ph="///  ... " />
+            <marker date="1559828522104" expanded="true" signature="680:791" ph="///  ... " />
+            <marker date="1559828522104" expanded="true" signature="854:941" ph="/// call this function to ruffle the tree. ... " />
+            <marker date="1559828522104" expanded="true" signature="970:1181" ph="{...}" />
+            <marker date="1559828522104" expanded="true" signature="1034:1093" ph="{...}" />
+            <marker date="1559828522104" expanded="true" signature="1110:1171" ph="{...}" />
+            <marker date="1559828522104" expanded="true" signature="1215:1330" ph="{...}" />
+            <marker date="1559828522104" expanded="true" signature="1259:1320" ph="{...}" />
+            <marker date="1559828522104" expanded="true" signature="1348:1452" ph="///  ... " />
+            <marker date="1559828522104" expanded="true" signature="1485:1629" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/GameTimeManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456">
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+          <folding>
+            <marker date="1559826862493" expanded="true" signature="6:44" ph="..." />
+            <marker date="1559826862493" expanded="true" signature="96:3474" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="111:199" ph="/// an event signaling the game has started ... " />
+            <marker date="1559826862493" expanded="true" signature="305:392" ph="/// an event signaling the game has paused ... " />
+            <marker date="1559826862493" expanded="true" signature="495:583" ph="/// an event signaling the game has resumed ... " />
+            <marker date="1559826862493" expanded="true" signature="688:774" ph="/// an event signaling the game has ended ... " />
+            <marker date="1559826862493" expanded="true" signature="874:945" ph="/// instance of this class ... " />
+            <marker date="1559826862493" expanded="true" signature="1024:1103" ph="/// current time of the game round ... " />
+            <marker date="1559826862493" expanded="true" signature="1168:1249" ph="/// max time of any given game round ... " />
+            <marker date="1559826862493" expanded="true" signature="1328:1539" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="1392:1451" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="1468:1529" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="1573:1688" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="1617:1678" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="1698:1818" ph="/// this invokes the game started event, and starts the timer for the game. ... " />
+            <marker date="1559826862493" expanded="true" signature="1850:2021" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="2031:2201" ph="/// this pauses the game timer and time based behaviours resulting in the game staying stationary, besides maybe  ... " />
+            <marker date="1559826862493" expanded="true" signature="2233:2323" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="2333:2494" ph="/// this resumes the game timer and time based behaviours resulting in the game continuing from where it was paus ... " />
+            <marker date="1559826862493" expanded="true" signature="2527:2618" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="2628:2828" ph="/// this function functions as the game timer, and will call the game ended event once the max round time has bee ... " />
+            <marker date="1559826862493" expanded="true" signature="2868:3273" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="2927:3119" ph="{...}" />
+            <marker date="1559826862493" expanded="true" signature="3282:3380" ph="///  ... " />
+            <marker date="1559826862493" expanded="true" signature="3411:3468" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="129" column="57" selection-start-line="129" selection-start-column="57" selection-end-line="129" selection-end-column="57" />
+          <folding>
+            <marker date="1559828066380" expanded="true" signature="6:78" ph="..." />
+            <marker date="1559828066380" expanded="true" signature="80:163" ph="/// this class controls the behaviour of the squirrel. ... " />
+            <marker date="1559828066380" expanded="true" signature="211:4188" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="691:807" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="813:898" ph="/// this function calls the squirrel to show up. ... " />
+            <marker date="1559828066380" expanded="true" signature="921:1129" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="958:1123" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="1135:1290" ph="/// this is a routine for showing the squirrels, ensuring the logic is in the right order. ... " />
+            <marker date="1559828066380" expanded="true" signature="1336:1697" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="1651:1691" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="1703:1789" ph="/// this function calls for the squirrel to hide. ... " />
+            <marker date="1559828066380" expanded="true" signature="1813:1924" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="1930:2056" ph="/// this is a routine for hiding the squirrels, ensuring the logic is in the right order. ... " />
+            <marker date="1559828066380" expanded="true" signature="2102:2296" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="2301:2543" ph="///  ... " />
+            <marker date="1559828066380" expanded="true" signature="2621:3117" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="3123:3254" ph="///  ... " />
+            <marker date="1559828066380" expanded="true" signature="3301:3501" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="3507:3645" ph="///  ... " />
+            <marker date="1559828066380" expanded="true" signature="3700:3772" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="3778:3870" ph="///  ... " />
+            <marker date="1559828066380" expanded="true" signature="3902:3962" ph="{...}" />
+            <marker date="1559828066380" expanded="true" signature="3968:4086" ph="///  ... " />
+            <marker date="1559828066380" expanded="true" signature="4139:4186" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/SquirrelManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <marker date="1559824069741" expanded="true" signature="6:127" ph="..." />
+            <marker date="1559824069741" expanded="true" signature="173:5149" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="180:286" ph="/// the instance off this singleton, this variable the class it's in. ... " />
+            <marker date="1559824069741" expanded="true" signature="336:426" ph="/// a list with references to squirrels in the field. ... " />
+            <marker date="1559824069741" expanded="true" signature="512:728" ph="/// maximum amount of squirrels that can come out of hiding in one moment, new ones won't spawn if the current am ... " />
+            <marker date="1559824069741" expanded="true" signature="776:973" ph="/// minimum amount of squirrels to show at one time, if there are less squirrels than this number currently in th ... " />
+            <marker date="1559824069741" expanded="true" signature="1021:1124" ph="/// the current amount of squirrels out showing in the game field. ... " />
+            <marker date="1559824069741" expanded="true" signature="1176:1270" ph="/// the minimal amount of time for a squirrel to show up. ... " />
+            <marker date="1559824069741" expanded="true" signature="1315:1418" ph="/// the maximum possible amount of time for a squirrel to show up. ... " />
+            <marker date="1559824069741" expanded="true" signature="1463:1569" ph="/// a variable to keep the time for when a new squirrel will show up. ... " />
+            <marker date="1559824069741" expanded="true" signature="1622:1726" ph="/// a boolean that tells this manager if the game is paused or not. ... " />
+            <marker date="1559824069741" expanded="true" signature="1793:2260" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="1849:1896" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="1909:1958" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="2182:2254" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="2286:2433" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="2464:2556" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="2501:2550" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="2583:2788" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="2677:2717" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="2794:2915" ph="/// this functions decrements the squirrelTimer with the unity deltaTime each frame. ... " />
+            <marker date="1559824069741" expanded="true" signature="2946:3018" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="3023:3166" ph="/// this function will run through a few checks to see if it's the right moment to call for a new squirrel ... " />
+            <marker date="1559824069741" expanded="true" signature="3215:3848" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="3374:3445" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="3561:3601" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="3742:3783" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="3853:3957" ph="/// this function calls a random unshowing squirrel to show itself. ... " />
+            <marker date="1559824069741" expanded="true" signature="3993:4137" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="4143:4292" ph="/// randomly set a time for a new squirrel to appear, the random number is based on the min and max appear time. ... " />
+            <marker date="1559824069741" expanded="true" signature="4331:4434" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="4440:4552" ph="/// increment the counter of how many squirrels currently are in the field. ... " />
+            <marker date="1559824069741" expanded="true" signature="4584:4632" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="4638:4751" ph="/// decrements the counter of how many squirrels currently are in the field. ... " />
+            <marker date="1559824069741" expanded="true" signature="4784:4832" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="4838:4911" ph="/// pauses the spawning of squirrels ... " />
+            <marker date="1559824069741" expanded="true" signature="4944:4988" ph="{...}" />
+            <marker date="1559824069741" expanded="true" signature="4994:5068" ph="/// resumes the spawning of squirrels ... " />
+            <marker date="1559824069741" expanded="true" signature="5102:5145" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Gamestart.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <marker date="1559828841410" expanded="true" signature="63:1719" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="78:177" ph="///  ... " />
+            <marker date="1559828841410" expanded="true" signature="239:288" ph="///  ... " />
+            <marker date="1559828841410" expanded="true" signature="420:631" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="484:543" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="560:621" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="665:780" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="709:770" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="789:851" ph="/// test function ... " />
+            <marker date="1559828841410" expanded="true" signature="924:1153" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="983:1143" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="1171:1314" ph="/// Checks collision and calls gamestart when its hit ... " />
+            <marker date="1559828841410" expanded="true" signature="1373:1609" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="1439:1599" ph="{...}" />
+            <marker date="1559828841410" expanded="true" signature="1643:1713" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

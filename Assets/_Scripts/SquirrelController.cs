@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// this class controls the behaviour of the squirrel.
+/// This class controls the behaviour of the target.
 /// </summary>
 public class SquirrelController : MonoBehaviour
 {
@@ -17,11 +17,13 @@ public class SquirrelController : MonoBehaviour
     // this is a reference to the animator component on this object
     private Animator _animator;
 
-    private FoodEnums.FoodType _preferredFoodType;
+    public FoodEnums.FoodType _preferredFoodType;
+
+    private bool _justAte = false;
+    private bool hideStarted = false;
 
     public void Awake()
     {
-        _preferredFoodType = FoodEnums.GetRandomFood();
         _animator = GetComponent<Animator>();
     }
 
@@ -60,7 +62,7 @@ public class SquirrelController : MonoBehaviour
     /// <summary>
     /// this function calls for the squirrel to hide.
     /// </summary>
-    public void Hide()
+    private void Hide()
     {
         SquirrelManager.instance?.SquirrelHiding();
         StartCoroutine(HideSquirrelRoutine());
@@ -71,20 +73,84 @@ public class SquirrelController : MonoBehaviour
     /// </summary>
     private IEnumerator HideSquirrelRoutine()
     {
+        //stops the possibility of this routine being called while it's already running.
+        if (hideStarted == true)
+        {
+            yield break;
+        }
+
+        hideStarted = true;
+
+        //wait till the character is done 'eating'
+        while (_justAte == true)
+        {
+            yield return new WaitForSeconds(0);
+        }
+
         _isHiding = true;
         _animator?.SetBool("IsShowing", false);
         yield return new WaitForSeconds(0.5f);
         _isSquirrelHidden = true;
         _isHiding = false;
+        hideStarted = false;
     }
+    /// <summary>
+    /// this coroutine takes in a projectile and 'throws' a new projectile with the same properties in the direction of the player.
+    /// </summary>
+    /// <param name="incomingIngredient"></param>
+    /// <returns></returns>
+    private IEnumerator ThrowIngredientRoutine(Projectile incomingIngredient)
+    { 
+        Projectile newProjectile = ProjectileManager.instance.GetProjectileWithSetIngredientType(incomingIngredient.foodType);
+        newProjectile.transform.position = incomingIngredient.transform.position;
+        newProjectile.transform.LookAt(Camera.main.transform);
 
-    public void ThrowNut()
-    {
-        //throw nut here
+        GameObject instantiatedIngredient = Instantiate(newProjectile.gameObject);
+        instantiatedIngredient.transform.parent = SquirrelManager.instance.transform.parent;
+
+        Destroy(incomingIngredient.gameObject);
+        _animator?.SetTrigger("ThrowIngredient");
+        yield return new WaitForSeconds(0.25f);
         Hide();
     }
 
-    public FoodEnums.FoodType GetPrefferedFoodType()
+    /// <summary>
+    /// this coroutine increments score and starts the 'eat' animtion.
+    /// </summary>
+    /// <returns></returns>
+    private IEnumerator EatIngredientRoutine()
+    {
+        Highscore.instance?.IncrementScore(100);
+        _animator?.SetTrigger("EatIngredient");
+
+        _justAte = true;
+        yield return new WaitForSeconds(0.25f);
+        _justAte = false;
+        Hide();
+    }
+
+    /// <summary>
+    /// call this function to throw an ingredient at the player
+    /// </summary>
+    /// <param name="ingredient"></param>
+    public void ThrowIngredient(Projectile ingredient)
+    {
+        StartCoroutine(ThrowIngredientRoutine(ingredient));
+    }
+
+    /// <summary>
+    /// call this function to eat the preffered ingredient.
+    /// </summary>
+    public void EatIngredient()
+    {
+        StartCoroutine(EatIngredientRoutine());
+    }
+
+    /// <summary>
+    /// returns the preferred food type of this instance.
+    /// </summary>
+    /// <returns></returns>
+    public FoodEnums.FoodType GetPreferredFoodType()
     {
         return _preferredFoodType;
     }

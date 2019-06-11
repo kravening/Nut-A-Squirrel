@@ -2,7 +2,7 @@
 
 
 /// <summary>
-/// this singleton handles the highscore and current scoring data of the game.
+/// This singleton handles the highscore and current scoring data of the game.
 /// </summary>
 public class Highscore : MonoBehaviour
 {
@@ -10,6 +10,7 @@ public class Highscore : MonoBehaviour
     /// this variable refers to the instance of this class
     /// </summary>
     public static Highscore instance { get; private set; }
+
     private int _currentScore;
 
     private void Awake()
@@ -51,7 +52,9 @@ public class Highscore : MonoBehaviour
     /// <param name="incrementValue"></param>
     public void IncrementScore(int incrementValue)
     {
+        
         _currentScore += incrementValue;
+        UiController.instance.UpdateScoreUi(_currentScore);
     }
     
     /// <summary>
@@ -61,6 +64,7 @@ public class Highscore : MonoBehaviour
     public void DecrementScore(int decrementValue)
     {
         _currentScore -= decrementValue;
+        UiController.instance.UpdateScoreUi(_currentScore);
     }
 
     /// <summary>
@@ -92,8 +96,9 @@ public class Highscore : MonoBehaviour
     /// returns the currentscore
     /// </summary>
     /// <returns></returns>
-    public int GetCurrentScore()
+    private int GetCurrentScore()
     {
+        
         return _currentScore;
     }
 

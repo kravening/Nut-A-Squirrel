@@ -3,7 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
-
+/// <summary>
+/// This class manages a collection of target controllers
+/// </summary>
 public class SquirrelManager : MonoBehaviour
 {
     /// <summary>
@@ -139,7 +141,7 @@ public class SquirrelManager : MonoBehaviour
     {
         int randomIndex = Random.Range(0, squirrels.Count);
         Debug.Log(randomIndex);
-        squirrels[randomIndex].Show();
+         squirrels[randomIndex].Show();
     }
 
     /// <summary>
@@ -147,7 +149,6 @@ public class SquirrelManager : MonoBehaviour
     /// </summary>
     private  void ResetSquirrelTimer()
     {
-        
         _currentNewSquirrelTime = Random.Range(_minAppearTimer, _maxAppearTimer);
     }
 
@@ -172,7 +173,7 @@ public class SquirrelManager : MonoBehaviour
     /// </summary>
     private void PauseSpawning()
     {
-        _isGameRunning = true;
+        _isGameRunning = false;
     }
 
     /// <summary>
@@ -180,7 +181,7 @@ public class SquirrelManager : MonoBehaviour
     /// </summary>
     private void ResumeSpawning()
     {
-        _isGameRunning = false;
+        _isGameRunning = true;
     }
 
 
