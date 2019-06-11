@@ -234,6 +234,7 @@ GameObject:
   - component: {fileID: 8758411844139970818}
   - component: {fileID: 3297019839660748186}
   - component: {fileID: 1775816923206718819}
+  - component: {fileID: 4901861798769944695}
   m_Layer: 8
   m_Name: Tree 3
   m_TagString: Props
@@ -401,6 +402,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &4901861798769944695
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4490359165273936262}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.34, y: 1.72, z: 0.2}
+  m_Center: {x: 0.18, y: 1, z: -0.06}
 --- !u!1 &4524393069216973485
 GameObject:
   m_ObjectHideFlags: 0
@@ -6060,11 +6074,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameObject
       objectReference: {fileID: 0}
-    - target: {fileID: 2676982163189023605, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3863052140289834644, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6122,21 +6131,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1081146272965065275, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1081146272965065275, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1081146272965065275, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 1081146272965065275, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
-        type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.15
       objectReference: {fileID: 0}
@@ -6144,26 +6138,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3779266980776609591, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3779266980776609591, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3779266980776609591, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3779266980776609591, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3779266980776609591, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
         type: 3}
@@ -6184,27 +6158,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1633064957702357374, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6363379435817331352, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6363379435817331352, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: d18f450c579c1b2428d611b8779e4f10,
-        type: 3}
-    - target: {fileID: 5181617530702415843, guid: 80e8b5db0b3bd984484da7a4eeeae8ee,
-        type: 3}
-      propertyPath: prewarm
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e8b5db0b3bd984484da7a4eeeae8ee, type: 3}
