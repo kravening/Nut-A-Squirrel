@@ -38,7 +38,7 @@ public class UIController : MonoBehaviour
 	/// Updates the score UI inside the game
 	/// </summary>
 	/// <param name="score"></param>
-	public void UpdateScoreUI(int score)
+	public void UpdateScoreUi(int score)
 	{
 		highScoreText[0].text = score.ToString();
 	}
@@ -46,7 +46,7 @@ public class UIController : MonoBehaviour
 	/// Updates the timer UI inside the game
 	/// </summary>
 	/// <param name="timer"></param>
-	public void TimerUI(int timer)
+	public void TimerUi(int timer)
 	{
 		highScoreText[1].text = timer.ToString();
 	}

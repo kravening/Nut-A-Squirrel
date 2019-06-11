@@ -57,14 +57,19 @@ using UnityEngine;
         {
             if (collision.gameObject.CompareTag("Nut"))
             {
-                props[0]?.SetActive(false);
                 GameStart();
                 //TreeRuffleBehaviour.Instance.TreeFlip();
             }
         }
 
+        public void RestartGame()
+        {
+            props[0]?.SetActive(true);
+        }
+
         private void GameStart()
         {
+            props[0]?.SetActive(false);
             GameTimeManager.instance.StartGame();
         }
     }
