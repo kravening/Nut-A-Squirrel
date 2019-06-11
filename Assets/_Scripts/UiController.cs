@@ -1,16 +1,53 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 
+/// <summary>
+/// This controller handles all the UI elements of the game
+/// </summary>
 public class UIController : MonoBehaviour
 {
-	[SerializeField] private TextMeshProUGUI highScoreText;
+	/// <summary>
+	/// Gets the TextMeshProGui from the scene.
+	/// </summary>
+	[SerializeField] private TextMeshProUGUI[] highScoreText;
+	/// <summary>
+	/// makes the uicontroller an instance
+	/// </summary>
+	public static UIController instance;
 
-	public void UpdateScoreUi(int score)
+	private void Awake()
 	{
-		Debug.Log(score);
-		highScoreText.text = score.ToString();
+		if (instance != null && instance != this)
+		{
+			Destroy(this);
+		}
+		else
+		{
+			instance = this;
+		}
+	}
+
+	private void OnDestroy()
+	{
+		if (instance == this)
+		{
+			instance = null;
+		}
+	}
+	/// <summary>
+	/// Updates the score UI inside the game
+	/// </summary>
+	/// <param name="score"></param>
+	public void UpdateScoreUI(int score)
+	{
+		highScoreText[0].text = score.ToString();
+	}
+	/// <summary>
+	/// Updates the timer UI inside the game
+	/// </summary>
+	/// <param name="timer"></param>
+	public void TimerUI(int timer)
+	{
+		highScoreText[1].text = timer.ToString();
 	}
 }

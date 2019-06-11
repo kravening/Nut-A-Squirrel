@@ -109,12 +109,12 @@ using UnityEngine;
             
             while (currentTime > 0)
             {
-                UiController.instance.TimerUi((int)currentTime);
+                UIController.instance.TimerUI((int)currentTime);
                 currentTime -= Time.deltaTime;
                 yield return new WaitForSeconds(0);
             }
             
-            UiController.instance.TimerUi(0);
+            UIController.instance.TimerUI(0);
             
             yield return new WaitForSeconds(0);
 

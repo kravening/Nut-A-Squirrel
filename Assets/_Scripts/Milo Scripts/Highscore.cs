@@ -54,7 +54,7 @@ public class Highscore : MonoBehaviour
     {
         
         _currentScore += incrementValue;
-        UiController.instance.UpdateScoreUi(_currentScore);
+        UIController.instance.UpdateScoreUI(_currentScore);
     }
     
     /// <summary>
@@ -64,7 +64,7 @@ public class Highscore : MonoBehaviour
     public void DecrementScore(int decrementValue)
     {
         _currentScore -= decrementValue;
-        UiController.instance.UpdateScoreUi(_currentScore);
+        UIController.instance.UpdateScoreUI(_currentScore);
     }
 
     /// <summary>
