@@ -109,7 +109,6 @@ using UnityEngine;
             
             while (currentTime > 0)
             {
-                Debug.Log(currentTime);
                 UIController.instance.TimerUi((int)currentTime);
                 currentTime -= Time.deltaTime;
                 yield return new WaitForSeconds(0);
@@ -126,7 +125,6 @@ using UnityEngine;
         /// </summary>
         private void EndGame()
         {
-            Gamestart.instance.RestartGame();
             GameEndedEvent.Invoke();
         }
     }

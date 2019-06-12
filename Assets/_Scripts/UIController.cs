@@ -10,9 +10,9 @@ public class UIController : MonoBehaviour
 	/// <summary>
 	/// Gets the TextMeshProGui from the scene.
 	/// </summary>
-	[SerializeField] private TextMeshProUGUI[] Textitems;
+	[SerializeField] private TextMeshProUGUI[] textItems;
 
-	[SerializeField] private GameObject HighScoreUI;
+	[SerializeField] private GameObject highScoreUi;
 	/// <summary>
 	/// makes the uicontroller an instance
 	/// </summary>
@@ -55,18 +55,18 @@ public class UIController : MonoBehaviour
 	public void UpdateScoreUi(int score)
 	{
 		scoreText = score;
-		Textitems[0].text = score.ToString();
+		textItems[0].text = score.ToString();
 	}
 
 	private void removeHighScoreUI()
 	{
-		HighScoreUI.SetActive(false);
+		highScoreUi.SetActive(false);
 	}
 
 	private void HighScore()
 	{
-		HighScoreUI.SetActive(true);
-		Textitems[2].text = scoreText.ToString();
+		highScoreUi.SetActive(true);
+		textItems[2].text = scoreText.ToString();
 	}
 
 	/// <summary>
@@ -75,6 +75,6 @@ public class UIController : MonoBehaviour
 	/// <param name="timer"></param>
 	public void TimerUi(int timer)
 	{
-		Textitems[1].text = timer.ToString();
+		textItems[1].text = timer.ToString();
 	}
 }
