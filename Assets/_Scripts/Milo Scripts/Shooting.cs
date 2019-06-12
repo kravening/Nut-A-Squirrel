@@ -8,7 +8,6 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
     public Camera _arCamera;
-    public ProjectileManager projectileManager;
     [SerializeField]private float _cooldown = 1f;
     private bool _canShoot = false;
 
@@ -23,12 +22,16 @@ public class Shooting : MonoBehaviour
 
         _arCamera = Camera.main;
     }
+    private void Start()
+    {
+        DisplayPlayerIngredient.instance.DisplayNextIngredient(ProjectileManager.instance.GetFoodEnumFromIndex(0));
+    }
 
     private void Update()
     {
         Shoot();
     }
-    
+
     /// <summary>
     /// Call this function to shoot a bullet.
     /// </summary>
@@ -36,9 +39,11 @@ public class Shooting : MonoBehaviour
     {
         if (Input.touches.Length != 0 && _canShoot )
         {
-            GameObject bullet = Instantiate(projectileManager?.GetProjectileFromQueue().gameObject, _arCamera.transform.position + (_arCamera.transform.forward * 1), _arCamera.transform.rotation);
+            GameObject bullet = Instantiate(ProjectileManager.instance?.GetProjectileFromQueue().gameObject, _arCamera.transform.position + (_arCamera.transform.forward * 1), _arCamera.transform.rotation);
             bullet.transform.parent = this.transform;
             StartCoroutine(StartCooldown(_cooldown));
+            DisplayPlayerIngredient.instance.DisplayNextIngredient(ProjectileManager.instance.GetFoodEnumFromIndex(0));
+
         }
     }
     /// <summary>
