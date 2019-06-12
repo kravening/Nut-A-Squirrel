@@ -38,14 +38,14 @@ public class UIController : MonoBehaviour
 		{
 			instance = null;
 		}
-		GameTimeManager.instance.GameEndedEvent -= HighScore;
-		GameTimeManager.instance.GameStartedEvent -= removeHighScoreUI;
+		GameTimeManager.GameEndedEvent -= HighScore;
+		GameTimeManager.GameStartedEvent -= removeHighScoreUI;
 	}
 
 	private void Start()
 	{
-		GameTimeManager.instance.GameEndedEvent += HighScore;
-		GameTimeManager.instance.GameStartedEvent += removeHighScoreUI;
+		GameTimeManager.GameEndedEvent += HighScore;
+		GameTimeManager.GameStartedEvent += removeHighScoreUI;
 	}
 
 	/// <summary>

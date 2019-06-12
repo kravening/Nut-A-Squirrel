@@ -12,7 +12,7 @@ using UnityEngine;
         /// </summary>
         public delegate void GameStarted();
 
-        public event GameStarted GameStartedEvent;
+        public static event GameStarted GameStartedEvent;
 
         /// <summary>
         /// an event signaling the game has paused
@@ -33,7 +33,7 @@ using UnityEngine;
         /// </summary>
         public delegate void GameEnded();
 
-        public event GameEnded GameEndedEvent;
+        public static event GameEnded GameEndedEvent;
 
         /// <summary>
         /// instance of this class

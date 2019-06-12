@@ -34,12 +34,12 @@ using UnityEngine;
             {
                 instance = null;
             }
-            GameTimeManager.instance.GameEndedEvent -= RestartGame;
+            GameTimeManager.GameEndedEvent -= RestartGame;
         }
 
         private void Start()
         {
-            GameTimeManager.instance.GameEndedEvent += RestartGame;
+            GameTimeManager.GameEndedEvent += RestartGame;
         }
 
         /// <summary>

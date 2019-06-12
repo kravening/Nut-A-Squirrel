@@ -73,8 +73,8 @@ public class SquirrelManager : MonoBehaviour
 
     private void Start()
     {
-        GameTimeManager.instance.GameStartedEvent += ResumeSpawning;
-        GameTimeManager.instance.GameEndedEvent += PauseSpawning;
+        GameTimeManager.GameStartedEvent += ResumeSpawning;
+        GameTimeManager.GameEndedEvent += PauseSpawning;
     }
 
 
