@@ -1,5 +1,6 @@
 ﻿using TMPro;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 /// <summary>
 /// This controller handles all the UI elements of the game
@@ -9,11 +10,15 @@ public class UIController : MonoBehaviour
 	/// <summary>
 	/// Gets the TextMeshProGui from the scene.
 	/// </summary>
-	[SerializeField] private TextMeshProUGUI[] highScoreText;
+	[SerializeField] private TextMeshProUGUI[] textItems;
+
+	[SerializeField] private GameObject highScoreUi;
 	/// <summary>
 	/// makes the uicontroller an instance
 	/// </summary>
 	public static UIController instance;
+
+	private int scoreText;
 
 	private void Awake()
 	{
@@ -33,21 +38,43 @@ public class UIController : MonoBehaviour
 		{
 			instance = null;
 		}
+		GameTimeManager.instance.GameEndedEvent -= HighScore;
+		GameTimeManager.instance.GameStartedEvent -= removeHighScoreUI;
 	}
+
+	private void Start()
+	{
+		GameTimeManager.instance.GameEndedEvent += HighScore;
+		GameTimeManager.instance.GameStartedEvent += removeHighScoreUI;
+	}
+
 	/// <summary>
 	/// Updates the score UI inside the game
 	/// </summary>
 	/// <param name="score"></param>
-	public void UpdateScoreUI(int score)
+	public void UpdateScoreUi(int score)
 	{
-		highScoreText[0].text = score.ToString();
+		scoreText = score;
+		textItems[0].text = score.ToString();
 	}
+
+	private void removeHighScoreUI()
+	{
+		highScoreUi.SetActive(false);
+	}
+
+	private void HighScore()
+	{
+		highScoreUi.SetActive(true);
+		textItems[2].text = scoreText.ToString();
+	}
+
 	/// <summary>
 	/// Updates the timer UI inside the game
 	/// </summary>
 	/// <param name="timer"></param>
-	public void TimerUI(int timer)
+	public void TimerUi(int timer)
 	{
-		highScoreText[1].text = timer.ToString();
+		textItems[1].text = timer.ToString();
 	}
 }
