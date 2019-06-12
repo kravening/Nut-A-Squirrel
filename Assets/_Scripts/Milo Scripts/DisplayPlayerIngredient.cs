@@ -6,21 +6,43 @@ using UnityEngine.UI;
 /// </summary>
 public class DisplayPlayerIngredient : MonoBehaviour
 {
-    public SpriteRenderer _playerIngredient;
+    public Image nextPlayerIngredient;
     private ProjectileManager _projectileManager;
-    
+
+    public static DisplayPlayerIngredient instance;
+
     private void Awake()
     {
-        _playerIngredient = GetComponent<SpriteRenderer>();
+        if (instance != null && instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            instance = this;
+        }
         _projectileManager = GetComponent<ProjectileManager>();
     }
+
+    private void OnDestroy()
+    {
+        if (instance == this)
+        {
+            instance = null;
+        }
+    }
+
+    private void Start()
+    {
+        //DisplayNextIngredient();
+    }
+
     /// <summary>
     /// Call this function to display the ingredient
     /// </summary>
-    private void DisplayIngredient()
-    {
-        Sprite food = SpriteDataManager.instance.GetFoodSpriteFromList((int) _projectileManager._projectileQueue[0].gameObject.GetComponent<Projectile>().foodType);
-        _playerIngredient.sprite = food;
 
+    public void DisplayNextIngredient(FoodEnums.FoodType food)
+    {
+        nextPlayerIngredient.GetComponent<Image>().sprite = SpriteDataManager.instance.GetFoodSpriteFromList((int)food);
     }
 }

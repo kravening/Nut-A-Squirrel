@@ -8,7 +8,7 @@ using UnityEngine;
 public class ProjectileManager : MonoBehaviour
 {
     public Projectile projectile;// all the projectile objects available
-    public List<Projectile> _projectileQueue =  new List<Projectile>();// queue for next projectile 
+    public List<FoodEnums.FoodType> foodTypeQueue =  new List<FoodEnums.FoodType>();// queue for next projectile
 
     private int _queueSize = 4;
 
@@ -37,7 +37,7 @@ public class ProjectileManager : MonoBehaviour
     private void Start()
     {
         InitializeProjectileQueue();
-        GetProjectileFromQueue();
+       // DisplayPlayerIngredient.instance.DisplayNextIngredient(GetFoodEnumFromIndex(0));
     }
     /// <summary>
     /// this function takes care of the initial setup of the queue.
@@ -46,21 +46,17 @@ public class ProjectileManager : MonoBehaviour
     {
         for (int i = 0; i < _queueSize; i++)
         {
-            AddProjectileToQueue();
+            QueueNewFoodType();
         }
     }
     
     /// <summary>
     /// this function adds a new projectile to the queue, picked randomly from the possible types of projectile.
     /// </summary>
-    private void AddProjectileToQueue()
+    private void QueueNewFoodType()
     {
-        Projectile newProjectile = projectile;
-        //assigns projectile a random food type.
-        newProjectile.foodType = FoodEnums.GetRandomFood();
-
         //add it to the queue
-        _projectileQueue.Add(newProjectile);
+        foodTypeQueue.Add(FoodEnums.GetRandomFood());
     }
 
     /// <summary>
@@ -69,19 +65,26 @@ public class ProjectileManager : MonoBehaviour
     /// <returns></returns>
     public GameObject GetProjectileFromQueue()
     {
-        GameObject projectileToShoot = _projectileQueue[0].gameObject;
-        _projectileQueue.RemoveAt(0);
-        AddProjectileToQueue();
-        
+        projectile.foodType = foodTypeQueue[0];
+        GameObject projectileToShoot = projectile.gameObject;
+
+        foodTypeQueue.RemoveAt(0);
+        QueueNewFoodType();
+        Debug.Log(foodTypeQueue[0] + "   :   " + foodTypeQueue[1]);
         return projectileToShoot;
+    }
+
+    public FoodEnums.FoodType GetFoodEnumFromIndex(int index)
+    {
+        return foodTypeQueue[index];
     }
     
     public Projectile GetProjectileWithSetIngredientType(FoodEnums.FoodType ingredientType)
     {
-        _projectileQueue.Add(projectile);
-        _projectileQueue[_projectileQueue.Count - 1].foodType = ingredientType;
-        Projectile newProjectile = _projectileQueue[_projectileQueue.Count - 1];
-        _projectileQueue.RemoveAt(_projectileQueue.Count - 1);
+        foodTypeQueue.Add(ingredientType);
+        projectile.foodType = foodTypeQueue[foodTypeQueue.Count - 1];
+        Projectile newProjectile = projectile;
+        foodTypeQueue.RemoveAt(foodTypeQueue.Count - 1);
 
         return newProjectile;
     }
