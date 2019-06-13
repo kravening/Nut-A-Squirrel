@@ -41,7 +41,7 @@ public class SquirrelManager : MonoBehaviour
     /// <summary>
     /// the maximum possible amount of time for a squirrel to show up.
     /// </summary>
-    private float _maxAppearTimer = 4;
+    private float _maxAppearTimer = 3;
 
     /// <summary>
     /// a variable to keep the time for when a new squirrel will show up.

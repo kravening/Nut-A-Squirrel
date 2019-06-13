@@ -8,12 +8,11 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
     public Camera _arCamera;
-    [SerializeField]private float _cooldown = 1f;
+    [SerializeField]private float _cooldown = 0.8f;
     private bool _canShoot = false;
 
     private void Awake()
     {
-        StartCoroutine(StartCooldown(_cooldown));
 
         if (_arCamera)
         {
@@ -24,6 +23,7 @@ public class Shooting : MonoBehaviour
     }
     private void Start()
     {
+        StartCoroutine(StartCooldown(_cooldown));
         DisplayPlayerIngredient.instance.DisplayNextIngredient(ProjectileManager.instance.GetFoodEnumFromIndex(0));
     }
 
@@ -37,13 +37,12 @@ public class Shooting : MonoBehaviour
     /// </summary>
     private void Shoot()
     {
-        if (Input.touches.Length != 0 && _canShoot )
+        if (Input.touches.Length != 0 && _canShoot)  
         {
             GameObject bullet = Instantiate(ProjectileManager.instance?.GetProjectileFromQueue().gameObject, _arCamera.transform.position + (_arCamera.transform.forward * 1), _arCamera.transform.rotation);
             bullet.transform.parent = this.transform;
             StartCoroutine(StartCooldown(_cooldown));
             DisplayPlayerIngredient.instance.DisplayNextIngredient(ProjectileManager.instance.GetFoodEnumFromIndex(0));
-
         }
     }
     /// <summary>

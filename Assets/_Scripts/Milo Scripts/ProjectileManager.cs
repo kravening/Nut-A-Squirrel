@@ -16,6 +16,7 @@ public class ProjectileManager : MonoBehaviour
 
     private void Awake()
     {
+        InitializeProjectileQueue();
         if (instance != null && instance != this)
         {
             Destroy(this);
@@ -36,7 +37,6 @@ public class ProjectileManager : MonoBehaviour
 
     private void Start()
     {
-        InitializeProjectileQueue();
        // DisplayPlayerIngredient.instance.DisplayNextIngredient(GetFoodEnumFromIndex(0));
     }
     /// <summary>
